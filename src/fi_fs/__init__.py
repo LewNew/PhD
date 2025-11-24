@@ -30,6 +30,7 @@ from .normalise import (
     assert_connectors_preserved,
     alpha_renumber,
     DEFAULT_ALIAS_MAP,
+    load_alias_map_yaml,
 )
 
 # ---- FS core (canonical → archetypes, tokenisation) ----
@@ -81,7 +82,7 @@ __all__ = [
 
     # Normalisation
     "apply_aliases", "apply_placeholders_args_only",
-    "assert_connectors_preserved", "alpha_renumber", "DEFAULT_ALIAS_MAP",
+    "assert_connectors_preserved", "alpha_renumber", "DEFAULT_ALIAS_MAP", "load_alias_map_yaml",
 
     # FS core
     "decode_canonical_json", "build_archetypes", "build_archetypes_from_map",

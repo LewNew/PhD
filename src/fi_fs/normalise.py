@@ -1,16 +1,54 @@
 # src/fi_fs/normalise.py
 from __future__ import annotations
 import re
+import yaml
+from pathlib import Path
 from collections import defaultdict
-from typing import Dict, List, Tuple, Optional, Any
+from typing import Dict, List, Tuple, Optional, Any, Union
 
 Triplet = Tuple[str, List[str], str]  # (op, args, conn)
 
-# Default alias map.
-DEFAULT_ALIAS_MAP: Dict[str, str] = {
-    "/bin/busybox": "busybox",
-    "python3": "python",
-}
+
+def load_alias_map_yaml(path: Union[str, Path]) -> Dict[str, str]:
+    """
+    YAML-only alias loader.
+
+    Expected YAML:
+        canonical1:
+          - aliasA
+          - aliasB
+        canonical2: aliasC   # single alias allowed
+
+    Returns a flat dict: {alias -> canonical}
+    """
+    p = Path(path)
+    data = yaml.safe_load(p.read_text(encoding="utf-8"))
+
+    if data is None:
+        return {}
+    if not isinstance(data, dict):
+        raise ValueError("Alias map YAML must be a dict: {canonical: [aliases...]}")
+
+    out: Dict[str, str] = {}
+    for canon, aliases in data.items():
+        if not isinstance(canon, str):
+            raise ValueError(f"Canonical keys must be strings. Bad key: {canon!r}")
+
+        if isinstance(aliases, str):
+            aliases_list = [aliases]
+        elif isinstance(aliases, list):
+            aliases_list = aliases
+        else:
+            raise ValueError(
+                f"Aliases for {canon!r} must be a string or list of strings."
+            )
+
+        for a in aliases_list:
+            if not isinstance(a, str):
+                raise ValueError(f"Alias under {canon!r} must be a string. Bad alias: {a!r}")
+            out[a] = canon
+
+    return out
 
 FILE_OPERATORS = {
     "chmod", "chown", "chgrp", "rm", "cat", "head", "tail", "cp", "mv", "touch", "tee",
@@ -35,7 +73,8 @@ def apply_aliases(
     Parameters
     ----------
     seqs_by_sid : dict[session -> list of triplets]
-    alias_map   : dict of {from_op -> to_op}; if None, uses DEFAULT_ALIAS_MAP
+    alias_map   : dict of {from_op -> to_op}. If None, no aliasing is applied.
+                  (Typically produced by `load_alias_map_yaml(...)`.)
     return_changes : whether to return a list of (sid, before, '->', after)
 
     Returns
@@ -43,16 +82,16 @@ def apply_aliases(
     seqs_alias : dict with ops canonicalised
     changes    : list of (sid, old_op, '->', new_op) or None
     """
-    amap = alias_map or DEFAULT_ALIAS_MAP
+    amap = alias_map or {}
     out: Dict[str, List[Triplet]] = {}
-    changes: List[Tuple[str, str, str, str]] = [] if return_changes else None
+    changes: List[Tuple[str, str, str, str]] = [] if return_changes else None  # type: ignore
 
     for sid, trips in seqs_by_sid.items():
         new_trips: List[Triplet] = []
         for (op, args, conn) in trips:
             op2 = amap.get(op, op)
             if return_changes and op2 != op:
-                changes.append((sid, op, "->", op2))
+                changes.append((sid, op, "->", op2))  # type: ignore
             new_trips.append((op2, args, conn))
         out[sid] = new_trips
 

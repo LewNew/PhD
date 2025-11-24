@@ -1,0 +1,281 @@
+# Cowrie FI/FS alias map (grouped form)
+# canonical_op: [aliases...]
+# Only include aliases that are semantically equivalent in practice.
+
+busybox:
+  - /bin/busybox
+  - /usr/bin/busybox
+  - /sbin/busybox
+  - /usr/sbin/busybox
+  - busybox-static
+  - busybox_static
+  - busybox64
+  - busybox-armv7l
+  - busybox-armv5l
+  - busybox-mips
+  - busybox-mipsel
+  - busybox-i686
+  - busybox-x86_64
+
+sh:
+  - /bin/sh
+  - /usr/bin/sh
+  - /sbin/sh
+  - /usr/sbin/sh
+  - ash
+  - /bin/ash
+  - /usr/bin/ash
+  - dash
+  - /bin/dash
+  - /usr/bin/dash
+  - ksh
+  - /bin/ksh
+  - /usr/bin/ksh
+
+bash:
+  - /bin/bash
+  - /usr/bin/bash
+  - /usr/local/bin/bash
+  - bash5
+  - bash4
+
+# --- core utils / filesystem ---
+cd:
+  - builtin:cd
+
+ls:
+  - /bin/ls
+  - /usr/bin/ls
+  - /usr/local/bin/ls
+
+cat:
+  - /bin/cat
+  - /usr/bin/cat
+  - /usr/local/bin/cat
+
+rm:
+  - /bin/rm
+  - /usr/bin/rm
+  - /usr/local/bin/rm
+
+cp:
+  - /bin/cp
+  - /usr/bin/cp
+  - /usr/local/bin/cp
+
+mv:
+  - /bin/mv
+  - /usr/bin/mv
+  - /usr/local/bin/mv
+
+mkdir:
+  - /bin/mkdir
+  - /usr/bin/mkdir
+  - /usr/local/bin/mkdir
+
+touch:
+  - /bin/touch
+  - /usr/bin/touch
+
+chmod:
+  - /bin/chmod
+  - /usr/bin/chmod
+
+chown:
+  - /bin/chown
+  - /usr/bin/chown
+
+chgrp:
+  - /bin/chgrp
+  - /usr/bin/chgrp
+
+kill:
+  - /bin/kill
+  - /usr/bin/kill
+  - killall
+  - /usr/bin/killall
+  - /bin/killall
+  - pkill
+  - /usr/bin/pkill
+  - /bin/pkill
+
+ps:
+  - /bin/ps
+  - /usr/bin/ps
+  - busybox_ps
+
+uname:
+  - /bin/uname
+  - /usr/bin/uname
+
+whoami:
+  - /usr/bin/whoami
+  - /bin/whoami
+
+id:
+  - /usr/bin/id
+  - /bin/id
+
+history:
+  - builtin:history
+
+# --- networking / downloads ---
+wget:
+  - /usr/bin/wget
+  - /bin/wget
+  - /usr/local/bin/wget
+  - wget2
+  - busybox_wget
+
+curl:
+  - /usr/bin/curl
+  - /bin/curl
+  - /usr/local/bin/curl
+  - busybox_curl
+
+tftp:
+  - /usr/bin/tftp
+  - /bin/tftp
+  - busybox_tftp
+
+ftpget:
+  - /usr/bin/ftpget
+  - /bin/ftpget
+
+ftpput:
+  - /usr/bin/ftpput
+  - /bin/ftpput
+
+nc:
+  - netcat
+  - /bin/nc
+  - /usr/bin/nc
+  - /bin/netcat
+  - /usr/bin/netcat
+  - ncat
+
+telnet:
+  - /usr/bin/telnet
+  - /bin/telnet
+
+ssh:
+  - /usr/bin/ssh
+  - /bin/ssh
+
+scp:
+  - /usr/bin/scp
+  - /bin/scp
+
+# --- process / system / persistence ---
+mount:
+  - /bin/mount
+  - /usr/bin/mount
+
+umount:
+  - /bin/umount
+  - /usr/bin/umount
+
+systemctl:
+  - /bin/systemctl
+  - /usr/bin/systemctl
+  - service
+  - /usr/sbin/service
+
+crontab:
+  - /usr/bin/crontab
+  - /bin/crontab
+
+nohup:
+  - /usr/bin/nohup
+  - /bin/nohup
+
+sleep:
+  - /usr/bin/sleep
+  - /bin/sleep
+
+reboot:
+  - /sbin/reboot
+  - /usr/sbin/reboot
+
+poweroff:
+  - /sbin/poweroff
+  - /usr/sbin/poweroff
+  - halt
+  - /sbin/halt
+  - /usr/sbin/halt
+
+# --- language runtimes / script exec ---
+python:
+  - python3
+  - python2
+  - /usr/bin/python
+  - /usr/bin/python3
+  - /usr/bin/python2
+  - /bin/python
+  - /bin/python3
+  - /bin/python2
+
+perl:
+  - perl5
+  - /usr/bin/perl
+  - /bin/perl
+
+php:
+  - php7
+  - php8
+  - /usr/bin/php
+  - /bin/php
+
+lua:
+  - lua5.1
+  - lua5.2
+  - lua5.3
+  - /usr/bin/lua
+  - /bin/lua
+
+# --- package managers (keep conservative) ---
+apt-get:
+  - /usr/bin/apt-get
+  - /bin/apt-get
+
+yum:
+  - /usr/bin/yum
+  - /bin/yum
+
+dnf:
+  - /usr/bin/dnf
+  - /bin/dnf
+
+opkg:
+  - /usr/bin/opkg
+  - /bin/opkg
+
+apk:
+  - /sbin/apk
+  - /usr/sbin/apk
+
+# --- misc commonly seen in Cowrie attacks ---
+echo:
+  - /bin/echo
+  - /usr/bin/echo
+  - busybox_echo
+
+base64:
+  - /usr/bin/base64
+  - /bin/base64
+
+grep:
+  - /usr/bin/grep
+  - /bin/grep
+  - egrep
+  - fgrep
+
+sed:
+  - /usr/bin/sed
+  - /bin/sed
+
+awk:
+  - /usr/bin/awk
+  - /bin/awk
+  - gawk
+  - mawk

@@ -29,7 +29,6 @@ from .normalise import (
     apply_placeholders_args_only,
     assert_connectors_preserved,
     alpha_renumber,
-    DEFAULT_ALIAS_MAP,
     load_alias_map_yaml,
 )
 
@@ -44,13 +43,15 @@ from .fs import (
 
 # ---- FS measures (current: Levenshtein) ----
 from .fs_lev import (
-    fs_levenshtein,
+    fs_levenshtein, fs_levenshtein_structural
 )
 
 # ---- FS clustering helpers ----
 from .fs_cluster import (
     agglomerative_from_fs,
     evaluate_fs_clustering,
+    group_indices_from_labels,
+    medoid_indices,
 )
 
 # ---- FS family summarisation (medoids, WLCS backbones, members) ----
@@ -58,14 +59,15 @@ from .fs_families import (
     summarise_families,
     build_family_members_df,
     wlcs_backbone,
+    parse_structured_tokens,
+    sankey_from_family_enhanced,
 )
 
 # ---- Utils ----
 from .utils import (
-    get_cache_dir,
-    labels_tag as _labels_tag,
-    save_similarity,
-    load_similarity,
+    bright_palette_indices,
+    build_fi_colour_map,
+    colour_text,
 )
 
 __all__ = [
@@ -82,21 +84,21 @@ __all__ = [
 
     # Normalisation
     "apply_aliases", "apply_placeholders_args_only",
-    "assert_connectors_preserved", "alpha_renumber", "DEFAULT_ALIAS_MAP", "load_alias_map_yaml",
+    "assert_connectors_preserved", "alpha_renumber", "load_alias_map_yaml",
 
     # FS core
     "decode_canonical_json", "build_archetypes", "build_archetypes_from_map",
     "triplets_to_tokens", "token_cache",
 
     # FS measures
-    "fs_levenshtein",
+    "fs_levenshtein", "fs_levenshtein_structural",
 
     # FS clustering
-    "agglomerative_from_fs", "evaluate_fs_clustering",
+    "agglomerative_from_fs", "evaluate_fs_clustering", "group_indices_from_labels", "medoid_indices",
 
     # FS families
-    "summarise_families", "build_family_members_df", "wlcs_backbone",
+    "summarise_families", "build_family_members_df", "wlcs_backbone", "parse_structured_tokens", "sankey_from_family_enhanced",
 
     # Utils
-    "get_cache_dir", "_labels_tag", "save_similarity", "load_similarity",
+    "bright_palette_indices", "build_fi_colour_map", "colour_text",
 ]

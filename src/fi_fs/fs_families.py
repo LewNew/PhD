@@ -1,6 +1,7 @@
 # src/fi_fs/fs_families.py
 from __future__ import annotations
 
+import textwrap
 from collections import Counter, defaultdict
 from functools import lru_cache
 from typing import Dict, List, Sequence, Tuple, Iterable, Any
@@ -629,25 +630,37 @@ def sankey_from_family_enhanced(
         def fmt_ops(ops, k: int = 6) -> str:
             return ", ".join(f"{op}×{cnt}" for op, cnt in ops[:k])
 
-        backbone_str = "  →  ".join(tok_label(t) for t in backbone) if backbone else "(empty)"
+        if backbone:
+            backbone_raw = "  →  ".join(tok_label(t) for t in backbone)
+            # wrap at ~90 characters
+            backbone_wrapped = "\n".join(
+                textwrap.wrap(
+                    backbone_raw,
+                    width=90,
+                    break_long_words=False,
+                    break_on_hyphens=False,
+                )
+            )
+        else:
+            backbone_wrapped = "(empty)"
 
         caption_lines.append(
-            f"Family {caption.get('family_id','?')}  |  "
+            f"Family {caption.get('family_id', '?')}  |  "
             f"n={caption.get('n_sessions', n_sessions)}  |  "
-            f"mean_FS={caption.get('mean_FS','?')}  sd_FS={caption.get('sd_FS','?')}"
+            f"mean_FS={caption.get('mean_FS', '?')}  sd_FS={caption.get('sd_FS', '?')}"
         )
         if caption.get("medoid_fi_hash"):
             caption_lines.append(
                 f"Medoid: fi_hash={caption['medoid_fi_hash']}  "
-                f"(session {caption.get('medoid_session','?')}, "
-                f"n_rows={caption.get('medoid_n_rows','?')})"
+                f"(session {caption.get('medoid_session', '?')}, "
+                f"n_rows={caption.get('medoid_n_rows', '?')})"
             )
         if caption.get("top_ops"):
             caption_lines.append(f"Top ops: {fmt_ops(caption['top_ops'])}")
-        caption_lines.append(f"Backbone: {backbone_str}")
+        caption_lines.append(f"Backbone: {backbone_wrapped}")
 
     if caption_lines:
-        fig.update_layout(margin=dict(l=40, r=40, t=60, b=120))
+        fig.update_layout(margin=dict(l=40, r=40, t=60, b=140))
         fig.add_annotation(
             xref="paper",
             yref="paper",
@@ -656,7 +669,7 @@ def sankey_from_family_enhanced(
             showarrow=False,
             align="left",
             font=dict(family="monospace", size=12),
-            text="<br>".join(caption_lines),
+            text="<br>".join(line.replace("\n", "<br>") for line in caption_lines),
         )
     else:
         fig.update_layout(margin=dict(l=40, r=40, t=60, b=60))
@@ -665,8 +678,8 @@ def sankey_from_family_enhanced(
         title=title,
         font_family="monospace",
         font_size=12,
-        width=1100,
-        height=520,
+        width=1400,
+        height=600,
     )
 
     debug = {

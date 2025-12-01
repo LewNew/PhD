@@ -1,0 +1,14 @@
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:57:38.0+02:00", "cmd_type": "bash-command", "cmd": "vi /root/Desktop/sshkey_to_mailserver"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:58:01.0+02:00", "cmd_type": "bash-command", "cmd": "cat /root/Desktop/sshkey_to_mailserver "}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:00:14.0+02:00", "cmd_type": "bash-command", "cmd": "john"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:01:19.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:01:24.0+02:00", "cmd_type": "bash-command", "cmd": "cat ssh2john.py "}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:02:17.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py "}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:02:32.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py /root/Desktop/sshkey_to_mailserver"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:03:21.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py /root/Desktop/sshkey_to_mailserver >> /root/Desktop/sshkey_to_mailserverUnencryptef"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:03:34.0+02:00", "cmd_type": "bash-command", "cmd": "cat /root/Desktop/sshkey_to_mailserverUnencryptef "}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:04:32.0+02:00", "cmd_type": "bash-command", "cmd": "/usr/share/"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:04:44.0+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/john/"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:05:21.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:05:30.0+02:00", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:06:27.0+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=./Documents /root/Desktop/sshkey_to_mailserverUnencryptef "}

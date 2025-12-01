@@ -1,0 +1,12 @@
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:23:48+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:23:52+01:00", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:23:55+01:00", "cmd_type": "bash-command", "cmd": "cd Home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:23:59+01:00", "cmd_type": "bash-command", "cmd": "cd Desktop"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:23:59+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:26:06+01:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:26:07+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:28:54+01:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:28:59+01:00", "cmd_type": "bash-command", "cmd": "cd /Home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:29:03+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:29:04+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-11T22:29:40+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt /home/invoices2019.zip"}

@@ -1,0 +1,259 @@
+sample_name,sandbox_id,cmd_type,n_commands,n_segments
+Secret laboratory,342,bash-command,30,7
+Secret laboratory,342,msf-command,10,2
+Secret laboratory,124,bash-command,37,7
+Secret laboratory,124,msf-command,7,2
+Secret laboratory,130,bash-command,33,8
+Secret laboratory,130,msf-command,16,2
+Secret laboratory,125,bash-command,38,8
+Secret laboratory,125,msf-command,19,5
+Secret laboratory,131,bash-command,67,11
+Secret laboratory,131,msf-command,11,1
+Secret laboratory,129,bash-command,43,3
+Secret laboratory,129,msf-command,12,2
+Secret laboratory,126,bash-command,113,23
+Secret laboratory,126,msf-command,36,4
+Secret laboratory,3,bash-command,47,5
+Secret laboratory,3,msf-command,28,5
+Secret laboratory,340,bash-command,32,4
+Secret laboratory,340,msf-command,10,1
+Secret laboratory,123,bash-command,192,22
+Secret laboratory,123,msf-command,4,1
+Secret laboratory,128,bash-command,51,10
+Secret laboratory,128,msf-command,21,4
+Secret laboratory,341,bash-command,15,2
+Secret laboratory,341,msf-command,23,4
+Secret laboratory,127,bash-command,36,8
+Secret laboratory,127,msf-command,10,1
+Webmin exploit practice,328,bash-command,70,9
+Webmin exploit practice,328,msf-command,32,6
+Webmin exploit practice,316,bash-command,47,7
+Webmin exploit practice,316,msf-command,18,4
+Webmin exploit practice,327,bash-command,37,4
+Webmin exploit practice,327,msf-command,17,4
+Webmin exploit practice,329,bash-command,41,7
+Webmin exploit practice,329,msf-command,10,2
+Webmin exploit practice,317,bash-command,47,5
+Webmin exploit practice,317,msf-command,13,3
+Webmin exploit practice,358,bash-command,21,4
+Webmin exploit practice,358,msf-command,43,8
+Webmin exploit practice,331,bash-command,41,5
+Webmin exploit practice,331,msf-command,24,2
+Webmin exploit practice,351,bash-command,140,20
+Webmin exploit practice,351,msf-command,15,1
+Webmin exploit practice,315,bash-command,84,6
+Webmin exploit practice,315,msf-command,6,1
+Webmin exploit practice,374,bash-command,21,3
+Webmin exploit practice,374,msf-command,14,3
+House of cards,151,bash-command,21,2
+House of cards,151,msf-command,9,2
+House of cards,115,bash-command,13,2
+House of cards,115,msf-command,11,2
+House of cards,101,bash-command,6,1
+House of cards,101,msf-command,14,1
+House of cards,400,bash-command,27,3
+House of cards,400,msf-command,32,5
+House of cards,93,bash-command,62,11
+House of cards,93,msf-command,33,6
+House of cards,130,bash-command,22,5
+House of cards,130,msf-command,12,3
+House of cards,144,bash-command,14,2
+House of cards,144,msf-command,45,8
+House of cards,401,bash-command,34,6
+House of cards,401,msf-command,88,10
+House of cards,131,bash-command,32,3
+House of cards,131,msf-command,8,2
+House of cards,95,bash-command,26,4
+House of cards,95,msf-command,8,2
+House of cards,397,bash-command,20,5
+House of cards,397,msf-command,84,8
+House of cards,148,bash-command,19,4
+House of cards,148,msf-command,12,2
+House of cards,113,bash-command,15,4
+House of cards,113,msf-command,7,1
+House of cards,398,bash-command,41,9
+House of cards,398,msf-command,42,6
+House of cards,152,bash-command,28,5
+House of cards,152,msf-command,53,6
+House of cards,137,bash-command,13,3
+House of cards,137,msf-command,15,1
+House of cards,116,bash-command,18,4
+House of cards,116,msf-command,19,5
+House of cards,396,bash-command,40,9
+House of cards,396,msf-command,78,15
+House of cards,112,bash-command,31,7
+House of cards,112,msf-command,29,6
+House of cards,149,bash-command,32,7
+House of cards,149,msf-command,23,5
+House of cards,156,bash-command,9,2
+House of cards,156,msf-command,23,4
+House of cards,399,bash-command,21,4
+House of cards,399,msf-command,72,8
+SQL injection,134,bash-command,21,2
+SQL injection,130,bash-command,14,3
+SQL injection,135,bash-command,32,6
+SQL injection,131,bash-command,4,1
+SQL injection,122,bash-command,12,1
+SQL injection,117,bash-command,18,3
+SQL injection,132,bash-command,9,2
+SQL injection,116,bash-command,68,8
+Junior hacker,5,bash-command,30,1
+Junior hacker,14,bash-command,58,10
+Junior hacker,1,bash-command,15,2
+Junior hacker,10,bash-command,83,12
+Junior hacker,15,bash-command,103,17
+Junior hacker,4,bash-command,54,8
+Junior hacker,11,bash-command,71,11
+Junior hacker,16,bash-command,74,12
+Junior hacker,7,bash-command,135,23
+Junior hacker,8,bash-command,28,3
+Junior hacker,12,bash-command,202,26
+Junior hacker,3,bash-command,61,7
+Junior hacker,6,bash-command,125,17
+Junior hacker,18,bash-command,4,1
+Junior hacker,9,bash-command,61,9
+Junior hacker,2,bash-command,40,3
+Junior hacker,13,bash-command,30,7
+Junior hacker adaptive,65,bash-command,60,9
+Junior hacker adaptive,44,bash-command,26,5
+Junior hacker adaptive,35,bash-command,49,8
+Junior hacker adaptive,71,bash-command,46,9
+Junior hacker adaptive,120,bash-command,58,8
+Junior hacker adaptive,14,bash-command,18,3
+Junior hacker adaptive,75,bash-command,27,4
+Junior hacker adaptive,105,bash-command,48,5
+Junior hacker adaptive,31,bash-command,31,5
+Junior hacker adaptive,25,bash-command,20,4
+Junior hacker adaptive,40,bash-command,89,17
+Junior hacker adaptive,61,bash-command,54,4
+Junior hacker adaptive,45,bash-command,104,15
+Junior hacker adaptive,64,bash-command,36,7
+Junior hacker adaptive,15,bash-command,46,4
+Junior hacker adaptive,121,bash-command,43,5
+Junior hacker adaptive,70,bash-command,12,3
+Junior hacker adaptive,34,bash-command,49,7
+Junior hacker adaptive,30,bash-command,45,8
+Junior hacker adaptive,104,bash-command,91,11
+Junior hacker adaptive,11,bash-command,50,5
+Junior hacker adaptive,86,bash-command,36,2
+Junior hacker adaptive,41,bash-command,42,4
+Junior hacker adaptive,28,bash-command,57,4
+Junior hacker adaptive,16,bash-command,47,5
+Junior hacker adaptive,122,bash-command,72,8
+Junior hacker adaptive,73,bash-command,9,1
+Junior hacker adaptive,37,bash-command,63,6
+Junior hacker adaptive,78,bash-command,31,3
+Junior hacker adaptive,81,bash-command,20,2
+Junior hacker adaptive,67,bash-command,82,16
+Junior hacker adaptive,59,bash-command,44,5
+Junior hacker adaptive,38,bash-command,53,10
+Junior hacker adaptive,63,bash-command,59,8
+Junior hacker adaptive,42,bash-command,27,3
+Junior hacker adaptive,27,bash-command,43,5
+Junior hacker adaptive,68,bash-command,17,4
+Junior hacker adaptive,33,bash-command,134,16
+Junior hacker adaptive,107,bash-command,32,4
+Junior hacker adaptive,12,bash-command,59,5
+Junior hacker adaptive,77,bash-command,40,7
+Junior hacker adaptive,36,bash-command,22,1
+Junior hacker adaptive,74,bash-command,65,9
+Junior hacker adaptive,123,bash-command,59,9
+Junior hacker adaptive,29,bash-command,23,4
+Junior hacker adaptive,17,bash-command,11,3
+Junior hacker adaptive,66,bash-command,100,13
+Junior hacker adaptive,80,bash-command,30,5
+Junior hacker adaptive,79,bash-command,9,1
+Junior hacker adaptive,43,bash-command,38,6
+Junior hacker adaptive,62,bash-command,51,9
+Junior hacker adaptive,39,bash-command,108,17
+Junior hacker adaptive,76,bash-command,43,5
+Junior hacker adaptive,13,bash-command,39,7
+Junior hacker adaptive,106,bash-command,56,8
+Junior hacker adaptive,32,bash-command,56,4
+Junior hacker adaptive,69,bash-command,25,5
+Kobylka 3302,189,bash-command,11,2
+Kobylka 3302,189,msf-command,14,1
+Kobylka 3302,44,bash-command,36,6
+Kobylka 3302,44,msf-command,10,2
+Kobylka 3302,205,bash-command,7,1
+Kobylka 3302,205,msf-command,7,1
+Kobylka 3302,50,bash-command,14,3
+Kobylka 3302,71,bash-command,174,30
+Kobylka 3302,71,msf-command,36,6
+Kobylka 3302,31,bash-command,85,13
+Kobylka 3302,31,msf-command,43,6
+Kobylka 3302,54,bash-command,132,28
+Kobylka 3302,54,msf-command,66,11
+Kobylka 3302,25,bash-command,85,14
+Kobylka 3302,25,msf-command,33,6
+Kobylka 3302,192,bash-command,36,3
+Kobylka 3302,192,msf-command,24,3
+Kobylka 3302,87,bash-command,46,5
+Kobylka 3302,87,msf-command,25,4
+Kobylka 3302,130,bash-command,10,1
+Kobylka 3302,197,bash-command,8,2
+Kobylka 3302,197,msf-command,10,2
+Kobylka 3302,188,bash-command,23,5
+Kobylka 3302,188,msf-command,34,6
+Kobylka 3302,70,bash-command,50,6
+Kobylka 3302,70,msf-command,17,2
+Kobylka 3302,183,bash-command,35,6
+Kobylka 3302,183,msf-command,23,2
+Kobylka 3302,187,bash-command,59,9
+Kobylka 3302,187,msf-command,19,4
+Kobylka 3302,30,bash-command,9,1
+Kobylka 3302,30,msf-command,21,2
+Kobylka 3302,92,bash-command,33,6
+Kobylka 3302,92,msf-command,41,7
+Kobylka 3302,131,bash-command,24,3
+Kobylka 3302,131,msf-command,9,2
+Kobylka 3302,86,bash-command,87,15
+Kobylka 3302,86,msf-command,32,4
+Kobylka 3302,24,bash-command,38,3
+Kobylka 3302,24,msf-command,20,3
+Kobylka 3302,28,bash-command,17,3
+Kobylka 3302,28,msf-command,39,8
+Kobylka 3302,73,bash-command,120,14
+Kobylka 3302,73,msf-command,24,3
+Kobylka 3302,172,bash-command,145,21
+Kobylka 3302,172,msf-command,213,41
+Kobylka 3302,129,bash-command,9,2
+Kobylka 3302,129,msf-command,8,2
+Kobylka 3302,23,bash-command,21,4
+Kobylka 3302,23,msf-command,15,1
+Kobylka 3302,85,bash-command,116,19
+Kobylka 3302,190,bash-command,41,7
+Kobylka 3302,190,msf-command,14,2
+Kobylka 3302,42,bash-command,42,6
+Kobylka 3302,42,msf-command,157,16
+Kobylka 3302,184,bash-command,58,8
+Kobylka 3302,184,msf-command,17,2
+Kobylka 3302,56,bash-command,48,7
+Kobylka 3302,56,msf-command,27,5
+Kobylka 3302,77,bash-command,52,8
+Kobylka 3302,77,msf-command,26,5
+Kobylka 3302,91,bash-command,4,1
+Kobylka 3302,91,msf-command,17,2
+Kobylka 3302,181,bash-command,23,3
+Kobylka 3302,181,msf-command,23,3
+Kobylka 3302,29,bash-command,12,2
+Kobylka 3302,29,msf-command,39,5
+Kobylka 3302,66,bash-command,116,16
+Kobylka 3302,80,bash-command,28,5
+Kobylka 3302,80,msf-command,16,4
+Kobylka 3302,22,bash-command,9,3
+Kobylka 3302,22,msf-command,36,5
+Kobylka 3302,128,bash-command,36,2
+Kobylka 3302,79,bash-command,5,2
+Kobylka 3302,195,bash-command,6,1
+Kobylka 3302,195,msf-command,9,1
+Kobylka 3302,26,bash-command,7,2
+Kobylka 3302,26,msf-command,45,10
+Kobylka 3302,43,bash-command,51,7
+Kobylka 3302,43,msf-command,63,8
+Kobylka 3302,84,bash-command,47,9
+Kobylka 3302,84,msf-command,31,4
+Kobylka 3302,185,bash-command,56,8
+Kobylka 3302,185,msf-command,28,2
+Kobylka 3302,69,bash-command,28,4
+Kobylka 3302,69,msf-command,43,6

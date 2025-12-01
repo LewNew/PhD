@@ -1,0 +1,8 @@
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:23.449Z", "cmd_type": "bash-command", "cmd": "su root"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:32.982Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:34.479Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:35.637Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:57.016Z", "cmd_type": "bash-command", "cmd": "cd home/"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:49:58.087Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:50:00.856Z", "cmd_type": "bash-command", "cmd": "cd user-access/"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:50:01.947Z", "cmd_type": "bash-command", "cmd": "ls"}

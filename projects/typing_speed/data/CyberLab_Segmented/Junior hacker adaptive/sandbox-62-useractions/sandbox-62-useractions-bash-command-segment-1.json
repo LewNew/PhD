@@ -1,0 +1,7 @@
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:03.505Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:08.071Z", "cmd_type": "bash-command", "cmd": "ls - la"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:16.419Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:25.896Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:47.202Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:39:51.000Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:40:31.646Z", "cmd_type": "bash-command", "cmd": "ls"}

@@ -1,0 +1,2 @@
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:06:12.088627Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:06:41.454763Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

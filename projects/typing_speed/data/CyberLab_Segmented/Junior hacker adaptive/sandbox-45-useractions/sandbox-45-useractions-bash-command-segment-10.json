@@ -1,0 +1,4 @@
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:16:33.376Z", "cmd_type": "bash-command", "cmd": "fcrackzip --use--unzip copy.zip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:16:39.277Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:16:56.164Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u copy.zip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:17:33.183Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}

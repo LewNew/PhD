@@ -1,0 +1,4 @@
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:30:17.367Z", "cmd_type": "bash-command", "cmd": "nmap -sp -v 10.1.26.9"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:30:53.626Z", "cmd_type": "bash-command", "cmd": "nmap -sp -O -v 10.1.26.9"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:31:12.058Z", "cmd_type": "bash-command", "cmd": "su"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:31:38.031Z", "cmd_type": "bash-command", "cmd": "sudo nmap -O -v 10.1.26.9"}

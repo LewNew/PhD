@@ -1,0 +1,2 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:04.135115+02:00", "cmd_type": "msf-command", "cmd": "cd /home/"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:09.281910+02:00", "cmd_type": "msf-command", "cmd": "exit -y"}

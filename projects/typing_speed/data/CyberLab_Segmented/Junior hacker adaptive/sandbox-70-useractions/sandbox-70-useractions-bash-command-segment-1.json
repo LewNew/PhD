@@ -1,0 +1,7 @@
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.595Z", "cmd_type": "bash-command", "cmd": "ls ls /root/"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.595Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.596Z", "cmd_type": "bash-command", "cmd": "ls -l /root/"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.596Z", "cmd_type": "bash-command", "cmd": "ls -la /root/"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.596Z", "cmd_type": "bash-command", "cmd": "ls /root/"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.596Z", "cmd_type": "bash-command", "cmd": "ls /root/"}
+{"sandbox_id": "70", "timestamp_str": "2020-12-04T08:58:49.597Z", "cmd_type": "bash-command", "cmd": "ls -la /root/hacking/"}

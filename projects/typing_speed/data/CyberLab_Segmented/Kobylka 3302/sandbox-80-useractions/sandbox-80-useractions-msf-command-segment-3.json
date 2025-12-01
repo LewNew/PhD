@@ -1,0 +1,4 @@
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:11:30.631922+02:00", "cmd_type": "msf-command", "cmd": "sessions -l"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:11:39.104324+02:00", "cmd_type": "msf-command", "cmd": "sessions -h"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:11:51.813696+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 2"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:11:57.578538+02:00", "cmd_type": "msf-command", "cmd": "sessions -l"}

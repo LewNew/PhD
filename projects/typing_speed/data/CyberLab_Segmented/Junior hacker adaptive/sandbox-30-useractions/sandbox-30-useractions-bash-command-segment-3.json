@@ -1,0 +1,8 @@
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:37:11.401Z", "cmd_type": "bash-command", "cmd": "su"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:37:32.991Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:37:36.564Z", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:37:40.482Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:37:41.661Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:38:01.155Z", "cmd_type": "bash-command", "cmd": "ls hacking"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:39:20.182Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "30", "timestamp_str": "2021-05-25T08:41:03.529Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

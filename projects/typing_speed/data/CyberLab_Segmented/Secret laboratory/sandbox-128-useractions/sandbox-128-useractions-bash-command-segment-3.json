@@ -1,0 +1,2 @@
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:38:45.442Z", "cmd_type": "bash-command", "cmd": "msfconsole use exploit/unix/webapp/webmin/backdoor"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:41:54.969Z", "cmd_type": "bash-command", "cmd": "msfconsole use exploit/unix/webapp/webmin/backdoor"}

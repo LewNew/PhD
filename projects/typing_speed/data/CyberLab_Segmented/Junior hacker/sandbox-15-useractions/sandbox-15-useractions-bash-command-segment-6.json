@@ -1,0 +1,4 @@
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:34:35+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:35:46+01:00", "cmd_type": "bash-command", "cmd": "sudo apt update"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:36:02+01:00", "cmd_type": "bash-command", "cmd": "sudo apt install john fcrackzip wordlists"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:36:44+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

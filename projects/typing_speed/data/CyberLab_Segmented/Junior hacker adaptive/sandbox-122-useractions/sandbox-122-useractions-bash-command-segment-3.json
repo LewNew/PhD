@@ -1,0 +1,6 @@
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:04:20.807Z", "cmd_type": "bash-command", "cmd": "cat /etc/services"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:05:32.082Z", "cmd_type": "bash-command", "cmd": "nmap -help"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:05:47.379Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:06:53.939Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.254"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:08:05.656Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.254"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:08:08.592Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

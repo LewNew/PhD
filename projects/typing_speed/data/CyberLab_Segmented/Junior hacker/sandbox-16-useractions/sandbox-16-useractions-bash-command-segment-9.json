@@ -1,0 +1,5 @@
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:12:10+01:00", "cmd_type": "bash-command", "cmd": "cat fasttrack.txt"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:12:27+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:12:28+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:12:28+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:13:10+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}

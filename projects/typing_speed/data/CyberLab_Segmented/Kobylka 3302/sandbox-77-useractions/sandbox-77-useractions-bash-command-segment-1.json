@@ -1,0 +1,9 @@
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:20:35.845434+02:00", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:20:45.819873+02:00", "cmd_type": "bash-command", "cmd": "ping .."}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:20:51.009155+02:00", "cmd_type": "bash-command", "cmd": "ping 8.8.8.8"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:22:15.494981+02:00", "cmd_type": "bash-command", "cmd": "namp 172.18.1.5 -A"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:24:20.332042+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -A"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:26:04.570040+02:00", "cmd_type": "bash-command", "cmd": "systemctl start ssh"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:26:11.331042+02:00", "cmd_type": "bash-command", "cmd": "ssh -R blabla:22:127.0.0.1:22 serveo.net"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:28:23.519274+02:00", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:30:25.837103+02:00", "cmd_type": "bash-command", "cmd": "ssh root@127.0.0.1"}

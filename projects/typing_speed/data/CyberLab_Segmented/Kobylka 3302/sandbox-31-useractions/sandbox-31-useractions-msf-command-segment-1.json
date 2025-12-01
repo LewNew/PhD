@@ -1,0 +1,7 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:14:02.066Z", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:14:44.889Z", "cmd_type": "msf-command", "cmd": "search"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:14:49.954Z", "cmd_type": "msf-command", "cmd": "search CVE-2019-15107"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:15:10.059Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:15:35.379Z", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:16:01.650Z", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:16:21.681Z", "cmd_type": "msf-command", "cmd": "show options"}

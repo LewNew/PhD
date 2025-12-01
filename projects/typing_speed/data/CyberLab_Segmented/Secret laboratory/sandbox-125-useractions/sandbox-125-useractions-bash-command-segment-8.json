@@ -1,0 +1,2 @@
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:59:41.824Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:59:59.422Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}

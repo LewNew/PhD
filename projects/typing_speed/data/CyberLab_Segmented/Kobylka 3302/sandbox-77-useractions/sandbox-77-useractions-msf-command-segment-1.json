@@ -1,0 +1,4 @@
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:40:21.602475+02:00", "cmd_type": "msf-command", "cmd": "search CVE-2019-15107"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:40:26.869020+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:40:46.812916+02:00", "cmd_type": "msf-command", "cmd": "show"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:41:06.511528+02:00", "cmd_type": "msf-command", "cmd": "show options"}

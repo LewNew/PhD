@@ -1,0 +1,4 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:02:37.477531Z", "cmd_type": "msf-command", "cmd": "set spawn_pty true"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:02:43.368513Z", "cmd_type": "msf-command", "cmd": "set action Shell"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:02:44.074591Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:02:47.736061Z", "cmd_type": "msf-command", "cmd": "sessions"}

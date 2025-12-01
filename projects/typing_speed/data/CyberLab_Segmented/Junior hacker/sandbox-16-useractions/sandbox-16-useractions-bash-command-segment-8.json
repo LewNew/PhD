@@ -1,0 +1,16 @@
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:04:18+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:04:20+01:00", "cmd_type": "bash-command", "cmd": "ipa"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:04:22+01:00", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:05:24+01:00", "cmd_type": "bash-command", "cmd": "/usr/share/"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:05:31+01:00", "cmd_type": "bash-command", "cmd": "cd /usr/share/"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:05:42+01:00", "cmd_type": "bash-command", "cmd": "/wordlists"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:05:50+01:00", "cmd_type": "bash-command", "cmd": "cd /wordlists"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:05:54+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:05+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:11+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:11+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:31+01:00", "cmd_type": "bash-command", "cmd": "cd /usr/share/wordlists/"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:32+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:49+01:00", "cmd_type": "bash-command", "cmd": "cd /fa"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:54+01:00", "cmd_type": "bash-command", "cmd": "cd /fasttrack.txt"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T21:06:57+01:00", "cmd_type": "bash-command", "cmd": "cat fasttrack.txt"}

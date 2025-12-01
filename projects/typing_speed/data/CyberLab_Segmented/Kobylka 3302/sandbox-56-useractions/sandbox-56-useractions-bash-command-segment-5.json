@@ -1,0 +1,2 @@
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:37:09.381655+02:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:37:10.230605+02:00", "cmd_type": "bash-command", "cmd": "ls"}

@@ -1,0 +1,7 @@
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:52:57.064Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip ~"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:53:04.554Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:53:10.024Z", "cmd_type": "bash-command", "cmd": "which fcrackzip"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:54:11.460Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D hacking/wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:54:25.207Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -D hacking/wordlist.txt"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:54:57.263Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:55:49.569Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p hacking/wordlist.txt .invoices2019.zip"}

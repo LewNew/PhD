@@ -1,0 +1,10 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:36:54.600297+02:00", "cmd_type": "bash-command", "cmd": "ssh-add id_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:37:13.442215+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:38:43.408706+02:00", "cmd_type": "bash-command", "cmd": "cp id_rsa .ssh/id_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:38:46.644249+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:38:57.123124+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:39:00.642864+02:00", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:39:21.410227+02:00", "cmd_type": "bash-command", "cmd": "chown 0044"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:39:27.688403+02:00", "cmd_type": "bash-command", "cmd": "chown 0044 id_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:39:33.692415+02:00", "cmd_type": "bash-command", "cmd": "ssh-add id_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:39:47.411231+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}

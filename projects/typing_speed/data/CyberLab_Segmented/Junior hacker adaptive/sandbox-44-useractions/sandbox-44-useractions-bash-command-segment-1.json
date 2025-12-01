@@ -1,0 +1,5 @@
+{"sandbox_id": "44", "timestamp_str": "2020-12-02T08:48:03.895Z", "cmd_type": "bash-command", "cmd": "echo Jack"}
+{"sandbox_id": "44", "timestamp_str": "2020-12-02T08:53:22.418Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "44", "timestamp_str": "2020-12-02T08:53:43.538Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "44", "timestamp_str": "2020-12-02T08:53:44.359Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "44", "timestamp_str": "2020-12-02T08:56:16.362Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0-24"}

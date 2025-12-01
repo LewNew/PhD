@@ -1,0 +1,17 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:03.303Z", "cmd_type": "bash-command", "cmd": "cd /home/"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:03.603Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:05.773Z", "cmd_type": "bash-command", "cmd": "cd debian/"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:06.053Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:08.702Z", "cmd_type": "bash-command", "cmd": "ls .*"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:17.052Z", "cmd_type": "bash-command", "cmd": "cat .ssh/authorized_keys"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:20.646Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:20.987Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:22.381Z", "cmd_type": "bash-command", "cmd": "ls .*"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:24.110Z", "cmd_type": "bash-command", "cmd": "cd root/"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:24.390Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:26.631Z", "cmd_type": "bash-command", "cmd": "ls .*"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:29.346Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:43.479Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:28:52.888Z", "cmd_type": "bash-command", "cmd": "cat ~/.bashrc"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:29:11.240Z", "cmd_type": "bash-command", "cmd": "cat ~/.bash_history"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:29:16.033Z", "cmd_type": "bash-command", "cmd": "history"}

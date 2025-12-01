@@ -1,0 +1,10 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:40:51.169179Z", "cmd_type": "bash-command", "cmd": "nmap -p1-65535 -vv 172.18.1.5"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:40:58.535134Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:19.173034Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:21.608238Z", "cmd_type": "bash-command", "cmd": "~"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:25.276376Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 23"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:30.656647Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 22"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:45:05.300268Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5 "}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:45:21.625723Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5 "}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:45:25.680029Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5 -p 22"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:47:14.836206Z", "cmd_type": "bash-command", "cmd": "msfvenom"}

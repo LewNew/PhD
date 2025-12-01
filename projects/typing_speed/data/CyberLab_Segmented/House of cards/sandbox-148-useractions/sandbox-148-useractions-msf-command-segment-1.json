@@ -1,0 +1,2 @@
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:58:05.340364Z", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:58:23.200146Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}

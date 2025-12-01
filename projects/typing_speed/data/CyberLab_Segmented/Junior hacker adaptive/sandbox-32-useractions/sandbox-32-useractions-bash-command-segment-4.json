@@ -1,0 +1,35 @@
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:16:17.387Z", "cmd_type": "bash-command", "cmd": "/home# scp admin@...:~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:16:28.789Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:16:35.504Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:16:50.171Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:17:07.636Z", "cmd_type": "bash-command", "cmd": "scp admin@...:~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:17:35.065Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:19:02.812Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9 ~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:20:00.517Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:21:19.507Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: /personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:21:34.850Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: /personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:21:56.085Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:22:42.468Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:23:58.424Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/.invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:24:24.471Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/.invoices2019.zip ./"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:26:12.444Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:27:05.365Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/.invoices2019.zip ./"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:29:29.182Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9: ~/personal/.invoices2019.zip ~"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:30:03.966Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip ~"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:31:29.808Z", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:31:36.750Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:31:37.779Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:32:21.645Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:32:25.549Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:32:27.625Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:32:42.605Z", "cmd_type": "bash-command", "cmd": "fcrackzip -h"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:33:18.285Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:33:19.971Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:33:33.437Z", "cmd_type": "bash-command", "cmd": "wordlist.txt"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:34:00.694Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:34:11.994Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:35:03.478Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D ./hacking/wordlist.txt"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:36:19.802Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -D ./hacking/wordlist.txt"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:37:19.082Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u -p /hacking/wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:37:23.423Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:37:49.841Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u -p ./hacking/wordlist.txt .invoices2019.zip"}

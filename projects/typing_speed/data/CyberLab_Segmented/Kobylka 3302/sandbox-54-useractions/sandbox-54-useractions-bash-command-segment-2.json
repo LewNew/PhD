@@ -1,0 +1,6 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:26:51.371837+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 60000-65536"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:26:58.633913+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 60000-65535"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:27:15.838967+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -p 60000-65535"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:27:36.112478+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -p 40000-60000"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:28:02.531973+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -p 20000-40000"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:28:21.700587+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -p 1000-20000"}

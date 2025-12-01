@@ -1,0 +1,6 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:22:06.208954+02:00", "cmd_type": "bash-command", "cmd": "touch r.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:22:34.741117+02:00", "cmd_type": "bash-command", "cmd": "cp /tmp.r.txt rsa_d"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:22:36.470218+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:22:47.271407+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py rsa_d"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:23:21.805239+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py rsa_d > john_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:23:28.147800+02:00", "cmd_type": "bash-command", "cmd": "john john_rsa"}

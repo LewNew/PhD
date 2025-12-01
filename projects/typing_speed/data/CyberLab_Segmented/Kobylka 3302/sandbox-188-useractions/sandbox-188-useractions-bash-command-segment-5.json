@@ -1,0 +1,13 @@
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:51:42.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:52:56.0+02:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:53:10.0+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:53:38.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa eve@1.10.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:53:56.0+02:00", "cmd_type": "bash-command", "cmd": "man ssh"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:54:27.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa eve@1.10.17.4 -vvv"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:54:48.0+02:00", "cmd_type": "bash-command", "cmd": "ping 10.1.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:55:32.0+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@1.10.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:55:42.0+02:00", "cmd_type": "bash-command", "cmd": "ssh 1.10.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:56:07.0+02:00", "cmd_type": "bash-command", "cmd": "ssh 1.10.17.4 -vvv"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:56:22.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.17.4 -p 22"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:56:41.0+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:56:51.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa eve@1.10.17.4 -vvv"}

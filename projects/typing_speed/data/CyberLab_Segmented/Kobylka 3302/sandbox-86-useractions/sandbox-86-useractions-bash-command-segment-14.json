@@ -1,0 +1,2 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:38:04.688130+02:00", "cmd_type": "bash-command", "cmd": "ll /usr/share/wordlists/rockyou.txt"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:38:07.961786+02:00", "cmd_type": "bash-command", "cmd": "ls -l /usr/share/wordlists/rockyou.txt"}

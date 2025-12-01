@@ -1,0 +1,20 @@
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:12.187799+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:17.658085+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:19.632350+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:37.924527+02:00", "cmd_type": "bash-command", "cmd": "cd etc"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:40.631525+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:46.823961+02:00", "cmd_type": "bash-command", "cmd": "cd ..."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:50.046118+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:51.328700+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:55.376566+02:00", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:31:57.542785+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:34:48.147831+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5 -p 10000"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:34:57.420046+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:37:27.453641+02:00", "cmd_type": "bash-command", "cmd": "metasploit"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:42:18.356402+02:00", "cmd_type": "bash-command", "cmd": "metasploit"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:44:59.703778+02:00", "cmd_type": "bash-command", "cmd": "service postgresql start"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:49:02.236547+02:00", "cmd_type": "bash-command", "cmd": "msfsplayload"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:49:23.300132+02:00", "cmd_type": "bash-command", "cmd": "msfplayload"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:50:15.783181+02:00", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:50:31.918247+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:53:58.780262+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

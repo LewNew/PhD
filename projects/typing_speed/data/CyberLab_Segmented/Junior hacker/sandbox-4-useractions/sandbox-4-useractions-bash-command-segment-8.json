@@ -1,0 +1,2 @@
+{"sandbox_id": "4", "timestamp_str": "2021-02-10T09:58:37+01:00", "cmd_type": "bash-command", "cmd": "ifonfig"}
+{"sandbox_id": "4", "timestamp_str": "2021-02-10T09:58:40+01:00", "cmd_type": "bash-command", "cmd": "ifconfig"}

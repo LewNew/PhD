@@ -1,0 +1,6 @@
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:56:45.700402Z", "cmd_type": "msf-command", "cmd": "search libssh"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:57:12.843701Z", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:57:56.467948Z", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:58:05.098114Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:58:46.198449Z", "cmd_type": "msf-command", "cmd": "use 0"}
+{"sandbox_id": "130", "timestamp_str": "2019-09-19T10:58:50.894868Z", "cmd_type": "msf-command", "cmd": "help"}

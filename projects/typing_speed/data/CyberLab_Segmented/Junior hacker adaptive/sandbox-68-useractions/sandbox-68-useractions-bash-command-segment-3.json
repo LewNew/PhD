@@ -1,0 +1,5 @@
+{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:40:46.023Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
+{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:41:11.213Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:42:34.243Z", "cmd_type": "bash-command", "cmd": "fcrackzi -D -p ./wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:42:43.546Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p ./wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:43:24.395Z", "cmd_type": "bash-command", "cmd": "history"}

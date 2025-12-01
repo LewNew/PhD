@@ -1,0 +1,5 @@
+{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:42:58.421Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:44:25.603Z", "cmd_type": "bash-command", "cmd": "su root"}
+{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:44:54.173Z", "cmd_type": "bash-command", "cmd": "cd /root/"}
+{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:44:55.763Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:45:05.370Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

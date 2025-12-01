@@ -1,0 +1,5 @@
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:52:32.444Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:57:06.214Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:00:48.542Z", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:12.144Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:07:32.064Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

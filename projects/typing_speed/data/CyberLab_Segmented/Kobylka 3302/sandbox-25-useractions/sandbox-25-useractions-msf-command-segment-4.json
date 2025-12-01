@@ -1,0 +1,3 @@
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:18:27.453Z", "cmd_type": "msf-command", "cmd": "set LHOST 0.0.0.0"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:18:33.393Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:19:03.864Z", "cmd_type": "msf-command", "cmd": "show options"}

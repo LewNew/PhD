@@ -1,0 +1,18 @@
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:08:39.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:08:48.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:08:52.0+02:00", "cmd_type": "bash-command", "cmd": "cd .ssh"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:08:54.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:09:28.0+02:00", "cmd_type": "bash-command", "cmd": "vim id_rsa"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:09:52.0+02:00", "cmd_type": "bash-command", "cmd": "vim id_rsa.pub"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:10:33.0+02:00", "cmd_type": "bash-command", "cmd": "ssh eva@10.1.17.4"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:11:37.0+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:12:16.0+02:00", "cmd_type": "bash-command", "cmd": "cd /etc/ssh"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:12:18.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:12:25.0+02:00", "cmd_type": "bash-command", "cmd": "cat ssh_host_rsa_key"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:12:32.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:12:34.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:13:53.0+02:00", "cmd_type": "bash-command", "cmd": "ping 10.1.17.4"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:14:05.0+02:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:14:07.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:14:09.0+02:00", "cmd_type": "bash-command", "cmd": "cd .ssh"}
+{"sandbox_id": "185", "timestamp_str": "2019-12-12T11:14:11.0+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}

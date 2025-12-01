@@ -1,0 +1,16 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:12.104301+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:22.299071+02:00", "cmd_type": "bash-command", "cmd": "rm ssh*"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:24.464074+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:25.149161+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:37.846975+02:00", "cmd_type": "bash-command", "cmd": "ls /home/eve//.ssh"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:53:44.101680+02:00", "cmd_type": "bash-command", "cmd": "ls /home/eve/.ssh"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:54:09.764496+02:00", "cmd_type": "bash-command", "cmd": "john2ssh id_rsa > hash"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:54:15.625503+02:00", "cmd_type": "bash-command", "cmd": "john2ssh"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:54:17.593693+02:00", "cmd_type": "bash-command", "cmd": "john"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:54:24.183810+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa > hash"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:03.141166+02:00", "cmd_type": "bash-command", "cmd": "msfexploit"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:10.664549+02:00", "cmd_type": "bash-command", "cmd": "mfsexploit"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:18.594201+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:21.346430+02:00", "cmd_type": "bash-command", "cmd": "mfsconsole"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:30.149852+02:00", "cmd_type": "bash-command", "cmd": "mfsconsole"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:55:35.075264+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

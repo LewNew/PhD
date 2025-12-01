@@ -1,0 +1,13 @@
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:37:31.627Z", "cmd_type": "bash-command", "cmd": "tmux"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:38:53.135Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:02.522Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:25.965Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:33.324Z", "cmd_type": "bash-command", "cmd": "cd /usr/share/wordlists/"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:33.948Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:41.062Z", "cmd_type": "bash-command", "cmd": "cd ~"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:39:57.121Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u .invoices2019.zip  -D /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:40:44.162Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt .invoices.zip"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:40:48.424Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt .invoices2019.zip"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:40:51.618Z", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:40:54.941Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:40:56.987Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt .invoices2019.zip"}

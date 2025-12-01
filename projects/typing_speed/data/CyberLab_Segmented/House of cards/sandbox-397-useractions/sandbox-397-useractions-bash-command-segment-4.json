@@ -1,0 +1,8 @@
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:20.842952Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:25.173190Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep linux"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:25.201543Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep linux"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:31.821750Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep linux | grep display"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:31.849080Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep linux | grep display"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:31.871344Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep linux | grep display"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:37.257354Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep display"}
+{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:37.278477Z", "cmd_type": "bash-command", "cmd": "searchsploit privilege | grep display"}

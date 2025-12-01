@@ -1,0 +1,1 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:35:59.889196+02:00", "cmd_type": "bash-command", "cmd": "gpg2john id_rsa"}

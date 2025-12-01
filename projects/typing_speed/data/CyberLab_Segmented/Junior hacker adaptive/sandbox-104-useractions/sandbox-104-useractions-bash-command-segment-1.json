@@ -1,0 +1,38 @@
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:28:09.833Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:28:42.672Z", "cmd_type": "bash-command", "cmd": "cd /"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:28:45.522Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:29:35.634Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:29:37.736Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:29:40.967Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:29:42.150Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:29:48.842Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:28.543Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:30.099Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:33.565Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:34.676Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:40.562Z", "cmd_type": "bash-command", "cmd": "cd /"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:42.957Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:44.588Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:50.038Z", "cmd_type": "bash-command", "cmd": "cd lost+found/"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:30:51.098Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:31:43.481Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:31:53.158Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:31:55.509Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:32:05.995Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:32:06.933Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:32:27.547Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:32:28.537Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:08.492Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:16.598Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:19.179Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:36.906Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:40.953Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:33:44.208Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:34:34.881Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:34:36.817Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:34:40.273Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:34:41.370Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:34:44.751Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:35:07.707Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:35:12.812Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:35:14.664Z", "cmd_type": "bash-command", "cmd": "ls"}

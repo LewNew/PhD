@@ -1,0 +1,14 @@
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:45:09.498Z", "cmd_type": "bash-command", "cmd": "ls. /root /hacking"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:46:23.974Z", "cmd_type": "bash-command", "cmd": "--help"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:46:33.853Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:48:12.019Z", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.26.0/24"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:52:39.584Z", "cmd_type": "bash-command", "cmd": "nmap v- sn- 10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:54:10.672Z", "cmd_type": "bash-command", "cmd": "-v -sn 10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:59:15.474Z", "cmd_type": "bash-command", "cmd": "-sn 10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:59:45.556Z", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:03:55.600Z", "cmd_type": "bash-command", "cmd": "username@10.1.26.255"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:04:15.123Z", "cmd_type": "bash-command", "cmd": "shh"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:06:28.490Z", "cmd_type": "bash-command", "cmd": "ssh username@10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:08:03.068Z", "cmd_type": "bash-command", "cmd": "shh username@10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:08:26.918Z", "cmd_type": "bash-command", "cmd": "ssh username@10.1.26.9"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T09:10:48.601Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

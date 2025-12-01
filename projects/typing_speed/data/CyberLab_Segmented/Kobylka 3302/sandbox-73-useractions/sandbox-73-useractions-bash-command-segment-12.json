@@ -1,0 +1,2 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:20:54.346824+02:00", "cmd_type": "bash-command", "cmd": "cat /tmp/id_rsa"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T11:21:38.443568+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py /tmp/id_rsa"}

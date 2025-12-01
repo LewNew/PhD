@@ -1,0 +1,8 @@
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:26:12+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:26:14+01:00", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:26:16+01:00", "cmd_type": "bash-command", "cmd": "ip"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:27:30+01:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.26.4"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:28:17+01:00", "cmd_type": "bash-command", "cmd": "nmap -v -r"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:29:21+01:00", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:29:23+01:00", "cmd_type": "bash-command", "cmd": "ip"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:29:34+01:00", "cmd_type": "bash-command", "cmd": "ifconfig"}

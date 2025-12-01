@@ -1,0 +1,11 @@
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:21:41.084Z", "cmd_type": "bash-command", "cmd": "sqlmap"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:22:05.625Z", "cmd_type": "bash-command", "cmd": "sqlmap -h"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:22:53.275Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:25:07.758Z", "cmd_type": "bash-command", "cmd": "sqlmap -a http://server/"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:25:30.346Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:27:26.046Z", "cmd_type": "bash-command", "cmd": "sql"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:27:47.271Z", "cmd_type": "bash-command", "cmd": "sql"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:27:58.236Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms -crawl=2"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:28:14.599Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --crawl=2"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:29:37.738Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:35:25.319Z", "cmd_type": "bash-command", "cmd": "sqlmap -h"}

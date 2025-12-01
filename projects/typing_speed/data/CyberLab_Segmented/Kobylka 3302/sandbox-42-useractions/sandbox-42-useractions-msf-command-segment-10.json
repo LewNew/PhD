@@ -1,0 +1,3 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:43:54.351578+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"cd /etc/ssh\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:44:01.661767+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"dir\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:44:41.829345+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"less ssh_host_rsa_key\""}

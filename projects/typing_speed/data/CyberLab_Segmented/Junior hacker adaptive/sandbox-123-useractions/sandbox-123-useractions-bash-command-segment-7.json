@@ -1,0 +1,7 @@
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:35:51.790Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:35:59.390Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:36:11.591Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:36:14.083Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:36:19.803Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:36:25.457Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:36:46.167Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}

@@ -1,0 +1,2 @@
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:11:19.540841Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:11:40.580942Z", "cmd_type": "msf-command", "cmd": "show payloads"}

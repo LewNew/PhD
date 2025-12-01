@@ -1,0 +1,25 @@
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:16.028Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:23.010Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:25.271Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:27.016Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:30.024Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:30.608Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:30.939Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:31.164Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:31.415Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:31.683Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:31.902Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:32.162Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:32.370Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:32.594Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:32.803Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:33.024Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:08:33.214Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:03.196Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:10.162Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt | wc -l"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:22.237Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip < wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:34.781Z", "cmd_type": "bash-command", "cmd": "head wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:39.365Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:09:57.787Z", "cmd_type": "bash-command", "cmd": "unzip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:10:23.088Z", "cmd_type": "bash-command", "cmd": "echo 123 | unzip .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:10:45.421Z", "cmd_type": "bash-command", "cmd": "ls"}

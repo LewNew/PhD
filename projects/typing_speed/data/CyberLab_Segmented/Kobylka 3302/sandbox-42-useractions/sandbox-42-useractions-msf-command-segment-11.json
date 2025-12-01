@@ -1,0 +1,1 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:53:12.514077+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"less ssh_host_ecdsa_key.pub\""}

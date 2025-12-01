@@ -1,0 +1,4 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T08:07:57.058Z", "cmd_type": "bash-command", "cmd": "sudo tcpdump port 22"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T08:08:17.579Z", "cmd_type": "bash-command", "cmd": "sudo tcpdump port 22"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T08:08:20.725Z", "cmd_type": "bash-command", "cmd": "sudo cat /etc/passwd"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T08:08:31.673Z", "cmd_type": "bash-command", "cmd": "vim /home/kali/.ssh/authorized_keys"}

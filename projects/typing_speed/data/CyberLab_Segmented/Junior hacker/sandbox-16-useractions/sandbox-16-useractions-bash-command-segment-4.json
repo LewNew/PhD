@@ -1,0 +1,3 @@
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:49:06+01:00", "cmd_type": "bash-command", "cmd": "lx"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:49:07+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:50:35+01:00", "cmd_type": "bash-command", "cmd": "sudo apt-get install fcrackzip"}

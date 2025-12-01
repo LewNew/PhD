@@ -1,0 +1,6 @@
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:33:57.934Z", "cmd_type": "bash-command", "cmd": "startgame"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:36:54.429Z", "cmd_type": "bash-command", "cmd": "/root"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:38:06.279Z", "cmd_type": "bash-command", "cmd": "cd./root"}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:38:32.610Z", "cmd_type": "bash-command", "cmd": "cd."}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:38:38.521Z", "cmd_type": "bash-command", "cmd": "ls."}
+{"sandbox_id": "81", "timestamp_str": "2021-05-28T08:38:47.174Z", "cmd_type": "bash-command", "cmd": "/root directory"}

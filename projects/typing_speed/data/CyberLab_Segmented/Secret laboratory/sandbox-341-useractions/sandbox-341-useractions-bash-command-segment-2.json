@@ -1,0 +1,5 @@
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T11:30:36.744510+02:00", "cmd_type": "bash-command", "cmd": "vim Y29yb25h"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T11:32:15.584583+02:00", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py)"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T11:32:35.858277+02:00", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john\\.py)"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T11:34:47.100627+02:00", "cmd_type": "bash-command", "cmd": "ssh lab"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T11:35:39.423294+02:00", "cmd_type": "bash-command", "cmd": "su chong"}

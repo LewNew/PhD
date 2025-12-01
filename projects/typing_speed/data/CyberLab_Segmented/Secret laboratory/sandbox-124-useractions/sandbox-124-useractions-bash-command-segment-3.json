@@ -1,0 +1,2 @@
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:00:19.148Z", "cmd_type": "bash-command", "cmd": "scp chong@server:~/.ssh/Y29yb25h ."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:00:22.854Z", "cmd_type": "bash-command", "cmd": "ls"}

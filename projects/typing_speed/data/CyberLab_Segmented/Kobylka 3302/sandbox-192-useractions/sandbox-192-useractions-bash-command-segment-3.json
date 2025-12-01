@@ -1,0 +1,27 @@
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:15:55.0+02:00", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:16:09.0+02:00", "cmd_type": "bash-command", "cmd": "cd /root/Desktop/"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:16:29.0+02:00", "cmd_type": "bash-command", "cmd": "/root/Desktop"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:16:34.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:16:40.0+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:19:39.0+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:20:02.0+02:00", "cmd_type": "bash-command", "cmd": "johnny"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:20:53.0+02:00", "cmd_type": "bash-command", "cmd": "ssh2john "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:20:59.0+02:00", "cmd_type": "bash-command", "cmd": "ssh2john id_rsa"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:21:06.0+02:00", "cmd_type": "bash-command", "cmd": "ssh2john id_rsa > johny_rsa"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:21:10.0+02:00", "cmd_type": "bash-command", "cmd": "john johny_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:23:26.0+02:00", "cmd_type": "bash-command", "cmd": "john"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:24:21.0+02:00", "cmd_type": "bash-command", "cmd": "john johny_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:25:19.0+02:00", "cmd_type": "bash-command", "cmd": "john johny_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:26:16.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:26:43.0+02:00", "cmd_type": "bash-command", "cmd": "john johny_rsa --wordlist=~/passwords.txt"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:28:00.0+02:00", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:28:25.0+02:00", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:29:17.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:29:59.0+02:00", "cmd_type": "bash-command", "cmd": "chmod 0644 id_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:30:01.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:30:24.0+02:00", "cmd_type": "bash-command", "cmd": "chmod a-wx id_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:30:30.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:30:42.0+02:00", "cmd_type": "bash-command", "cmd": "chmod 400 id_rsa "}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:30:46.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1.5"}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:32:29.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1."}
+{"sandbox_id": "192", "timestamp_str": "2019-12-12T11:32:32.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa root@172.18.1.14"}

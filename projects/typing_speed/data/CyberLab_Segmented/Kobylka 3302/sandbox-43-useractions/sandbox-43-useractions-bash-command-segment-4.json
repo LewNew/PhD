@@ -1,0 +1,17 @@
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:59:50.738524+02:00", "cmd_type": "bash-command", "cmd": "touch webmin.sh"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:59:57.030264+02:00", "cmd_type": "bash-command", "cmd": "nano webmin.sh"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:00:27.179574+02:00", "cmd_type": "bash-command", "cmd": "chmod +x webmin.sh"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:00:31.392018+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:03:13.689219+02:00", "cmd_type": "bash-command", "cmd": "perl --version"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:03:36.396517+02:00", "cmd_type": "bash-command", "cmd": "ruby --version"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:05:58.384305+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:06:04.438736+02:00", "cmd_type": "bash-command", "cmd": "chmod +x 47230.rb"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:06:05.964634+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:06:08.999761+02:00", "cmd_type": "bash-command", "cmd": "./47230.rb"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:08:03.433597+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh https://localhost:10000"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:11:26.872875+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh 100.100.100.5:10000"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:11:31.002039+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh 100.100.100.5"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:12:01.045685+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh 172.18.1.1:10000"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:12:03.864236+02:00", "cmd_type": "bash-command", "cmd": "./webmin.sh 172.18.1.1"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:12:36.589275+02:00", "cmd_type": "bash-command", "cmd": "metasploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:12:57.090449+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

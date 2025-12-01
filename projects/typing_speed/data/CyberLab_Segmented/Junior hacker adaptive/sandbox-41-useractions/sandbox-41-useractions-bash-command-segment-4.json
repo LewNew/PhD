@@ -1,0 +1,24 @@
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T09:58:29.087Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T09:58:31.159Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:03:01.249Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:03:11.898Z", "cmd_type": "bash-command", "cmd": "ls Downloads/"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:03:12.938Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:04:35.780Z", "cmd_type": "bash-command", "cmd": "ls /"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:04:46.023Z", "cmd_type": "bash-command", "cmd": "ls /hom"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:04:47.732Z", "cmd_type": "bash-command", "cmd": "ls /home"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:07:17.397Z", "cmd_type": "bash-command", "cmd": "sftp admin@10.1.26.9:personal/.invoices2019.zip result"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:07:26.064Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:12:57.295Z", "cmd_type": "bash-command", "cmd": "cd result"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:12:58.683Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:13:29.152Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b result"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:14:13.355Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b -u result"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:19:03.307Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:21:17.073Z", "cmd_type": "bash-command", "cmd": "sftp admin@10.1.26.9:personal/.invoices2019.zip result"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:21:42.837Z", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:22:03.957Z", "cmd_type": "bash-command", "cmd": "sftp admin@10.1.26.9:personal/.invoices2019.zip /root"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:22:25.505Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:22:27.969Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:22:37.053Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b -u .invoices2019.zip"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:25:27.023Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:25:31.568Z", "cmd_type": "bash-command", "cmd": "ls hacking"}
+{"sandbox_id": "41", "timestamp_str": "2020-12-02T10:26:38.887Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p hacking/wordlist.txt  .invoices2019.zip"}

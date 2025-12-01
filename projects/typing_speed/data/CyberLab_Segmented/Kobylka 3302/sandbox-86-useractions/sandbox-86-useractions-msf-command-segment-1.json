@@ -1,0 +1,1 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:47:23.198005+02:00", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor"}

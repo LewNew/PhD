@@ -1,0 +1,11 @@
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:22:50+01:00", "cmd_type": "bash-command", "cmd": "cd documents"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:22:54+01:00", "cmd_type": "bash-command", "cmd": "cd Documents"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:22:55+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:22:59+01:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:23:05+01:00", "cmd_type": "bash-command", "cmd": "cd Public"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:23:06+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:23:11+01:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:25:04+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p /usr/share/fasttrack.txt /home/root/Downloads/invoices2019.zip"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:25:12+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p /usr/share/fasttrack.txt /home/Downloads/invoices2019.zip"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:25:27+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p /usr/share/fasttrack.txt /root/Downloads/invoices2019.zip"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:25:59+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p /home/usr/share/fasttrack.txt /root/Downloads/invoices2019.zip"}

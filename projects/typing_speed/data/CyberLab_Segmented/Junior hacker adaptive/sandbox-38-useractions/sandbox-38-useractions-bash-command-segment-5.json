@@ -1,0 +1,5 @@
+{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:40:07.736Z", "cmd_type": "bash-command", "cmd": "ssh 10.1.26.9"}
+{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:40:30.057Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:41:55.759Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9; expect \"password\";"}
+{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:42:01.120Z", "cmd_type": "bash-command", "cmd": "ssh --help"}
+{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:43:06.254Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9 -P password"}

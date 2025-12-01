@@ -1,0 +1,1 @@
+{"sandbox_id": "14", "timestamp_str": "2021-02-11T22:20:46+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}

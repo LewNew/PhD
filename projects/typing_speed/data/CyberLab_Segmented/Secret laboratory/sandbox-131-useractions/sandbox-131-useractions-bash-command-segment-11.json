@@ -1,0 +1,27 @@
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:46:54.080Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:47:00.344Z", "cmd_type": "bash-command", "cmd": "su chong"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:53:16.908Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:53:28.532Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:53:48.348Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:53:59.516Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:55:04.473Z", "cmd_type": "bash-command", "cmd": "researchers"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:55:59.434Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:56:07.545Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:56:29.407Z", "cmd_type": "bash-command", "cmd": "shell"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:58:27.977Z", "cmd_type": "bash-command", "cmd": "shell"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:58:37.398Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:00:19.435Z", "cmd_type": "bash-command", "cmd": "researchers"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:00:25.915Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:03:32.080Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:05:41.231Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:05:59.453Z", "cmd_type": "bash-command", "cmd": "su root"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:06:09.954Z", "cmd_type": "bash-command", "cmd": "su root"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:06:15.842Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:09:22.125Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:09:26.342Z", "cmd_type": "bash-command", "cmd": "researchers"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:09:37.936Z", "cmd_type": "bash-command", "cmd": "./researchers"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:09:44.151Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:09:56.904Z", "cmd_type": "bash-command", "cmd": "john --wordlist=fasttrack.txt --rules converted.txt"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:10:02.560Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:11:25.342Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T18:11:52.472Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}

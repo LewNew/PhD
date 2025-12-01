@@ -1,0 +1,7 @@
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:32:19+01:00", "cmd_type": "bash-command", "cmd": "sudo passwd invoices2019.txt"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:32:24+01:00", "cmd_type": "bash-command", "cmd": "sudo passwd invoices2019"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:33:37+01:00", "cmd_type": "bash-command", "cmd": "cd Downloads"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:33:39+01:00", "cmd_type": "bash-command", "cmd": "sudo passwd invoices2019"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:33:44+01:00", "cmd_type": "bash-command", "cmd": "sudo passwd invoices2019.txt"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:33:46+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-11T13:33:51+01:00", "cmd_type": "bash-command", "cmd": "sudo passwd invoices2019.zip"}

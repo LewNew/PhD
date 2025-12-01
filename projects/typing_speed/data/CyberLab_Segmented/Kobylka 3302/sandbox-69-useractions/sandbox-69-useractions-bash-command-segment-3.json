@@ -1,0 +1,6 @@
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:46:25.645518+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:46:31.255248+02:00", "cmd_type": "bash-command", "cmd": "mfsconsole"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:46:37.311256+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:46:44.936445+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:49:23.369170+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:49:43.082932+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

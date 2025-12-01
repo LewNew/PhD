@@ -1,0 +1,20 @@
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:13:05.748Z", "cmd_type": "bash-command", "cmd": "ld"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:13:07.107Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:13:12.227Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:13:13.437Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:13:17.217Z", "cmd_type": "bash-command", "cmd": "ls -A"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:15:12.331Z", "cmd_type": "bash-command", "cmd": "scp admin@server:/personal/.invoices2019.zip hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:15:50.704Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/personal/.invoices2019.zip hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:17:33.552Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:home/admin/personal/.invoices2019.zip hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:17:53.512Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:20:49.688Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:20:52.531Z", "cmd_type": "bash-command", "cmd": "ls -A"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:21:01.461Z", "cmd_type": "bash-command", "cmd": "cd /root/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:21:05.067Z", "cmd_type": "bash-command", "cmd": "ls -A"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:21:13.729Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:21:16.445Z", "cmd_type": "bash-command", "cmd": "ls -A"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:21:19.131Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:22:10.858Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9:/personal/.invoices2019.txt hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:23:56.795Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9:/personal/.invoices2019.txt hacking/ -v"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:24:21.942Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9:/personal/.invoices2019.zip hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:25:19.498Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/personal/.invoices2019.zip hacking/"}

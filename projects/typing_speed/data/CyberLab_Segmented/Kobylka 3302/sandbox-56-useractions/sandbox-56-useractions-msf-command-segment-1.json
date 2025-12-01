@@ -1,0 +1,4 @@
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:30:40.010671+02:00", "cmd_type": "msf-command", "cmd": "search miniserv"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:31:29.152043+02:00", "cmd_type": "msf-command", "cmd": "search Miniserv"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:31:36.993732+02:00", "cmd_type": "msf-command", "cmd": "search 1.920"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:32:55.552827+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}

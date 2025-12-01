@@ -1,0 +1,4 @@
+{"sandbox_id": "131", "timestamp_str": "2021-01-14T09:16:37.943Z", "cmd_type": "bash-command", "cmd": "nmap server"}
+{"sandbox_id": "131", "timestamp_str": "2021-01-14T09:30:44.766Z", "cmd_type": "bash-command", "cmd": "nmap -sV --script=http-sql-injection server"}
+{"sandbox_id": "131", "timestamp_str": "2021-01-14T10:15:58.973Z", "cmd_type": "bash-command", "cmd": "ssh webadmin@server"}
+{"sandbox_id": "131", "timestamp_str": "2021-01-14T11:16:23.897Z", "cmd_type": "bash-command", "cmd": "exit"}

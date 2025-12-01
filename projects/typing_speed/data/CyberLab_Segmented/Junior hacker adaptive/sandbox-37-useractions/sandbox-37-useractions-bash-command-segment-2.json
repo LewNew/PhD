@@ -1,0 +1,12 @@
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:05:49.749Z", "cmd_type": "bash-command", "cmd": "arp -a"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:07:52.284Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:08:06.436Z", "cmd_type": "bash-command", "cmd": "nmap -Pn 10.1.26.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:09:25.455Z", "cmd_type": "bash-command", "cmd": "nmap 192.168.128.1"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:09:40.958Z", "cmd_type": "bash-command", "cmd": "nmap 192.168.130.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:12:24.200Z", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:13:29.305Z", "cmd_type": "bash-command", "cmd": "npm -p- 192.168.130.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:13:39.036Z", "cmd_type": "bash-command", "cmd": "nmap -p- 192.168.130.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:15:29.319Z", "cmd_type": "bash-command", "cmd": "nc -z -v 192.168.130.0"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:17:20.207Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:18:32.278Z", "cmd_type": "bash-command", "cmd": "nmap -p- 192.168.128.137"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:19:25.496Z", "cmd_type": "bash-command", "cmd": "nmap -p- 10.1.26.23"}

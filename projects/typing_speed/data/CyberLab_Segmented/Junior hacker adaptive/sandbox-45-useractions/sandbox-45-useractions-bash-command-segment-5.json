@@ -1,0 +1,11 @@
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:59:54.244Z", "cmd_type": "bash-command", "cmd": "history"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:00:40.143Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:personal/.invoices2019.zip /"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:02.934Z", "cmd_type": "bash-command", "cmd": "cd /"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:04.151Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:13.622Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:14.477Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:21.882Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:personal/.invoices2019.zip /root"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:35.031Z", "cmd_type": "bash-command", "cmd": "ls /a"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:01:37.937Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:02:19.441Z", "cmd_type": "bash-command", "cmd": "man frackzip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:02:27.828Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}

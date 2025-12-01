@@ -1,0 +1,13 @@
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:28:45+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:28:48+01:00", "cmd_type": "bash-command", "cmd": "cd Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:28:58+01:00", "cmd_type": "bash-command", "cmd": "chmod +x"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:10+01:00", "cmd_type": "bash-command", "cmd": "chmod +rwx"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:16+01:00", "cmd_type": "bash-command", "cmd": "chmod +rwx Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:19+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:20+01:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:22+01:00", "cmd_type": "bash-command", "cmd": "chmod +rwx Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:30+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:32+01:00", "cmd_type": "bash-command", "cmd": "pdw"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:29:33+01:00", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:30:17+01:00", "cmd_type": "bash-command", "cmd": "chmod -rwx Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:30:18+01:00", "cmd_type": "bash-command", "cmd": "chmod -rwx Documents"}

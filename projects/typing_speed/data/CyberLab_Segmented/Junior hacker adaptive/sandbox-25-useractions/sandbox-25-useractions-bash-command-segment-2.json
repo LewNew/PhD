@@ -1,0 +1,4 @@
+{"sandbox_id": "25", "timestamp_str": "2021-05-25T08:44:27.144Z", "cmd_type": "bash-command", "cmd": "ls /root/hacking"}
+{"sandbox_id": "25", "timestamp_str": "2021-05-25T08:46:28.603Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "25", "timestamp_str": "2021-05-25T08:48:18.520Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
+{"sandbox_id": "25", "timestamp_str": "2021-05-25T08:50:32.754Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}

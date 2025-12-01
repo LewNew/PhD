@@ -1,0 +1,2 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:43:31.265567Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:43:36.247599Z", "cmd_type": "msf-command", "cmd": "show info "}

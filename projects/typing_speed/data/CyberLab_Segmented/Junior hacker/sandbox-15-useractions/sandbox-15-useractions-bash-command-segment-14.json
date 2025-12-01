@@ -1,0 +1,6 @@
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:02:46+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:invoices2019.zip /home"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:03:23+01:00", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:03:25+01:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:03:27+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:04:44+01:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:04:52+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:invoices2019.zip /root/home"}

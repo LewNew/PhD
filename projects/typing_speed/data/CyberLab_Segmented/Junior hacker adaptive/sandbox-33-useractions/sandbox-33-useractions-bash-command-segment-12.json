@@ -1,0 +1,9 @@
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:12:35.665Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt -- .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:13:04.002Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:13:32.247Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt | sort > words.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:13:43.487Z", "cmd_type": "bash-command", "cmd": "diff wordlist.txt words.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:13:52.164Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D words.txt -- .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:14:00.727Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D words.txt .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:14:08.968Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:14:38.907Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p words.txt .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:14:55.050Z", "cmd_type": "bash-command", "cmd": "unzip .invoices2019.zip"}

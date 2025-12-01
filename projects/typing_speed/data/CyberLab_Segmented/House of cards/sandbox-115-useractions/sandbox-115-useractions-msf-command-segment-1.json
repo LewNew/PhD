@@ -1,0 +1,3 @@
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:00:45.256487Z", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:01:32.932320Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:02:53.041933Z", "cmd_type": "msf-command", "cmd": "search libssh"}

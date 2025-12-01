@@ -1,0 +1,7 @@
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:20:56.944450Z", "cmd_type": "bash-command", "cmd": "msf > loadpath"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:23:44.573975Z", "cmd_type": "bash-command", "cmd": "msf > search name:libssh_auth_bypass"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:23:49.454628Z", "cmd_type": "bash-command", "cmd": "msf > search name:libssh_auth_bypass"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:23:51.545090Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:24:09.852094Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:24:29.244057Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "95", "timestamp_str": "2019-09-19T11:25:09.536120Z", "cmd_type": "bash-command", "cmd": "msfconsole "}

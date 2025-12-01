@@ -1,0 +1,10 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:35:03.539573+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:35:19.320148+02:00", "cmd_type": "bash-command", "cmd": "john --format=SSH id_rsa"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:36:17.686738+02:00", "cmd_type": "bash-command", "cmd": "ssh2john id_rsa > id_rsa.hash"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:36:44.215850+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:37:10.219913+02:00", "cmd_type": "bash-command", "cmd": "/usr/sbin/ss2john"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:37:17.227279+02:00", "cmd_type": "bash-command", "cmd": "/usr/sbin/ssh2john"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:38:25.765122+02:00", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:39:03.327330+02:00", "cmd_type": "bash-command", "cmd": "/usr/share/john/ssh2john.py id_rsa > id_rsa.hash"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:39:09.673548+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa.hash"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:39:25.168242+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa.hash"}

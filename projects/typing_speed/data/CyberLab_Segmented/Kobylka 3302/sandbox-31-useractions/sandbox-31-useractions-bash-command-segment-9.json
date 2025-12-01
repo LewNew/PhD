@@ -1,0 +1,5 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:24:17.949Z", "cmd_type": "bash-command", "cmd": "sdf"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:24:17.949Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:24:33.681Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:25:26.350Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T15:25:59.919Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

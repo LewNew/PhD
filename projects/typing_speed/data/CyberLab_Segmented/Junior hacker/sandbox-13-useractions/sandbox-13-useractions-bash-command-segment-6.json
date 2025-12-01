@@ -1,0 +1,2 @@
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T10:49:40+01:00", "cmd_type": "bash-command", "cmd": "sudo apt update"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T10:50:11+01:00", "cmd_type": "bash-command", "cmd": "sudo apt install john fcrackzip wordlists"}

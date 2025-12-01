@@ -1,0 +1,7 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:41:33.793029+02:00", "cmd_type": "msf-command", "cmd": "cd /etc/"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:41:54.370594+02:00", "cmd_type": "msf-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:42:00.273425+02:00", "cmd_type": "msf-command", "cmd": "cd /home"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:42:05.305816+02:00", "cmd_type": "msf-command", "cmd": "cd debian "}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:42:23.485505+02:00", "cmd_type": "msf-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:42:24.065878+02:00", "cmd_type": "msf-command", "cmd": "cd "}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T11:42:26.216482+02:00", "cmd_type": "msf-command", "cmd": "cd .."}

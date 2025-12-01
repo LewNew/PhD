@@ -1,0 +1,7 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:15:08.905568+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:15:19.267445+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework/modules"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:15:26.586780+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework/modules/exploits"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:15:31.806538+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework/modules/exploits/linux"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:15:46.265625+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework/modules/exploits/linux/http"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:16:39.638478+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/metasploit-framework/modules/exploits/linux"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:16:49.313567+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

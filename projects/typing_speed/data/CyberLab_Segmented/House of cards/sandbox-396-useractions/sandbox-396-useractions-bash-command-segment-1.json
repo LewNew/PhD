@@ -1,0 +1,2 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:40:19.345589Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:40:34.470540Z", "cmd_type": "bash-command", "cmd": "nmap -A -p 22 172.18.1.5"}

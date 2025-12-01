@@ -1,0 +1,10 @@
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:32:45+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:invoices2019.zip /home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:32:56+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:33:02+01:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:33:03+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:35:13+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -c 1 -l 4-8 /home/invoices2019.zip"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:38:36+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt /home/invoices2019.zip"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:40:15+01:00", "cmd_type": "bash-command", "cmd": "passwd"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:40:22+01:00", "cmd_type": "bash-command", "cmd": "passwd"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:41:32+01:00", "cmd_type": "bash-command", "cmd": "passwd admin"}
+{"sandbox_id": "3", "timestamp_str": "2021-02-08T18:41:38+01:00", "cmd_type": "bash-command", "cmd": "passwd root"}

@@ -1,0 +1,5 @@
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:25:46.376Z", "cmd_type": "bash-command", "cmd": "ssh -i sshtocrack chong@10.1.17.4"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:28:04.205Z", "cmd_type": "bash-command", "cmd": "ssh -i sshtocrack chong@10.1.17.4"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:28:15.028Z", "cmd_type": "bash-command", "cmd": "chmod 775 sshtocrack"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:29:02.461Z", "cmd_type": "bash-command", "cmd": "ssh -i sshtocrack chong@10.1.17.4"}
+{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:29:12.464Z", "cmd_type": "bash-command", "cmd": "chmod 400 sshtocrack"}

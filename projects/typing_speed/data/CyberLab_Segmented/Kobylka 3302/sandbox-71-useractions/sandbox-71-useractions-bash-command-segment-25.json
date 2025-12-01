@@ -1,0 +1,4 @@
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:31:40.248737+02:00", "cmd_type": "bash-command", "cmd": "/usr/share/john/ssh2john.py key"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:31:55.270010+02:00", "cmd_type": "bash-command", "cmd": "/usr/share/john/ssh2john.py key > key2"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:32:00.423751+02:00", "cmd_type": "bash-command", "cmd": "john key@"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:32:06.139519+02:00", "cmd_type": "bash-command", "cmd": "john key2"}

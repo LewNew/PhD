@@ -1,0 +1,6 @@
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:18:29.237Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D wamerican .invoices2019.zip"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:18:54.136Z", "cmd_type": "bash-command", "cmd": "locate wordlist"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:19:38.791Z", "cmd_type": "bash-command", "cmd": "cp /root/hacking/wordlist.txt /home/user-access"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:19:41.549Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:19:56.686Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:20:04.376Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p wordlist.txt .invoices2019.zip"}

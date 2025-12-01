@@ -1,0 +1,6 @@
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:31:30.503032Z", "cmd_type": "bash-command", "cmd": "nmap -p 1-1000 172.18.1.5"}
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:33:48.565630Z", "cmd_type": "bash-command", "cmd": "libssh -h"}
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:34:43.005975Z", "cmd_type": "bash-command", "cmd": "nmap -p 1-56000 172.18.1.5"}
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:37:22.936167Z", "cmd_type": "bash-command", "cmd": "sshlib"}
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:38:32.924329Z", "cmd_type": "bash-command", "cmd": "sudo apt-get install libssh-dev"}
+{"sandbox_id": "113", "timestamp_str": "2019-09-19T10:40:41.935244Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}

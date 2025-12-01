@@ -1,0 +1,10 @@
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:21:37.095Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:21:37.209Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:23:39.195Z", "cmd_type": "bash-command", "cmd": "nmap -sp 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:25:24.716Z", "cmd_type": "bash-command", "cmd": "nmap -O 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:27:29.139Z", "cmd_type": "bash-command", "cmd": "nmap -p 80 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:28:26.730Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:31:19.149Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:33:42.139Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:33:45.413Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 10.1.26.9"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:35:51.105Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9"}

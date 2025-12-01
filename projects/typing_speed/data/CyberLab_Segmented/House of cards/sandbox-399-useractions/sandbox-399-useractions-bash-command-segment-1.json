@@ -1,0 +1,5 @@
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:39:14.370508Z", "cmd_type": "bash-command", "cmd": ".nmap -A 172.18.1.5"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:39:17.412621Z", "cmd_type": "bash-command", "cmd": "nmap -A 172.18.1.5"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:41:23.480655Z", "cmd_type": "bash-command", "cmd": "msfconsole "}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:43:37.893614Z", "cmd_type": "bash-command", "cmd": "nmap -A 172.18.1.5"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:47:26.130920Z", "cmd_type": "bash-command", "cmd": "ip a"}

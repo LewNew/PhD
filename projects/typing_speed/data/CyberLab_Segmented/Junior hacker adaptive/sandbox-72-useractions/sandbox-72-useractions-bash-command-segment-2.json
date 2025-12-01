@@ -1,0 +1,29 @@
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:35:15.217Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:35:45.085Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:35:46.034Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:35:59.517Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:00.236Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:21.546Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:22.785Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:30.208Z", "cmd_type": "bash-command", "cmd": "cd user-access/"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:31.074Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:33.666Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:39.499Z", "cmd_type": "bash-command", "cmd": "cd debian/"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:36:40.456Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:15.530Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:24.923Z", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:26.430Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:45.222Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:53.980Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:55.718Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:37:56.801Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:00.427Z", "cmd_type": "bash-command", "cmd": "cd debian/"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:01.638Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:03.766Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:09.718Z", "cmd_type": "bash-command", "cmd": "cd user-access/"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:11.711Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:15.231Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:46.956Z", "cmd_type": "bash-command", "cmd": "su - root"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:38:49.019Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:39:05.101Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "74", "timestamp_str": "2021-05-28T08:39:05.736Z", "cmd_type": "bash-command", "cmd": "ls"}

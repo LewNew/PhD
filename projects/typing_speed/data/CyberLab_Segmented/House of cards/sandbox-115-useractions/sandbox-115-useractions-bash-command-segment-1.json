@@ -1,0 +1,11 @@
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:35:24.276798Z", "cmd_type": "bash-command", "cmd": "libssh"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:37:16.328164Z", "cmd_type": "bash-command", "cmd": "ssh"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:37:33.211558Z", "cmd_type": "bash-command", "cmd": "ssh -p"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:38:09.352460Z", "cmd_type": "bash-command", "cmd": "ssh --p"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:38:19.182569Z", "cmd_type": "bash-command", "cmd": "ssh -p -w"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:40:50.157080Z", "cmd_type": "bash-command", "cmd": "nmap -sV"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:53:55.489787Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T10:56:27.147443Z", "cmd_type": "bash-command", "cmd": "service postgresql start"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:09:46.098986Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:36:35.249178Z", "cmd_type": "bash-command", "cmd": "ssh alice starwars"}
+{"sandbox_id": "115", "timestamp_str": "2019-09-19T11:39:47.998453Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5 "}

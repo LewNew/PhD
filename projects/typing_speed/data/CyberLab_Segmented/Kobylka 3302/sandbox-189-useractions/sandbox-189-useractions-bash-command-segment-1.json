@@ -1,0 +1,9 @@
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:24:45.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 100.100.100.2"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:26:24.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.135.83"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:27:53.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.135.83"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:27:53.1+02:00", "cmd_type": "bash-command", "cmd": "OUTPUT:"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:27:54.0+02:00", "cmd_type": "bash-command", "cmd": "OUTPUT:"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:27:54.1+02:00", "cmd_type": "bash-command", "cmd": "MISC:"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:38:56.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:40:16.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.14"}
+{"sandbox_id": "189", "timestamp_str": "2019-12-12T10:49:04.0+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

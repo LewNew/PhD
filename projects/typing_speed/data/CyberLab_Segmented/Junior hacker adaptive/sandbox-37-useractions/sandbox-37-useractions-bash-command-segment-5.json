@@ -1,0 +1,34 @@
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:15:57.305Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:16:07.203Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:17:16.385Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:18:44.469Z", "cmd_type": "bash-command", "cmd": "ls Documents/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:18:51.173Z", "cmd_type": "bash-command", "cmd": "ls -a Documents/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:19:39.081Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:21:07.311Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:21:30.440Z", "cmd_type": "bash-command", "cmd": "ls -la Documents/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:23:09.261Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:25:53.679Z", "cmd_type": "bash-command", "cmd": "find . -name .invoices2019.zip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:26:57.242Z", "cmd_type": "bash-command", "cmd": "find . -name *.zip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:29:26.608Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:29:32.461Z", "cmd_type": "bash-command", "cmd": "cd /home/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:29:50.888Z", "cmd_type": "bash-command", "cmd": "ls Documents/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:29:54.661Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:30:31.172Z", "cmd_type": "bash-command", "cmd": "cd root/"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:30:31.172Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:32:10.315Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:32:20.132Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:32:22.746Z", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:34:29.057Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:35:01.645Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:35:13.680Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:35:15.114Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:35:19.930Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:36:20.760Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:37:25.303Z", "cmd_type": "bash-command", "cmd": "fcrack -D - /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:37:43.167Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:38:14.895Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:39:47.203Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:39:47.411Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:40:37.034Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u /usr/share/wordlists/fasttrack.txt /somewhereovertherainbow"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:42:41.587Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u -p /usr/share/wordlists/fasttrack.txt /Documents/invoices2019.zip"}
+{"sandbox_id": "37", "timestamp_str": "2020-12-02T10:42:53.890Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

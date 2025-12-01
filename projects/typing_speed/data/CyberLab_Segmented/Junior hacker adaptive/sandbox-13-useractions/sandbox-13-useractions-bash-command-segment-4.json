@@ -1,0 +1,18 @@
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:13:10.605Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:13:21.648Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:14:08.407Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:14:16.228Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:14:34.752Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:15:27.529Z", "cmd_type": "bash-command", "cmd": "ls -la Desktop/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:15:35.833Z", "cmd_type": "bash-command", "cmd": "cd Desktop/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:15:36.963Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:15:40.045Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:15:44.455Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:16:03.585Z", "cmd_type": "bash-command", "cmd": "You should really use find instead."}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:16:03.623Z", "cmd_type": "bash-command", "cmd": "find <dir> -iname \\*.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:16:03.693Z", "cmd_type": "bash-command", "cmd": "Example: to search for all .zip files in current directory and all sub-directories try this:"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:16:08.370Z", "cmd_type": "bash-command", "cmd": "find . -iname \\*.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:16:29.763Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:17:07.714Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:17:48.410Z", "cmd_type": "bash-command", "cmd": "find . -iname \\*.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:17:52.879Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

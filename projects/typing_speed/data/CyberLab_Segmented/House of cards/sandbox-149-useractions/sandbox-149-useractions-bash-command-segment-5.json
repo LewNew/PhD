@@ -1,0 +1,7 @@
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:53:12.403221Z", "cmd_type": "bash-command", "cmd": "ssh -p22 172.18.1.5"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:55:26.376038Z", "cmd_type": "bash-command", "cmd": "sudo service ssh restart"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:55:40.181910Z", "cmd_type": "bash-command", "cmd": "ssh -p22 172.18.1.5"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:55:51.083890Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:58:49.536279Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T21:59:38.438694Z", "cmd_type": "bash-command", "cmd": "ssh -help"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T22:00:30.940593Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

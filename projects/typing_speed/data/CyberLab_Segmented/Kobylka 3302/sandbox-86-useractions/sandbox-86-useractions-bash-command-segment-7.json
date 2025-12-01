@@ -1,0 +1,8 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:59:44.814037+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:00:21.458526+02:00", "cmd_type": "bash-command", "cmd": "man xclip"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:00:39.230265+02:00", "cmd_type": "bash-command", "cmd": "xclip -selection c -o > .ssh/id_rsa"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:00:46.330202+02:00", "cmd_type": "bash-command", "cmd": "vim .ssh/id_rsa"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:01:12.743438+02:00", "cmd_type": "bash-command", "cmd": "vim .ssh/id_rsa.pub"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:01:21.537024+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:01:46.488129+02:00", "cmd_type": "bash-command", "cmd": "chmod 0600 /root/.ssh/id_rsa"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:01:48.239907+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}

@@ -1,0 +1,2 @@
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:36:48.780Z", "cmd_type": "bash-command", "cmd": "sudo login"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:37:31.645Z", "cmd_type": "bash-command", "cmd": "ls"}

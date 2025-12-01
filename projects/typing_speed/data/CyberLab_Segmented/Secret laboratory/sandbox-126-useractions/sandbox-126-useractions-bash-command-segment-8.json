@@ -1,0 +1,16 @@
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:59:43.411Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:38.120Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:39.287Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:39.488Z", "cmd_type": "bash-command", "cmd": "msf"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:41.328Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:53.762Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:56.047Z", "cmd_type": "bash-command", "cmd": "msf6"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:02:05.097Z", "cmd_type": "bash-command", "cmd": "msf6"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:02:19.711Z", "cmd_type": "bash-command", "cmd": "msfdb --version"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:02:29.527Z", "cmd_type": "bash-command", "cmd": "sudo msfdb init"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:02:58.046Z", "cmd_type": "bash-command", "cmd": "sudo msfdb init"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:03:34.476Z", "cmd_type": "bash-command", "cmd": "sudo msfdb start"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:03:34.504Z", "cmd_type": "bash-command", "cmd": "sudo msfdb start"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:04:12.752Z", "cmd_type": "bash-command", "cmd": "msfconsole --version"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:04:26.378Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:04:27.670Z", "cmd_type": "bash-command", "cmd": "clear"}

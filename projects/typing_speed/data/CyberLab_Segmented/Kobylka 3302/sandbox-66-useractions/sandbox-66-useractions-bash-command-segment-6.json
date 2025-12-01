@@ -1,0 +1,2 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:45:54.278806+02:00", "cmd_type": "bash-command", "cmd": "git clone github.com/jas502n/CVE-2019-15107"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T10:46:15.993888+02:00", "cmd_type": "bash-command", "cmd": "git clone https://github.com/jas502n/CVE-2019-15107"}

@@ -1,0 +1,6 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:23:28.641716+02:00", "cmd_type": "bash-command", "cmd": "echo \"eve:$6$024QHRGPtY7RBi.t$5mfgbDY10e7Q3HiWd2YcHRY2KWj7BRWobrSCe5kCBSw3ZMwEfFvxO625d9aQyswMr9hEGF79I1KvwswSzsklp/:18451:0:99999:7:::\" > shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:23:32.524389+02:00", "cmd_type": "bash-command", "cmd": "cat shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:23:48.157615+02:00", "cmd_type": "bash-command", "cmd": "nano shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:24:25.023355+02:00", "cmd_type": "bash-command", "cmd": "cat shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:24:39.240893+02:00", "cmd_type": "bash-command", "cmd": "unshadow passwd shadow > mypasswd.txt"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:24:53.128140+02:00", "cmd_type": "bash-command", "cmd": "john mypasswd.txt"}

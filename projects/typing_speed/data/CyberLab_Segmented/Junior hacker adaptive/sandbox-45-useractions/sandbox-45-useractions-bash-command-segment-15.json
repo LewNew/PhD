@@ -1,0 +1,12 @@
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:30:46.415Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:30:48.094Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:30:50.245Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:30:56.718Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:31:26.704Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt -u copy.zip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:31:40.453Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:32:09.554Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt copy.zip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:32:18.645Z", "cmd_type": "bash-command", "cmd": "history"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:32:40.226Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt copy.zip"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:32:48.245Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt copy.zip -u"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:32:59.098Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:33:16.254Z", "cmd_type": "bash-command", "cmd": "unzip -P IhateMyJob -d invoices"}

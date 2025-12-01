@@ -1,0 +1,14 @@
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:39:19.758Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:39:38.055Z", "cmd_type": "bash-command", "cmd": "cd Desktop/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:39:39.846Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:39:42.539Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:00.203Z", "cmd_type": "bash-command", "cmd": "cd Downloads/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:01.728Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:06.638Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:12.061Z", "cmd_type": "bash-command", "cmd": "cd Music/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:52.071Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:52.071Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:52.074Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:40:52.074Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:43:05.562Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:43:56.672Z", "cmd_type": "bash-command", "cmd": "man nmap"}

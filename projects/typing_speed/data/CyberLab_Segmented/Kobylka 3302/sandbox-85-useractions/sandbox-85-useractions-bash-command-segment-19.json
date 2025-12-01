@@ -1,0 +1,3 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T11:34:51.943139+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T11:34:53.153795+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T11:34:58.372447+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py"}

@@ -1,0 +1,6 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:15:23.381939+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:15:45.517140+02:00", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:16:05.072271+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:17:27.166238+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:17:33.158779+02:00", "cmd_type": "bash-command", "cmd": "cat ssh2john.py"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:18:53.644076+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py"}

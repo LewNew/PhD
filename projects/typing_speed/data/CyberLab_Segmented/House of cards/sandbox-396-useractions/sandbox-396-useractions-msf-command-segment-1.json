@@ -1,0 +1,2 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:46:50.311978Z", "cmd_type": "msf-command", "cmd": "workspace"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:47:00.207530Z", "cmd_type": "msf-command", "cmd": "search openssh"}

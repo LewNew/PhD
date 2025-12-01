@@ -1,0 +1,15 @@
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:34:49.126Z", "cmd_type": "bash-command", "cmd": "/root"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:35:15.437Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:35:27.274Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:35:32.667Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:36:07.061Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:39:22.935Z", "cmd_type": "bash-command", "cmd": "--help"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:40:05.661Z", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:41:02.202Z", "cmd_type": "bash-command", "cmd": "ipconfig -a"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:43:51.566Z", "cmd_type": "bash-command", "cmd": "/root"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:43:59.303Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:44:06.618Z", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:44:21.341Z", "cmd_type": "bash-command", "cmd": "iconfig"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:44:38.174Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:45:55.490Z", "cmd_type": "bash-command", "cmd": "ifconfig eth0"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:47:36.815Z", "cmd_type": "bash-command", "cmd": "systemctl"}

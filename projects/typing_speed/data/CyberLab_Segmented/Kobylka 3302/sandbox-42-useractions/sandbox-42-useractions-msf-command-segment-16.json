@@ -1,0 +1,5 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:14:54.681781+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"find -name ecdsa_key\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:16:00.103241+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"find -fname *ecdsa_key\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:16:24.497136+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"find -fname ssh_host_ecdsa_key\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:16:38.443754+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"pwd\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:16:56.935908+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"ls\""}

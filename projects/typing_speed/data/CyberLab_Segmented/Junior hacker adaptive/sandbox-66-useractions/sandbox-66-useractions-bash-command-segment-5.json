@@ -1,0 +1,5 @@
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:54:45.299Z", "cmd_type": "bash-command", "cmd": "su root"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:54:55.332Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:54:56.342Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:55:50.031Z", "cmd_type": "bash-command", "cmd": "nano wordlist.txt"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:56:52.648Z", "cmd_type": "bash-command", "cmd": "ls"}

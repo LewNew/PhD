@@ -1,0 +1,6 @@
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:12:29.0+02:00", "cmd_type": "bash-command", "cmd": "nmap web"}
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:14:03.0+02:00", "cmd_type": "bash-command", "cmd": "vim ssh2john.py "}
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:19:41.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -h web"}
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:19:59.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -h http://web"}
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:20:06.0+02:00", "cmd_type": "bash-command", "cmd": "ping web"}
+{"sandbox_id": "181", "timestamp_str": "2019-12-12T10:20:32.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -h 172.18.1.5"}

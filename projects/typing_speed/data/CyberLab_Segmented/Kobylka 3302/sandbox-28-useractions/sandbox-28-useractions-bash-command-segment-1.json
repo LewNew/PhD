@@ -1,0 +1,10 @@
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:19:31.831Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:21:56.763Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:22:46.920Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:22:54.327Z", "cmd_type": "bash-command", "cmd": "cat ssh2john.py"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:23:07.739Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:23:52.270Z", "cmd_type": "bash-command", "cmd": "man nmap"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:26:45.017Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:28:52.578Z", "cmd_type": "bash-command", "cmd": "man nmap"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:29:59.686Z", "cmd_type": "bash-command", "cmd": "nmap -sV -p 10000 172.18.1.5"}
+{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:35:44.795Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

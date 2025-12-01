@@ -1,0 +1,9 @@
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:52:31.785Z", "cmd_type": "bash-command", "cmd": "cat invoices2019/"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:52:34.805Z", "cmd_type": "bash-command", "cmd": "cd invoices2019/"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:52:35.609Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:52:40.342Z", "cmd_type": "bash-command", "cmd": "cat TAX157962.txt"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:52:52.721Z", "cmd_type": "bash-command", "cmd": "cat TAX15796249.txt"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:53:08.982Z", "cmd_type": "bash-command", "cmd": "cat TAX15796252.txt"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:53:12.940Z", "cmd_type": "bash-command", "cmd": "cat TAX15796259.txt"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:53:16.561Z", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:53:18.305Z", "cmd_type": "bash-command", "cmd": "exit"}

@@ -1,0 +1,12 @@
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:10:24.618Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:home/admin/personal/.invoices2019.zip ."}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:10:36.759Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:11:52.373Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip ."}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:12:00.801Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:12:03.135Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:12:16.242Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:13:45.849Z", "cmd_type": "bash-command", "cmd": "fcrackzip --use-unzip .invoices2019.zip"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:15:33.682Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:17:10.243Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:17:15.655Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force .invoices2019.zip"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:17:39.411Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force --use-unzip .invoices2019.zip"}
+{"sandbox_id": "34", "timestamp_str": "2020-12-02T10:18:58.568Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force .invoices2019.zip"}

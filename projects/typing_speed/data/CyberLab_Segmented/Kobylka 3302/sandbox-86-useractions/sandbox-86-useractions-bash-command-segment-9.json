@@ -1,0 +1,8 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:08:40.854206+02:00", "cmd_type": "bash-command", "cmd": "nc -l 12345"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:08:51.469981+02:00", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:09:14.823931+02:00", "cmd_type": "bash-command", "cmd": "vim shadow"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:09:51.372545+02:00", "cmd_type": "bash-command", "cmd": "vim passwd"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:10:01.956437+02:00", "cmd_type": "bash-command", "cmd": "unshadow shadow passwd"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:10:19.848745+02:00", "cmd_type": "bash-command", "cmd": "unshadow passwd shadow"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:10:29.057232+02:00", "cmd_type": "bash-command", "cmd": "unshadow passwd shadow > mypasswd"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:10:38.507617+02:00", "cmd_type": "bash-command", "cmd": "john mypasswd"}

@@ -1,0 +1,3 @@
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:04:44.697745+02:00", "cmd_type": "bash-command", "cmd": "wget http://raw.githubusercontent.com/petrmarinec/awdawd/master/FILE"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:04:46.574273+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:04:52.519951+02:00", "cmd_type": "bash-command", "cmd": "cat FILE"}

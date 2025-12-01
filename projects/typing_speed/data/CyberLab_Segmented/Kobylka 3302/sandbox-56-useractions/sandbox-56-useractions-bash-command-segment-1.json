@@ -1,0 +1,19 @@
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:21:04.976800+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.15"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:21:28.585228+02:00", "cmd_type": "bash-command", "cmd": "nmap -Pn 172.18.1.15"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:22:56.316263+02:00", "cmd_type": "bash-command", "cmd": "nmap -Pn -p- 172.18.1.15"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:25:02.651095+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:25:25.213481+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:26:08.307226+02:00", "cmd_type": "bash-command", "cmd": "nmap -sC 172.18.1.5"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:26:31.794548+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:27:04.461579+02:00", "cmd_type": "bash-command", "cmd": "nmap -sC -sV -p 10000 172.18.1.5"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:30:03.097222+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:33:32.466368+02:00", "cmd_type": "bash-command", "cmd": "searchsploit webmin"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:34:08.081602+02:00", "cmd_type": "bash-command", "cmd": "searchsploit -m exploits/linux/remote/47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:34:23.597887+02:00", "cmd_type": "bash-command", "cmd": "nano /usr/share/exploitdb/exploits/linux/remote/47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:34:47.299487+02:00", "cmd_type": "bash-command", "cmd": "chmod +x /usr/share/exploitdb/exploits/linux/remote/47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:35:00.399592+02:00", "cmd_type": "bash-command", "cmd": "cd /usr/share/exploitdb/exploits/linux/remote/"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:35:01.145256+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:35:23.526794+02:00", "cmd_type": "bash-command", "cmd": "./47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:38:57.993185+02:00", "cmd_type": "bash-command", "cmd": "ruby 47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:40:06.985275+02:00", "cmd_type": "bash-command", "cmd": "./47230.rb"}
+{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:40:19.508451+02:00", "cmd_type": "bash-command", "cmd": "nano 47230.rb"}

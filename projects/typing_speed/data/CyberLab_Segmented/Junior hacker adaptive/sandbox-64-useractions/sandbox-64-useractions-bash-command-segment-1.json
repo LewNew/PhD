@@ -1,0 +1,5 @@
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:27:02.741Z", "cmd_type": "bash-command", "cmd": "id"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:27:05.437Z", "cmd_type": "bash-command", "cmd": "whoami"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:27:26.967Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:28:22.494Z", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:28:25.168Z", "cmd_type": "bash-command", "cmd": "whoami"}

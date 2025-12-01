@@ -1,0 +1,8 @@
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:17:41.0+02:00", "cmd_type": "bash-command", "cmd": "john2ssh"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:17:51.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:17:56.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py id_rsa "}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:18:05.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py id_rsa > rsa_key"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:18:36.0+02:00", "cmd_type": "bash-command", "cmd": "/root/.john/"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:18:41.0+02:00", "cmd_type": "bash-command", "cmd": "/root/.john/sessions/"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:18:57.0+02:00", "cmd_type": "bash-command", "cmd": "john"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:19:15.0+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt rsa_key "}

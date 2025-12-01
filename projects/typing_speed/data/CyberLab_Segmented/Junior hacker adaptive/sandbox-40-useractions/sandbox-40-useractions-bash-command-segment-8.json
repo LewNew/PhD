@@ -1,0 +1,5 @@
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T08:46:38.885Z", "cmd_type": "bash-command", "cmd": "nmap -F 10.1.26.1"}
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T08:46:48.209Z", "cmd_type": "bash-command", "cmd": "nmap -F 10.1.26.2"}
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T08:46:56.246Z", "cmd_type": "bash-command", "cmd": "nmap -F 10.1.26.4"}
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T08:47:10.091Z", "cmd_type": "bash-command", "cmd": "nmap -F 10.1.26.9"}
+{"sandbox_id": "40", "timestamp_str": "2021-05-25T08:47:24.709Z", "cmd_type": "bash-command", "cmd": "nmap -F 10.1.26.254"}

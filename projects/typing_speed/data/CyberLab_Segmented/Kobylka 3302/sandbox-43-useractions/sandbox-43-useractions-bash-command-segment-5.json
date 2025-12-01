@@ -1,0 +1,2 @@
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:25:57.755653+02:00", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:27:05.560517+02:00", "cmd_type": "bash-command", "cmd": "ifconfig"}

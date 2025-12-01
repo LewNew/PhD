@@ -1,0 +1,4 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:31:03.838106+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 0.0.0.0"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:31:10.732753+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:32:51.280398+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:34:15.239076+02:00", "cmd_type": "msf-command", "cmd": "show options"}

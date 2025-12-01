@@ -1,0 +1,2 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T11:23:53.274686+02:00", "cmd_type": "bash-command", "cmd": "arp -a"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T11:24:51.932434+02:00", "cmd_type": "bash-command", "cmd": "nmap 147.251.6.10"}

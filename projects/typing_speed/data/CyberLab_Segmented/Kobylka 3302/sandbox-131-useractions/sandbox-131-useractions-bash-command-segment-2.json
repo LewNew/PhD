@@ -1,0 +1,14 @@
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:44:35.452726+02:00", "cmd_type": "bash-command", "cmd": "man nmap"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:45:48.453985+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV -p 10000 172.18.1.5"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:48:34.593303+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:01.399064+02:00", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:05.216818+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:13.992530+02:00", "cmd_type": "bash-command", "cmd": "cd /home/"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:16.758032+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:29.099573+02:00", "cmd_type": "bash-command", "cmd": "ls debian/"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:49:35.841437+02:00", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:50:08.186248+02:00", "cmd_type": "bash-command", "cmd": "ls Documents/"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:50:18.884697+02:00", "cmd_type": "bash-command", "cmd": "ls Downloads/"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:52:48.388590+02:00", "cmd_type": "bash-command", "cmd": "man nmap"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:57:33.946700+02:00", "cmd_type": "bash-command", "cmd": "man metasploit"}
+{"sandbox_id": "131", "timestamp_str": "2020-05-06T16:58:35.751490+02:00", "cmd_type": "bash-command", "cmd": "metasploit"}

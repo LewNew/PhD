@@ -1,0 +1,2 @@
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T11:22:50.171669Z", "cmd_type": "bash-command", "cmd": "vi exploit.py"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-19T11:23:57.351792Z", "cmd_type": "bash-command", "cmd": "msfconsole "}

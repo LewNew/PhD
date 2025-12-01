@@ -1,0 +1,21 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:03:49.891122Z", "cmd_type": "bash-command", "cmd": "service postgresql status"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:03:59.752270Z", "cmd_type": "bash-command", "cmd": "service postgresql restart"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:04:01.593243Z", "cmd_type": "bash-command", "cmd": "service postgresql status"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:04:29.329139Z", "cmd_type": "bash-command", "cmd": "service postgresql"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:04:36.016634Z", "cmd_type": "bash-command", "cmd": "service postgresql reload"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:04:38.612046Z", "cmd_type": "bash-command", "cmd": "service postgresql"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:04:40.563570Z", "cmd_type": "bash-command", "cmd": "service postgresql status"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:05:40.617878Z", "cmd_type": "bash-command", "cmd": "service postgresql stop"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:05:44.847559Z", "cmd_type": "bash-command", "cmd": "service postgresql start"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:05:51.967578Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:01.958027Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:01.993822Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:04.417969Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:04.440162Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:28.610130Z", "cmd_type": "bash-command", "cmd": "systemctl daemon-reload"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:35.094188Z", "cmd_type": "bash-command", "cmd": "systemctl restart postgresql"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:43.554889Z", "cmd_type": "bash-command", "cmd": "service postgresql status"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:56.017970Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:06:56.033314Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:07:51.733835Z", "cmd_type": "bash-command", "cmd": "systemctl list-dependencies postgresql"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:08:41.244046Z", "cmd_type": "bash-command", "cmd": "msfconsole "}

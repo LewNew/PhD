@@ -1,0 +1,8 @@
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:20.542Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:22.779Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:25.084Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:39.410Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:43.789Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:44.732Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:36:47.632Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T09:37:14.648Z", "cmd_type": "bash-command", "cmd": "ls -a"}

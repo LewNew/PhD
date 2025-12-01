@@ -1,0 +1,10 @@
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:44:35+01:00", "cmd_type": "bash-command", "cmd": "locate wordlist"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:47:02+01:00", "cmd_type": "bash-command", "cmd": "fcrack -u -D -p /usr/share/wordlists/rockyou.txt /home/invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:47:12+01:00", "cmd_type": "bash-command", "cmd": "fcrack -u -D -p /usr/share/wordlists/rockyou.txt invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:47:25+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt /home/invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:47:53+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:48:06+01:00", "cmd_type": "bash-command", "cmd": "locate wordlist"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:48:33+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt.gz /home/invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:48:46+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt.gz /home/invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:49:36+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt.gz /home/invoices2019.zip"}
+{"sandbox_id": "13", "timestamp_str": "2021-02-12T11:50:03+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt /home/invoices2019.zip"}

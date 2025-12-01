@@ -1,0 +1,8 @@
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:22:26.984Z", "cmd_type": "bash-command", "cmd": "scp -r admin@10.1.26.9:~/Mydata.xlsx ~/hacking/"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:02.729Z", "cmd_type": "bash-command", "cmd": "scp -r admin@10.1.26.9:Mydata.xlsx ~/hacking/"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:17.798Z", "cmd_type": "bash-command", "cmd": "scp -r admin@10.1.26.9:~/Mydata.xlsx ~/hacking/"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:23.874Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:43.017Z", "cmd_type": "bash-command", "cmd": "scp -r admin@10.1.26.9:~/personal/Mydata.xlsx ~/hacking/"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:51.491Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:51.492Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:23:52.120Z", "cmd_type": "bash-command", "cmd": "ls"}

@@ -1,0 +1,5 @@
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:53:07.802Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:53:57.957Z", "cmd_type": "bash-command", "cmd": "22 tcp open nfs"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:54:15.292Z", "cmd_type": "bash-command", "cmd": "/22 tcp open nfs"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:54:22.893Z", "cmd_type": "bash-command", "cmd": "22/tcp open nfs"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T08:54:44.041Z", "cmd_type": "bash-command", "cmd": "2049/tcp open nfs"}

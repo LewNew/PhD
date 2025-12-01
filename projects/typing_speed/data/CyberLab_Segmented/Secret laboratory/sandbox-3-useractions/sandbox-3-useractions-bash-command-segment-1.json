@@ -1,0 +1,22 @@
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:01:37.252Z", "cmd_type": "bash-command", "cmd": "scan"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:03:12.977Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:03:18.942Z", "cmd_type": "bash-command", "cmd": "recv.sh"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:03:44.461Z", "cmd_type": "bash-command", "cmd": "./recv"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:03:48.279Z", "cmd_type": "bash-command", "cmd": "./recv.sh"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:04:06.007Z", "cmd_type": "bash-command", "cmd": "bash recv.sh"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:05:49.953Z", "cmd_type": "bash-command", "cmd": "./recv.sh"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:08:55.162Z", "cmd_type": "bash-command", "cmd": "nmap"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:09:55.028Z", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:10:40.663Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:12:51.347Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:13:17.970Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:13:48.456Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:13:59.012Z", "cmd_type": "bash-command", "cmd": "nmap -sC 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:16:12.474Z", "cmd_type": "bash-command", "cmd": "nmap -sC 10.1.26.9 -p 10000"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:17:21.558Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9 -p 10000"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:17:48.190Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 -sV 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:17:59.263Z", "cmd_type": "bash-command", "cmd": "nmap -A  10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:19:57.686Z", "cmd_type": "bash-command", "cmd": "nmap -sV -p 10000 10.1.26.9"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:21:14.545Z", "cmd_type": "bash-command", "cmd": "nmap -sV -p 10.1.26.9 10000"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:22:27.081Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9 -p 10000 -sV"}
+{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:26:12.875Z", "cmd_type": "bash-command", "cmd": "apt list --installed"}

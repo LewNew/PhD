@@ -1,0 +1,22 @@
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:20:00+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -p"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:20:21+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -p invoices2019.zip /usr/share/wordlists/"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:20:41+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -p invoices2019.zip /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:20:59+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:18+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:23+01:00", "cmd_type": "bash-command", "cmd": "cd Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:25+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:29+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:45+01:00", "cmd_type": "bash-command", "cmd": "cd Document"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:21:46+01:00", "cmd_type": "bash-command", "cmd": "cd Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:22:04+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:22:25+01:00", "cmd_type": "bash-command", "cmd": "cd Documents"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:22:31+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -p -D /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:22:51+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -p -D invoices2019/zip /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:23:13+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -p -D /usr/share/wordlists/fasttrack.txt invoices2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:23:22+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -p -D invoices2019.zip /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:23:37+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p invoices2019.zip /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:23:53+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt invoice2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:24:22+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt /Documents/invoice2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:24:37+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt invoice2019.zip"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:24:40+01:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "10", "timestamp_str": "2021-02-11T13:24:48+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /usr/share/wordlists/fasttrack.txt invoices2019.zip"}

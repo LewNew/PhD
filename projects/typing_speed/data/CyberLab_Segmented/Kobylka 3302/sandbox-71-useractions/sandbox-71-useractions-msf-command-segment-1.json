@@ -1,0 +1,1 @@
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:28:48.834108+02:00", "cmd_type": "msf-command", "cmd": "db_nmap 172.18.1.5"}

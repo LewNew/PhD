@@ -1,0 +1,13 @@
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:31:43.046234Z", "cmd_type": "bash-command", "cmd": "nmap -v -sn 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:33:02.977928Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:35:11.301899Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:38:01.355822Z", "cmd_type": "bash-command", "cmd": "ipconf"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:41:03.959231Z", "cmd_type": "bash-command", "cmd": "nmap -p 1337-sV 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:41:21.548238Z", "cmd_type": "bash-command", "cmd": "nmap -p 1337 -sV 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:44:43.588719Z", "cmd_type": "bash-command", "cmd": "msf5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:47:40.901854Z", "cmd_type": "bash-command", "cmd": "msfconsole "}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:51:16.995501Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 22 "}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:51:34.729961Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 1337"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:51:55.588939Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:53:30.500251Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5 22"}
+{"sandbox_id": "148", "timestamp_str": "2019-09-19T10:53:41.426436Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 22"}

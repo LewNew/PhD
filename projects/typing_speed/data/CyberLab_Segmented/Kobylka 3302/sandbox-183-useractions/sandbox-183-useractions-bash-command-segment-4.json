@@ -1,0 +1,5 @@
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:46:08.0+02:00", "cmd_type": "bash-command", "cmd": "ifconfig "}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:47:44.0+02:00", "cmd_type": "bash-command", "cmd": "ll"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:47:45.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:47:47.0+02:00", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "183", "timestamp_str": "2019-12-12T10:48:18.0+02:00", "cmd_type": "bash-command", "cmd": "ls -a"}

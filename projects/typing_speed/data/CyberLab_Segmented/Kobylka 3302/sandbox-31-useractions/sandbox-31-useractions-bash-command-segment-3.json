@@ -1,0 +1,11 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:48:34.713Z", "cmd_type": "bash-command", "cmd": "nmap"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:48:34.713Z", "cmd_type": "bash-command", "cmd": "17 2.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:48:34.714Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:48:34.714Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:48:54.705Z", "cmd_type": "bash-command", "cmd": "nmap -v 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:49:17.630Z", "cmd_type": "bash-command", "cmd": "nc -z -nv 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:49:22.847Z", "cmd_type": "bash-command", "cmd": "nc -z -nv 172.18.1.5 20-80"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:49:55.246Z", "cmd_type": "bash-command", "cmd": "sudo us 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:50:18.150Z", "cmd_type": "bash-command", "cmd": "nmap -sU 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:51:16.546Z", "cmd_type": "bash-command", "cmd": "sudo nmap -sT -p- 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:51:46.742Z", "cmd_type": "bash-command", "cmd": "nmap --help"}

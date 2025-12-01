@@ -1,0 +1,12 @@
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:51:46.644246+02:00", "cmd_type": "msf-command", "cmd": "cd .."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:52:09.344642+02:00", "cmd_type": "msf-command", "cmd": "cd home"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:52:57.655135+02:00", "cmd_type": "msf-command", "cmd": "cd root"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:53:15.762374+02:00", "cmd_type": "msf-command", "cmd": "cd debian"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:53:23.617739+02:00", "cmd_type": "msf-command", "cmd": "cd"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:53:39.475979+02:00", "cmd_type": "msf-command", "cmd": "cd .."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:53:55.023792+02:00", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:54:25.843389+02:00", "cmd_type": "msf-command", "cmd": "cd .."}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:54:39.374234+02:00", "cmd_type": "msf-command", "cmd": "cd root"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:55:24.226253+02:00", "cmd_type": "msf-command", "cmd": "info"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:55:58.143959+02:00", "cmd_type": "msf-command", "cmd": "help search"}
+{"sandbox_id": "69", "timestamp_str": "2020-07-15T09:57:36.243+02:00", "cmd_type": "msf-command", "cmd": "search 1.920"}

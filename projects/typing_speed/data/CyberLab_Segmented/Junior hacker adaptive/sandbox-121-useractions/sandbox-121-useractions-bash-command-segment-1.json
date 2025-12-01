@@ -1,0 +1,9 @@
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T08:56:31.792Z", "cmd_type": "bash-command", "cmd": "ls /root/hacking/wordlist.txt"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T08:59:30.913Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T08:59:37.171Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26."}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T08:59:39.591Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.1"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:00:21.167Z", "cmd_type": "bash-command", "cmd": "arp"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:00:27.582Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.1"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:00:39.894Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.1-10"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:02:02.257Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.1-254"}
+{"sandbox_id": "121", "timestamp_str": "2020-12-11T09:04:50.806Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0-254"}

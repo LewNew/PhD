@@ -1,0 +1,6 @@
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:43:47.989Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:43:48.198Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:43:48.199Z", "cmd_type": "bash-command", "cmd": "httpd"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:43:48.199Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:44:48.409Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:44:56.800Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}

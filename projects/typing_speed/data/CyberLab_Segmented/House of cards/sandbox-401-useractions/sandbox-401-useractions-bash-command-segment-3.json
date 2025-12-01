@@ -1,0 +1,11 @@
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:14:50.706013Z", "cmd_type": "bash-command", "cmd": "wget http://pastebin.com/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:15:25.782168Z", "cmd_type": "bash-command", "cmd": "wget http://pastebin.com/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:16:06.866065Z", "cmd_type": "bash-command", "cmd": "wget http://pastebin.com/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:16:27.533121Z", "cmd_type": "bash-command", "cmd": "while true; do wget http://pastebin.com/raw/hz0dX16z && break; done"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:16:27.553276Z", "cmd_type": "bash-command", "cmd": "while true; do wget http://pastebin.com/raw/hz0dX16z && break; done"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:16:47.607859Z", "cmd_type": "bash-command", "cmd": "while true; do wget http://pastebin.com/raw/hz0dX16z && break; done"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:16:47.625864Z", "cmd_type": "bash-command", "cmd": "while true; do wget http://pastebin.com/raw/hz0dX16z && break; done"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:17:51.820272Z", "cmd_type": "bash-command", "cmd": "wget http://104.20.209.21/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:18:35.886022Z", "cmd_type": "bash-command", "cmd": "wget http://104.20.209.21/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:18:40.863025Z", "cmd_type": "bash-command", "cmd": "wget http://pastebin.com/raw/hz0dX16z"}
+{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:21:03.266859Z", "cmd_type": "bash-command", "cmd": "cat hz0dX16z "}

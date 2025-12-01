@@ -1,0 +1,7 @@
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:12:44.740Z", "cmd_type": "bash-command", "cmd": "ssh2kali"}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:12:44.741Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:12:44.741Z", "cmd_type": "bash-command", "cmd": "ssh2kali.py"}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:13:56.933Z", "cmd_type": "bash-command", "cmd": "cd  Documents"}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:13:56.933Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:14:12.584Z", "cmd_type": "bash-command", "cmd": "python /usr/share/john/ssh2john.py key > key.hash"}
+{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:15:00.072Z", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/fasttrack.txt key.hash"}

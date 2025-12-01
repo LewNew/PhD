@@ -1,0 +1,5 @@
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:29:38.0+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:30:04.0+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_show_cgi_exec"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:30:06.0+02:00", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:30:46.0+02:00", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:32:04.0+02:00", "cmd_type": "msf-command", "cmd": "quit"}

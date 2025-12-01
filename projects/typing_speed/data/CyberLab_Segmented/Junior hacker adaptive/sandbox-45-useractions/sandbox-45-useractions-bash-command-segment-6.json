@@ -1,0 +1,3 @@
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:04:44.945Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip --brute--force"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:04:51.895Z", "cmd_type": "bash-command", "cmd": "fcrackzip --h"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:05:06.771Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -b"}

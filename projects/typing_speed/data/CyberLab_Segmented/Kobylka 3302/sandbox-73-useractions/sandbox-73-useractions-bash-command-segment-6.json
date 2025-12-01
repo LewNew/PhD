@@ -1,0 +1,2 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:30:04.263525+02:00", "cmd_type": "bash-command", "cmd": "john rsa_d"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:30:11.205496+02:00", "cmd_type": "bash-command", "cmd": "john john_rsa"}

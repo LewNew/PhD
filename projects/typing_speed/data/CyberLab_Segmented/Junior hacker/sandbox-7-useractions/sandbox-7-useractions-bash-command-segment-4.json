@@ -1,0 +1,15 @@
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:49:15+01:00", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:49:23+01:00", "cmd_type": "bash-command", "cmd": "ifconfig /all"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:49:26+01:00", "cmd_type": "bash-command", "cmd": "ifconfig all"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:49:44+01:00", "cmd_type": "bash-command", "cmd": "nmap 10.0.2.15 -p"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:49:51+01:00", "cmd_type": "bash-command", "cmd": "nmap -p 10.0.2.15"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:50:10+01:00", "cmd_type": "bash-command", "cmd": "nmap 10.0.2.15"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:50:53+01:00", "cmd_type": "bash-command", "cmd": "nmap -h 10.0.2.15"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:51:39+01:00", "cmd_type": "bash-command", "cmd": "nmap -f 10.0.2.15"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:53:06+01:00", "cmd_type": "bash-command", "cmd": "nmap 127.0.0.1"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:54:00+01:00", "cmd_type": "bash-command", "cmd": "ifconfig -a"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:54:24+01:00", "cmd_type": "bash-command", "cmd": "infconfig eth0"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:54:30+01:00", "cmd_type": "bash-command", "cmd": "ifconfig eth0"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:54:38+01:00", "cmd_type": "bash-command", "cmd": "ifconfig lo"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:55:30+01:00", "cmd_type": "bash-command", "cmd": "nmap -s -V"}
+{"sandbox_id": "7", "timestamp_str": "2021-02-09T12:55:40+01:00", "cmd_type": "bash-command", "cmd": "ifconfig"}

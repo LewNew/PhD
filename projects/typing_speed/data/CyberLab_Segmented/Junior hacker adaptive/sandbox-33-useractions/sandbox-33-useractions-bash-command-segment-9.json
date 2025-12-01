@@ -1,0 +1,12 @@
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:57:52.566Z", "cmd_type": "bash-command", "cmd": "fcrackzip ../.invoices2019.zip --dictionary"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:57:57.046Z", "cmd_type": "bash-command", "cmd": "fcrackzip ../.invoices2019.zip --dictionary wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:58:43.341Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u ../.invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:59:18.542Z", "cmd_type": "bash-command", "cmd": "fcrackzip -h"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:59:54.001Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:00:01.539Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt ../.invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:00:14.026Z", "cmd_type": "bash-command", "cmd": "cp ../.invoices2019.zip ."}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:00:17.797Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:00:25.709Z", "cmd_type": "bash-command", "cmd": "head wordlist.txt"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:00:34.917Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt | grep aaaaa"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:01:14.759Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v .invoices2019.zip"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:01:45.440Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u .invoices2019.zip"}

@@ -1,0 +1,10 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:53:56.238534+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:54:00.663037+02:00", "cmd_type": "bash-command", "cmd": "ls /home/"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:54:30.069480+02:00", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:54:33.687886+02:00", "cmd_type": "bash-command", "cmd": "netsh"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:04.221511+02:00", "cmd_type": "bash-command", "cmd": "ip"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:11.681274+02:00", "cmd_type": "bash-command", "cmd": "ip -V"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:20.021866+02:00", "cmd_type": "bash-command", "cmd": "ip address"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:40.215741+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:42.405422+02:00", "cmd_type": "bash-command", "cmd": "locate"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:55:46.661670+02:00", "cmd_type": "bash-command", "cmd": "locate id_rsa"}

@@ -1,0 +1,17 @@
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:29.392Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:29.875Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:33.135Z", "cmd_type": "bash-command", "cmd": "cd DOnw"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:35.713Z", "cmd_type": "bash-command", "cmd": "cd Downloads/"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:37.024Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:42.257Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:45.191Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:10:47.820Z", "cmd_type": "bash-command", "cmd": "ls -al"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:02.621Z", "cmd_type": "bash-command", "cmd": "cd Downloads/"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:13.117Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:15.317Z", "cmd_type": "bash-command", "cmd": "ls -al"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:18.479Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:20.044Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:26.043Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:27.466Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:29.798Z", "cmd_type": "bash-command", "cmd": "ls -al"}
+{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:11:33.766Z", "cmd_type": "bash-command", "cmd": "clear"}

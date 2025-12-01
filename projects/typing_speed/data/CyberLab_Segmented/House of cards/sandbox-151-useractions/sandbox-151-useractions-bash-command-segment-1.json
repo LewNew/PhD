@@ -1,0 +1,20 @@
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:29:09.992664Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:29:35.261923Z", "cmd_type": "bash-command", "cmd": "nmap -p 1-30 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:31:19.407138Z", "cmd_type": "bash-command", "cmd": "nmap -p 22 -sV 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:32:22.005952Z", "cmd_type": "bash-command", "cmd": "nmap -p 22 -sV --version-all 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:39:46.225043Z", "cmd_type": "bash-command", "cmd": "golismero "}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:40:08.174310Z", "cmd_type": "bash-command", "cmd": "golismero --help"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:40:38.760587Z", "cmd_type": "bash-command", "cmd": "nmap -p 22 -sV --version-all 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:41:04.730333Z", "cmd_type": "bash-command", "cmd": "nmap 00help"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:41:09.615700Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:46:49.894531Z", "cmd_type": "bash-command", "cmd": "nmap  172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:53:50.601088Z", "cmd_type": "bash-command", "cmd": "nmap -p 22 -sV --version-all -sC -A 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:56:26.346206Z", "cmd_type": "bash-command", "cmd": "nmap -p 1-9999 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:57:30.604058Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:58:23.938339Z", "cmd_type": "bash-command", "cmd": "nmap -p 23 -sV --version-all -sC -A 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:59:34.070321Z", "cmd_type": "bash-command", "cmd": "nmap -p 23 -sV --version-all -sC -A 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T10:59:40.895407Z", "cmd_type": "bash-command", "cmd": "nmap -p 23 -sV --version-all 172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:08:55.303758Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:09:19.130879Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:20:26.388476Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
+{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:26:41.880519Z", "cmd_type": "bash-command", "cmd": "cat /etc/shadow"}

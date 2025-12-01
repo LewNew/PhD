@@ -1,0 +1,11 @@
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:36:50.462Z", "cmd_type": "bash-command", "cmd": "su"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:37:10.906Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:37:11.730Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:37:14.315Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:37:15.877Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:37:27.519Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:38:16.777Z", "cmd_type": "bash-command", "cmd": "cd ~"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:38:17.446Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:38:20.262Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:38:21.719Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "27", "timestamp_str": "2021-05-25T08:39:23.012Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

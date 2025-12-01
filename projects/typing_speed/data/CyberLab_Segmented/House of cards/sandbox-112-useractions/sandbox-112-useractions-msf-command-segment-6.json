@@ -1,0 +1,3 @@
+{"sandbox_id": "112", "timestamp_str": "2019-09-19T11:30:29.711343Z", "cmd_type": "msf-command", "cmd": "set session 11295"}
+{"sandbox_id": "112", "timestamp_str": "2019-09-19T11:30:35.908628Z", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "112", "timestamp_str": "2019-09-19T11:30:39.622295Z", "cmd_type": "msf-command", "cmd": "exploit"}

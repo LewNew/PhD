@@ -1,0 +1,10 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:08:11.513Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:08:53.437Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9 -vvv"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:08:53.573Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9 -vvv"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:09:26.103Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9 -vvv"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:09:26.244Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9 -vvv"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:09:32.899Z", "cmd_type": "bash-command", "cmd": "cat /etc/passwd"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:10:05.229Z", "cmd_type": "bash-command", "cmd": "ls /home/kali/.ssh"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:10:10.293Z", "cmd_type": "bash-command", "cmd": "ls -la /home/kali/.ssh"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:10:16.999Z", "cmd_type": "bash-command", "cmd": "cat /etc/shadow"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:10:53.953Z", "cmd_type": "bash-command", "cmd": "ls -al /home/kali/.ssh"}

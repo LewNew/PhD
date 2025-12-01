@@ -1,0 +1,9 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:12:48.374357+02:00", "cmd_type": "bash-command", "cmd": "echo eve:$6$024QHRGPtY7RBi.t$5mfgbDY10e7Q3HiWd2YcHRY2KWj7BRWobrSCe5kCBSw3ZMwEfFvxO625d9aQyswMr9hEGF79I1KvwswSzsklp/:18451:0:99999:7::: > shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:12:53.745745+02:00", "cmd_type": "bash-command", "cmd": "cat shadow"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:13:26.397557+02:00", "cmd_type": "bash-command", "cmd": "echo eve:x:1003:1003::/home/eve:/bin/bash > passwd"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:13:28.481289+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:14:03.048495+02:00", "cmd_type": "bash-command", "cmd": "unshadow passwd shadow > mypasswd.txt"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:14:08.665405+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:14:15.370787+02:00", "cmd_type": "bash-command", "cmd": "cat mypasswd.txt"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:14:59.729418+02:00", "cmd_type": "bash-command", "cmd": "john mypasswd.txt"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:15:19.823568+02:00", "cmd_type": "bash-command", "cmd": "john shadow"}

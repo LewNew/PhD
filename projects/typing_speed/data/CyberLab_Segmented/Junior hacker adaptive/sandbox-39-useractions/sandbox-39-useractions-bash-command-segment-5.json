@@ -1,0 +1,3 @@
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:40:56.147Z", "cmd_type": "bash-command", "cmd": "Nmap scan report for 10.1.26.9"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:41:02.645Z", "cmd_type": "bash-command", "cmd": "nmap scan report for 10.1.26.9"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:41:22.287Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}

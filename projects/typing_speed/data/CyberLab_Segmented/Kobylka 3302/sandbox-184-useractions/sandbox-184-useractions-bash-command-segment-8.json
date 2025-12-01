@@ -1,0 +1,5 @@
+{"sandbox_id": "184", "timestamp_str": "2019-12-12T11:20:07.0+02:00", "cmd_type": "bash-command", "cmd": "ls -al"}
+{"sandbox_id": "184", "timestamp_str": "2019-12-12T11:20:45.0+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 sshkey_to_mailserver "}
+{"sandbox_id": "184", "timestamp_str": "2019-12-12T11:21:01.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i sshkey_encrypted database"}
+{"sandbox_id": "184", "timestamp_str": "2019-12-12T11:21:49.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i sshkey_to_mailserver "}
+{"sandbox_id": "184", "timestamp_str": "2019-12-12T11:22:06.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i sshkey_to_mailserver database"}

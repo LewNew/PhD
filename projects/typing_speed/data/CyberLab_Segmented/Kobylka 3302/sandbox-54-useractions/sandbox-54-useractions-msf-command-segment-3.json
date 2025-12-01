@@ -1,0 +1,5 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:59:09.441945+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:02:04.104414+02:00", "cmd_type": "msf-command", "cmd": "cd exploit"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:02:34.543644+02:00", "cmd_type": "msf-command", "cmd": "search exploit/linux/http"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:02:48.876757+02:00", "cmd_type": "msf-command", "cmd": "search exploit/linux/http/webmin"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:03:52.512966+02:00", "cmd_type": "msf-command", "cmd": "info exploit/linux/http/webmin_packageup_rce"}

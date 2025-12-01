@@ -1,0 +1,2 @@
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:24:32.031Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:25:01.306Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

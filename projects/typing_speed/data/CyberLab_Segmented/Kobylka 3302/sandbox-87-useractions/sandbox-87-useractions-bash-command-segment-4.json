@@ -1,0 +1,14 @@
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:13:05.360270+02:00", "cmd_type": "bash-command", "cmd": "ping rm /home/eve/* -rf"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:13:05.408754+02:00", "cmd_type": "bash-command", "cmd": "logout"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:13:05.432326+02:00", "cmd_type": "bash-command", "cmd": "ping 10.1.18.22"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:13:11.655262+02:00", "cmd_type": "bash-command", "cmd": "ping 10.1.18.22"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:13:17.880438+02:00", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:14:34.705669+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:15:28.804972+02:00", "cmd_type": "bash-command", "cmd": "ls ~/.ssh"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:15:38.827448+02:00", "cmd_type": "bash-command", "cmd": "ssh-keygen"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:15:49.934813+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:15:53.788305+02:00", "cmd_type": "bash-command", "cmd": "ls ~/.ssh"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:15:59.508662+02:00", "cmd_type": "bash-command", "cmd": "cd ~/.ssh"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:16:00.943518+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:16:07.279158+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa.pub"}
+{"sandbox_id": "87", "timestamp_str": "2020-07-15T10:17:52.447908+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@172.18.1.5"}

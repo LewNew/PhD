@@ -1,0 +1,12 @@
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:37:09.804Z", "cmd_type": "bash-command", "cmd": "cd Documents/"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:37:13.085Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:37:20.089Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:38:05.585Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:38:18.448Z", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:38:41.373Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:41:14.271Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:41:16.759Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:43:29.659Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:45:55.724Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26/24"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:46:53.742Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.0/24"}
+{"sandbox_id": "42", "timestamp_str": "2021-05-25T08:49:41.749Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

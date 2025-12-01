@@ -1,0 +1,1 @@
+{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:30:09.426Z", "cmd_type": "bash-command", "cmd": "use exploit/unix/webapp/webmin/backdoor"}

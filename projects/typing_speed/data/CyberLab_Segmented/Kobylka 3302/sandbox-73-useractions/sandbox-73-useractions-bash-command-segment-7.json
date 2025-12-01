@@ -1,0 +1,22 @@
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:33:46.314748+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py /tmp.k > rsa2"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:33:53.935236+02:00", "cmd_type": "bash-command", "cmd": "cat rsa_d"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:34:14.475191+02:00", "cmd_type": "bash-command", "cmd": "john ---h"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:34:21.031595+02:00", "cmd_type": "bash-command", "cmd": "john -h"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:34:44.990598+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:34:56.598942+02:00", "cmd_type": "bash-command", "cmd": "ls Documents/m"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:35:00.383075+02:00", "cmd_type": "bash-command", "cmd": "ls Documents/"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:35:05.206202+02:00", "cmd_type": "bash-command", "cmd": "ls Documents/ -laR"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:35:52.422036+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:36:36.270321+02:00", "cmd_type": "bash-command", "cmd": "john john_rsa --wordlist /usr/share/wordlists/rockyou.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:36:52.721489+02:00", "cmd_type": "bash-command", "cmd": "john --show"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:36:56.802153+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:37:10.358850+02:00", "cmd_type": "bash-command", "cmd": "john rsa_d --show"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:37:51.806466+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:38:00.424444+02:00", "cmd_type": "bash-command", "cmd": "ls fasttrack.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:38:06.593441+02:00", "cmd_type": "bash-command", "cmd": "ls -l"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:38:31.462631+02:00", "cmd_type": "bash-command", "cmd": "john john_rsa --wordlist /usr/share/wordlists/rockyou.txt.gz"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:38:40.556819+02:00", "cmd_type": "bash-command", "cmd": "john john_rsa --wordlist /usr/share/wordlists/rockyou.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:39:10.523889+02:00", "cmd_type": "bash-command", "cmd": "tar -xvf rockyou.txt.gz"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:39:34.401364+02:00", "cmd_type": "bash-command", "cmd": "head rockyou.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:40:34.254401+02:00", "cmd_type": "bash-command", "cmd": "john rsa2 --wordlist /usr/share/wordlists/rockyou.txt"}
+{"sandbox_id": "73", "timestamp_str": "2020-07-15T10:41:20.283437+02:00", "cmd_type": "bash-command", "cmd": "ls"}

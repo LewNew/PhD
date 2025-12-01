@@ -1,0 +1,30 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:12.207806+02:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:13.347878+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:17.192195+02:00", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:20.575770+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:23.710266+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:31.617816+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:33.107192+02:00", "cmd_type": "bash-command", "cmd": "ls /"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:41:42.115494+02:00", "cmd_type": "bash-command", "cmd": "ls /home/"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:17.518508+02:00", "cmd_type": "bash-command", "cmd": "meterpreter"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:54.294664+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:54.527669+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:57.290232+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:58.102501+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:42:58.259538+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:05.634079+02:00", "cmd_type": "bash-command", "cmd": "john2ssh id_rsa > hash"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:12.939107+02:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:13.752606+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:16.620367+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:17.248812+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:17.505923+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:19.654766+02:00", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:20.440814+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:20.680792+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:23.749567+02:00", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:24.676407+02:00", "cmd_type": "bash-command", "cmd": "cllear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:26.855208+02:00", "cmd_type": "bash-command", "cmd": "lclear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:27.336832+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:30.073034+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:43:31.016689+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:44:04.951567+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

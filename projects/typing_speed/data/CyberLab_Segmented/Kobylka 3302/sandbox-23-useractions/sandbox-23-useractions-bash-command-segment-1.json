@@ -1,0 +1,11 @@
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:22:31.997Z", "cmd_type": "bash-command", "cmd": "ipconfig"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:22:39.673Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:24:04.530Z", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:25:09.037Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:25:13.605Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:26:02.041Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:28:21.296Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -sV"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:29:04.240Z", "cmd_type": "bash-command", "cmd": "nmap -sV"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:30:12.305Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:31:27.341Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:31:28.821Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}

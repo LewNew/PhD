@@ -1,0 +1,4 @@
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:23:31.333Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:24:33.416Z", "cmd_type": "bash-command", "cmd": "cd Desktop/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:24:36.000Z", "cmd_type": "bash-command", "cmd": "ls -la"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T09:25:24.900Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

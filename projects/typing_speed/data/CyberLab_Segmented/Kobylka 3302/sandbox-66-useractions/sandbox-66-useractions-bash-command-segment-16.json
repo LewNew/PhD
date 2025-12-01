@@ -1,0 +1,1 @@
+{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:39:00.635075+02:00", "cmd_type": "bash-command", "cmd": "scp -r * eve@10.1.17.4:/home/eve/"}

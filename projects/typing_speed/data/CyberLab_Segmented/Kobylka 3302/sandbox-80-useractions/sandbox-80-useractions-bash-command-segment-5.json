@@ -1,0 +1,11 @@
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:28:35.789029+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:29:17.449506+02:00", "cmd_type": "bash-command", "cmd": "./ssh2john.py key > key2.hash"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:29:26.619349+02:00", "cmd_type": "bash-command", "cmd": "john key2.hash"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:29:55.632800+02:00", "cmd_type": "bash-command", "cmd": "locate *ockyou*"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:30:14.699690+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt key2.hash"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:31:57.378417+02:00", "cmd_type": "bash-command", "cmd": "ssh -h"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:32:45.415416+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key eve@10.1.17.4"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:33:02.634654+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 key"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:33:04.733434+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key eve@10.1.17.4"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:33:31.937186+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key eve@10.1.17.4"}
+{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:37:48.473525+02:00", "cmd_type": "bash-command", "cmd": "cat /usr/share/wordlists/rockyou.txt |wc"}

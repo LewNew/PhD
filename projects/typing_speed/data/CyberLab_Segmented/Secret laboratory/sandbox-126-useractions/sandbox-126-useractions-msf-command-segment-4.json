@@ -1,0 +1,8 @@
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:51:52.315Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:53:23.069Z", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:53:27.388Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:53:34.351Z", "cmd_type": "msf-command", "cmd": "session -i 2"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:53:48.601Z", "cmd_type": "msf-command", "cmd": "sessions -i 2"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:53:55.238Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:54:52.431Z", "cmd_type": "msf-command", "cmd": "sessions -i 3"}
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:54:52.586Z", "cmd_type": "msf-command", "cmd": "pwd"}

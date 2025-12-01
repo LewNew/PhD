@@ -1,0 +1,5 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:19:38.237959+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"editor WARNING-READ-ME.txt\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:20:39.709588+02:00", "cmd_type": "msf-command", "cmd": "sessions -u "}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:21:00.092749+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:21:16.169874+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:22:46.507027+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"less WARNING-READ-ME.txt\""}

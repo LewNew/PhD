@@ -1,0 +1,2 @@
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T10:15:46.422Z", "cmd_type": "bash-command", "cmd": "scp .invoices2019.zip @: /"}
+{"sandbox_id": "104", "timestamp_str": "2021-01-14T10:15:55.060Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

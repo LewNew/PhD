@@ -1,0 +1,15 @@
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.568Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.3"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.570Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.571Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.571Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.571Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.571Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.572Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.572Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.2"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.572Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.3"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.572Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.2"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:30.573Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.1"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:15:53.866Z", "cmd_type": "bash-command", "cmd": "less hacking/wordlist.txt"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:16:09.266Z", "cmd_type": "bash-command", "cmd": "less hacking/wordlist.txt"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:18:03.831Z", "cmd_type": "bash-command", "cmd": "netstat"}
+{"sandbox_id": "69", "timestamp_str": "2020-12-04T09:19:26.751Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

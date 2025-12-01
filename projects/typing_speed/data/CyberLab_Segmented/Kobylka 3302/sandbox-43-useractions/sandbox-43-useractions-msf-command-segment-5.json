@@ -1,0 +1,4 @@
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:54:11.685060+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:56:23.878838+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:56:55.036540+02:00", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T10:57:01.152012+02:00", "cmd_type": "msf-command", "cmd": "set TARGET 0"}

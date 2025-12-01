@@ -1,0 +1,9 @@
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:23:26.433Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:24:40.982Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:34:32.932Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:56:35.568Z", "cmd_type": "bash-command", "cmd": "cd /root/"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:56:43.262Z", "cmd_type": "bash-command", "cmd": "cat flag.txt"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T14:56:52.892Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T15:25:29.658Z", "cmd_type": "bash-command", "cmd": "chmod 0600 id_rsa"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T15:26:18.099Z", "cmd_type": "bash-command", "cmd": "chmod 0600 id_rsa"}
+{"sandbox_id": "30", "timestamp_str": "2021-04-22T15:27:01.739Z", "cmd_type": "bash-command", "cmd": "ssh -iid_rsa eve@10.1.17.4"}

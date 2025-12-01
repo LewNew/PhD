@@ -1,0 +1,13 @@
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:17:16.167946Z", "cmd_type": "bash-command", "cmd": "msfdb init"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:17:21.364058Z", "cmd_type": "bash-command", "cmd": "msfdb"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:17:29.671362Z", "cmd_type": "bash-command", "cmd": "msfdb start"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:17:36.235624Z", "cmd_type": "bash-command", "cmd": "msfdb run"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:19:27.875489Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:19:27.898027Z", "cmd_type": "bash-command", "cmd": "ss -lntp | grep post"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:19:35.742576Z", "cmd_type": "bash-command", "cmd": "ss -lntp"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:22:07.986250Z", "cmd_type": "bash-command", "cmd": "service postgresql restart"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:22:16.072762Z", "cmd_type": "bash-command", "cmd": "msfdb reinit"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:25:21.368527Z", "cmd_type": "bash-command", "cmd": "ss -ant"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:26:22.411795Z", "cmd_type": "bash-command", "cmd": "msfdb reinit"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:26:45.517633Z", "cmd_type": "bash-command", "cmd": "msfdb"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T20:26:49.542927Z", "cmd_type": "bash-command", "cmd": "msfdb run"}

@@ -1,0 +1,16 @@
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:31:59.541Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:01.412Z", "cmd_type": "bash-command", "cmd": "cd ../"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:02.619Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:15.063Z", "cmd_type": "bash-command", "cmd": "cd user-access"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:18.176Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:20.153Z", "cmd_type": "bash-command", "cmd": "cd ../"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:23.214Z", "cmd_type": "bash-command", "cmd": "cd debian"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:25.517Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:48.283Z", "cmd_type": "bash-command", "cmd": "cd ../"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:51.448Z", "cmd_type": "bash-command", "cmd": "cd ../"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:52.746Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:32:58.469Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:33:02.024Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:33:04.309Z", "cmd_type": "bash-command", "cmd": "cd user-access/"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:33:07.692Z", "cmd_type": "bash-command", "cmd": "whoiam"}
+{"sandbox_id": "66", "timestamp_str": "2021-05-26T11:33:36.072Z", "cmd_type": "bash-command", "cmd": "startgame"}

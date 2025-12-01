@@ -1,0 +1,15 @@
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:48:23+01:00", "cmd_type": "bash-command", "cmd": "nmap -pS 10.1.26.4"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:48:32+01:00", "cmd_type": "bash-command", "cmd": "nmap -p 10.1.26.4"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:49:22+01:00", "cmd_type": "bash-command", "cmd": "--help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:49:44+01:00", "cmd_type": "bash-command", "cmd": "-help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:49:45+01:00", "cmd_type": "bash-command", "cmd": "help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:50:36+01:00", "cmd_type": "bash-command", "cmd": "scan"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:50:39+01:00", "cmd_type": "bash-command", "cmd": "--help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:50:44+01:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:50:47+01:00", "cmd_type": "bash-command", "cmd": "help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:51:01+01:00", "cmd_type": "bash-command", "cmd": "man -k"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:51:05+01:00", "cmd_type": "bash-command", "cmd": "man -K"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:51:10+01:00", "cmd_type": "bash-command", "cmd": "man man"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:51:36+01:00", "cmd_type": "bash-command", "cmd": "nam --help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:51:43+01:00", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:52:44+01:00", "cmd_type": "bash-command", "cmd": "nmap -PS 10.1.26.4"}

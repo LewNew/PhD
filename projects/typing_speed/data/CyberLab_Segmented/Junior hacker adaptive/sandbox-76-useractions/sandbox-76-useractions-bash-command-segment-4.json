@@ -1,0 +1,9 @@
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:19:57.766Z", "cmd_type": "bash-command", "cmd": "/home#scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:20:17.658Z", "cmd_type": "bash-command", "cmd": "/home# scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:20:38.510Z", "cmd_type": "bash-command", "cmd": ":/home# scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:20:53.574Z", "cmd_type": "bash-command", "cmd": "cd home"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:20:54.736Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:21:24.904Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:21:47.322Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:22:02.674Z", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "76", "timestamp_str": "2021-05-28T09:22:07.724Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip"}

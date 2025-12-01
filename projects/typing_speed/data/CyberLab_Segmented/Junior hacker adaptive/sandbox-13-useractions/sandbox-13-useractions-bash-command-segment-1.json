@@ -1,0 +1,11 @@
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:37:48.547Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:14.166Z", "cmd_type": "bash-command", "cmd": "cd Desktop/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:16.194Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:20.099Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:26.835Z", "cmd_type": "bash-command", "cmd": "ls Dow"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:30.565Z", "cmd_type": "bash-command", "cmd": "ls Downloads/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:42.458Z", "cmd_type": "bash-command", "cmd": "ls Downloads/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:38:50.846Z", "cmd_type": "bash-command", "cmd": "ls Public/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:39:13.556Z", "cmd_type": "bash-command", "cmd": "ls Videos/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:39:13.559Z", "cmd_type": "bash-command", "cmd": "ls Documents/"}
+{"sandbox_id": "13", "timestamp_str": "2021-05-25T08:39:13.559Z", "cmd_type": "bash-command", "cmd": "ls hacking/"}

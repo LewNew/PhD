@@ -1,0 +1,5 @@
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T15:37:53.822369Z", "cmd_type": "bash-command", "cmd": "searchsploit"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T15:39:21.317449Z", "cmd_type": "bash-command", "cmd": "searchsploit openssh 6.7p1 debian5"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T15:41:31.013956Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T15:42:49.309838Z", "cmd_type": "bash-command", "cmd": "searchsploit openssh 6.7p1"}
+{"sandbox_id": "93", "timestamp_str": "2019-12-08T15:42:54.606783Z", "cmd_type": "bash-command", "cmd": "searchsploit"}

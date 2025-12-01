@@ -1,0 +1,2 @@
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:50:41.286Z", "cmd_type": "bash-command", "cmd": "ifconfig -a"}
+{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:51:14.724Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

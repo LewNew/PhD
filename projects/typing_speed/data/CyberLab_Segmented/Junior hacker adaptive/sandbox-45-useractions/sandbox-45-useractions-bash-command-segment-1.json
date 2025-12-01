@@ -1,0 +1,5 @@
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:34:22.785Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:34:25.036Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:35:22.361Z", "cmd_type": "bash-command", "cmd": "touch file.txt"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:35:23.189Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "45", "timestamp_str": "2021-05-25T08:35:28.410Z", "cmd_type": "bash-command", "cmd": "rm file.txt"}

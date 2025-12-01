@@ -1,0 +1,10 @@
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:20:38.723241+02:00", "cmd_type": "bash-command", "cmd": "wpscan -h"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:21:36.252341+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:21:59.830478+02:00", "cmd_type": "bash-command", "cmd": "nmap -A 10.1.26.9"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:26:34.485614+02:00", "cmd_type": "bash-command", "cmd": "wpsan 10.1.26.9"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:29:24.805448+02:00", "cmd_type": "bash-command", "cmd": "wpscan 10.1.26.9"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:34:27.893786+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9 -sV"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:43:42.049566+02:00", "cmd_type": "bash-command", "cmd": "commix -help"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:44:25.142086+02:00", "cmd_type": "bash-command", "cmd": "commix"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:48:56.128214+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "341", "timestamp_str": "2020-05-14T10:57:54.902684+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

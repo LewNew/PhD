@@ -1,0 +1,4 @@
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:26:32.949713+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:26:52.668145+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:27:06.857914+02:00", "cmd_type": "bash-command", "cmd": "sudo service postgresql start"}
+{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:27:14.488612+02:00", "cmd_type": "bash-command", "cmd": "msfdb init"}

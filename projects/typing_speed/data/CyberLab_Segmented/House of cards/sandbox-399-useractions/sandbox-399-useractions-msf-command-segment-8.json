@@ -1,0 +1,6 @@
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:09:37.999025Z", "cmd_type": "msf-command", "cmd": "sessions"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:10:08.931621Z", "cmd_type": "msf-command", "cmd": "sessions 3"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:10:11.493609Z", "cmd_type": "msf-command", "cmd": "show options"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:10:14.925449Z", "cmd_type": "msf-command", "cmd": "set session 2"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:10:20.650150Z", "cmd_type": "msf-command", "cmd": "set xdisplay 1"}
+{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:10:37.204675Z", "cmd_type": "msf-command", "cmd": "exploit"}

@@ -1,0 +1,1 @@
+{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:46:30.217537+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}

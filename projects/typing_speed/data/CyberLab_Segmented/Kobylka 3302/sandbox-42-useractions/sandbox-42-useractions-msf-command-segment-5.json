@@ -1,0 +1,2 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:13:07.732122+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c WARNING-READ-ME.txt"}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:13:48.491706+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c nano WARNING-READ-ME.txt"}

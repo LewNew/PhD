@@ -1,0 +1,4 @@
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:01:49.430252Z", "cmd_type": "msf-command", "cmd": "show options "}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:01:58.840205Z", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:02:10.230949Z", "cmd_type": "msf-command", "cmd": "set rport 23"}
+{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:02:12.306403Z", "cmd_type": "msf-command", "cmd": "exploit"}

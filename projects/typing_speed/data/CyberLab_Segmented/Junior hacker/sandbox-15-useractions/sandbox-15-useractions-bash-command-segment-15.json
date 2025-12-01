@@ -1,0 +1,4 @@
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:06:39+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /root/home"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:07:18+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /root/home/invoices2019.zip"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:07:28+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p invoices2019.zip"}
+{"sandbox_id": "15", "timestamp_str": "2021-02-11T22:08:01+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /root/home.zip"}

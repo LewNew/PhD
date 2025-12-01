@@ -1,0 +1,24 @@
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:15:37.960Z", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:15:39.383Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:15:43.906Z", "cmd_type": "bash-command", "cmd": "pwd"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:16:14.038Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:17:27.555Z", "cmd_type": "bash-command", "cmd": "ping --help"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:17:34.400Z", "cmd_type": "bash-command", "cmd": "ping -a"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:17:48.117Z", "cmd_type": "bash-command", "cmd": "ping -a 192.168.0.1"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:18:32.072Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:18:54.510Z", "cmd_type": "bash-command", "cmd": "ping"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:19:25.057Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:21:04.970Z", "cmd_type": "bash-command", "cmd": "arp -a"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:21:20.065Z", "cmd_type": "bash-command", "cmd": "arp -a"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:21:40.341Z", "cmd_type": "bash-command", "cmd": "vague"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:22:06.783Z", "cmd_type": "bash-command", "cmd": "telnet 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:22:37.013Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:22:49.086Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:23:12.939Z", "cmd_type": "bash-command", "cmd": "ssh"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:23:24.149Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:25:45.425Z", "cmd_type": "bash-command", "cmd": "nmap --help | grep \"sV\n\""}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:25:50.208Z", "cmd_type": "bash-command", "cmd": "nmap --help | grep \"sV\""}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:26:01.123Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:28:08.586Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:28:18.003Z", "cmd_type": "bash-command", "cmd": "curl 172.18.1.5:10000 > tmp.html"}
+{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:28:20.790Z", "cmd_type": "bash-command", "cmd": "less tmp.html"}

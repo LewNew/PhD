@@ -1,0 +1,6 @@
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:47:19.572695Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -A -v -p1-65535"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:48:16.569317Z", "cmd_type": "bash-command", "cmd": "telnet 127.18.1.5 22"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:48:21.019495Z", "cmd_type": "bash-command", "cmd": "telnet 127.18.1.5 23"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:48:26.086455Z", "cmd_type": "bash-command", "cmd": "asdasf"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:48:26.123261Z", "cmd_type": "bash-command", "cmd": "asgasgaskjlaksjg"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:48:26.181434Z", "cmd_type": "bash-command", "cmd": "aashgasgjasigsag"}

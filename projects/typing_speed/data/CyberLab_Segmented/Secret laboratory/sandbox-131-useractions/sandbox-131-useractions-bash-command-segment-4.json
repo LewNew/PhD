@@ -1,0 +1,9 @@
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:24:36.146Z", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:24:55.838Z", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:27:16.772Z", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:27:17.708Z", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:28:24.926Z", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:28:40.557Z", "cmd_type": "bash-command", "cmd": "shell"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:32:40.994Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:33:47.405Z", "cmd_type": "bash-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
+{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:34:27.055Z", "cmd_type": "bash-command", "cmd": "use"}

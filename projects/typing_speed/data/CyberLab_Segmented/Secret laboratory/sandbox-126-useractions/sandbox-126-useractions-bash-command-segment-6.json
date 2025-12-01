@@ -1,0 +1,1 @@
+{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:37:29.543Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 -sV -v 10.1.26.9"}

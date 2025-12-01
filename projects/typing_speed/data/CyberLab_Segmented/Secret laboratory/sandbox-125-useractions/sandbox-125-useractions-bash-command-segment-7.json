@@ -1,0 +1,21 @@
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:29:26.662Z", "cmd_type": "bash-command", "cmd": "vim Y29yb25h"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:29:45.779Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:29:48.984Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:29:50.355Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:29:55.410Z", "cmd_type": "bash-command", "cmd": "cd /home"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:30:15.130Z", "cmd_type": "bash-command", "cmd": "cd ~"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:30:19.155Z", "cmd_type": "bash-command", "cmd": "vim Y29yb25h"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:33:21.052Z", "cmd_type": "bash-command", "cmd": "nano Y29yb25h"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:34:56.664Z", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py)"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:35:32.978Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:36:39.253Z", "cmd_type": "bash-command", "cmd": "man cp"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:37:33.027Z", "cmd_type": "bash-command", "cmd": "python Y29yb25h"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:38:13.149Z", "cmd_type": "bash-command", "cmd": "python ssh2john.py Y29yb25h > Y29yb25h.hash"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:38:38.578Z", "cmd_type": "bash-command", "cmd": "locate ssh2john.py"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:39:11.840Z", "cmd_type": "bash-command", "cmd": "cd /home/chong/.ssh"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:40:06.621Z", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py)"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:40:16.557Z", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py) ."}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:40:25.591Z", "cmd_type": "bash-command", "cmd": "python ssh2john.py Y29yb25h > Y29yb25h.hash"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:41:33.154Z", "cmd_type": "bash-command", "cmd": "john Y29yb25h.hash --wordlist=/usr/share/wordlists/fasttrack.txt"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:42:49.047Z", "cmd_type": "bash-command", "cmd": "localhost 4444\\"}
+{"sandbox_id": "125", "timestamp_str": "2021-06-30T07:42:51.448Z", "cmd_type": "bash-command", "cmd": "localhost 4444"}

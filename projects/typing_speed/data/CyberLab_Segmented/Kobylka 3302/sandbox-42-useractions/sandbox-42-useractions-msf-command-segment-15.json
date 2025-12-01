@@ -1,0 +1,3 @@
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:11:41.555032+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"cd /\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:12:03.614165+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"find -fname ecdsa\""}
+{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:12:37.572173+02:00", "cmd_type": "msf-command", "cmd": "sessions -c \"find -name ecdsa\""}

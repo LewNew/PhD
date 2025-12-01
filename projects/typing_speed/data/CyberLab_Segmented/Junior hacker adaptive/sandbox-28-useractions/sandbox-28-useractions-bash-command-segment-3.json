@@ -1,0 +1,33 @@
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:37:18.135Z", "cmd_type": "bash-command", "cmd": "ls -A"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:37:20.157Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:37:46.963Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:37:48.006Z", "cmd_type": "bash-command", "cmd": "ld"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:37:49.685Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:38:09.888Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:38:23.272Z", "cmd_type": "bash-command", "cmd": "sudo cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:38:55.226Z", "cmd_type": "bash-command", "cmd": "sudo cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:21.336Z", "cmd_type": "bash-command", "cmd": "cd"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:22.928Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:28.799Z", "cmd_type": "bash-command", "cmd": "cd /root/hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:35.300Z", "cmd_type": "bash-command", "cmd": "cd root"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:38.858Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:40.558Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:41:47.712Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:42:34.936Z", "cmd_type": "bash-command", "cmd": "sudo su"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:44:15.495Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:44:26.858Z", "cmd_type": "bash-command", "cmd": "sudo cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:45:00.411Z", "cmd_type": "bash-command", "cmd": "sudo cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:46:07.556Z", "cmd_type": "bash-command", "cmd": "sudo login"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:48:46.657Z", "cmd_type": "bash-command", "cmd": "sudo su"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:49:23.434Z", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:51:47.681Z", "cmd_type": "bash-command", "cmd": "exit"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:54:17.028Z", "cmd_type": "bash-command", "cmd": "cd /root"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:54:19.603Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:54:26.657Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:54:28.767Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:55:53.719Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:58:47.795Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T08:58:59.122Z", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.26.9"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:00:25.716Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:02:50.572Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "28", "timestamp_str": "2021-05-25T09:03:24.690Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

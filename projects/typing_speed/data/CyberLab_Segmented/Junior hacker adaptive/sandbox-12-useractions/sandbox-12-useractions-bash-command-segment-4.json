@@ -1,0 +1,21 @@
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:04:58.669Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip ."}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:05:10.697Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:05:19.007Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:06:49.749Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:07:33.133Z", "cmd_type": "bash-command", "cmd": "fcrackzip --dictionary .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:07:55.771Z", "cmd_type": "bash-command", "cmd": "unzip .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:08:26.161Z", "cmd_type": "bash-command", "cmd": "fcrackzip --dictionary .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:08:36.526Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:09:52.258Z", "cmd_type": "bash-command", "cmd": "fcrackzip --dictionary .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:10:55.980Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:03.536Z", "cmd_type": "bash-command", "cmd": "unzip -P aaaaaa .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:16.681Z", "cmd_type": "bash-command", "cmd": "ls -a"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:28.039Z", "cmd_type": "bash-command", "cmd": "cd invoices2019/"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:30.884Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:39.329Z", "cmd_type": "bash-command", "cmd": "cd .."}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:12:58.170Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:14:42.536Z", "cmd_type": "bash-command", "cmd": "unzip .invoices2019.zip"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:15:43.652Z", "cmd_type": "bash-command", "cmd": "cd invoices2019/"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:15:46.407Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:17:03.447Z", "cmd_type": "bash-command", "cmd": "cat TAX15796249.txt"}
+{"sandbox_id": "12", "timestamp_str": "2021-05-25T09:17:16.181Z", "cmd_type": "bash-command", "cmd": "cat TAX15796252.txt"}

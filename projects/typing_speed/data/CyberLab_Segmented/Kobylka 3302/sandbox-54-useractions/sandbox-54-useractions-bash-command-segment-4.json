@@ -1,0 +1,4 @@
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:33:01.601268+02:00", "cmd_type": "bash-command", "cmd": "help"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:33:06.874038+02:00", "cmd_type": "bash-command", "cmd": "man msf"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:33:53.042646+02:00", "cmd_type": "bash-command", "cmd": "man msfconsole"}
+{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:33:58.598304+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

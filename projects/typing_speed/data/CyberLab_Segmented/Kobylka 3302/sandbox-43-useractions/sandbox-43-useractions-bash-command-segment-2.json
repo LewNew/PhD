@@ -1,0 +1,3 @@
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:33:10.953921+02:00", "cmd_type": "bash-command", "cmd": "netstat -lpn"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:33:56.593832+02:00", "cmd_type": "bash-command", "cmd": "netstat -lpn | grep 10000"}
+{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:39:06.160334+02:00", "cmd_type": "bash-command", "cmd": "netstat -na"}

@@ -1,0 +1,3 @@
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:59:09.361389Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:59:13.755146Z", "cmd_type": "msf-command", "cmd": "set rport 23"}
+{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:59:18.330301Z", "cmd_type": "msf-command", "cmd": "exploit"}

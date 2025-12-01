@@ -1,0 +1,11 @@
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:54:09+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip invoices2019.zip -b -D"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:54:56+01:00", "cmd_type": "bash-command", "cmd": "ssh admin 10.1.26.9"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:55:02+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:55:46+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/Romeo-and-Juliet.pdf ."}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:56:02+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/Treasure-Island.pdf ."}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:56:17+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip invoices2019.zip -b -D Treasure-Island.pdf"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:56:43+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip invoices2019.zip -b -c Treasure-Island.pdf"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:57:41+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p Treasure-Island.pdf invoices2019.zip"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:57:56+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p Romeo-and-Juliet.pdf invoices2019.zip"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T16:59:26+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -v -p Romeo-and-Juliet.pdf invoices2019.zip"}
+{"sandbox_id": "9", "timestamp_str": "2021-02-09T17:00:15+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -v -p Treasure-Island.pdf invoices2019.zip"}

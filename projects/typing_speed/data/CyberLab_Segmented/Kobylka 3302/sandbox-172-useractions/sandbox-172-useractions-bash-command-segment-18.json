@@ -1,0 +1,17 @@
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:51:21.846312+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:51:33.084629+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:51:33.424598+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:51:56.485375+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py id_rsa >    id_rsa.hash"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:03.830665+02:00", "cmd_type": "bash-command", "cmd": "locate rockyou.txt"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:18.278413+02:00", "cmd_type": "bash-command", "cmd": "cp $(locate rockyou.txt) ."}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:20.305113+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:20.544332+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:28.957795+02:00", "cmd_type": "bash-command", "cmd": "gunzip rockyou.txt.gz"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:32.561024+02:00", "cmd_type": "bash-command", "cmd": "clear"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:52:32.805082+02:00", "cmd_type": "bash-command", "cmd": "ls"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:53:03.269417+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa.hash -wordlist=rockyou.txt"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:54:06.124786+02:00", "cmd_type": "bash-command", "cmd": "sjoohn crack --show"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:54:11.605173+02:00", "cmd_type": "bash-command", "cmd": "john crack --show"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:54:40.683577+02:00", "cmd_type": "bash-command", "cmd": "ssh2john id_rsa > crack"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:55:04.301811+02:00", "cmd_type": "bash-command", "cmd": "john --format=SSH --wordlist=rockyou.txt crack"}
+{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:55:33.723276+02:00", "cmd_type": "bash-command", "cmd": "john --format=SSH --wordlist=rockyou.txt id_rsa.hash"}

@@ -1,0 +1,2 @@
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:55:05.256Z", "cmd_type": "bash-command", "cmd": "whoami"}
+{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:55:50.055Z", "cmd_type": "bash-command", "cmd": "who"}

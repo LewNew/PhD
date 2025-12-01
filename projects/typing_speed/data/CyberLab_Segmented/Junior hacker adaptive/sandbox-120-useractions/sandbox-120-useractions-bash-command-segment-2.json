@@ -1,0 +1,5 @@
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:02:39.533Z", "cmd_type": "bash-command", "cmd": "nmap -sn 10.1.26.0/24 -O"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:04:07.475Z", "cmd_type": "bash-command", "cmd": "nmap -sn 10.1.26.0/24 --top-ports 20"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:05:32.036Z", "cmd_type": "bash-command", "cmd": "nmap  10.1.26.1"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:05:36.163Z", "cmd_type": "bash-command", "cmd": "nmap  10.1.26.2"}
+{"sandbox_id": "120", "timestamp_str": "2020-12-11T09:05:49.349Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

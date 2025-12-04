@@ -1,4 +1,0 @@
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:45:42.664887Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_version "}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:45:55.187128Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:45:59.520569Z", "cmd_type": "msf-command", "cmd": "set rport 23"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:46:02.510134Z", "cmd_type": "msf-command", "cmd": "exploit"}

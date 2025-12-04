@@ -1,4 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:12:12.318029Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.15"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:12:22.713683Z", "cmd_type": "bash-command", "cmd": "ssh -p 23 alice@172.18.1.15"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:12:31.422090Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:14:12.789020Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

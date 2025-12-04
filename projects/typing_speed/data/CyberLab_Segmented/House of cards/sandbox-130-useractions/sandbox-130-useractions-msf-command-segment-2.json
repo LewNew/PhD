@@ -1,4 +1,0 @@
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:01:19.958558Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:02:14.545559Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:02:17.927928Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:02:32.946573Z", "cmd_type": "msf-command", "cmd": "run"}

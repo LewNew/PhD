@@ -1,7 +1,0 @@
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.885Z", "cmd_type": "bash-command", "cmd": "nmap --help | grep flag"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.885Z", "cmd_type": "bash-command", "cmd": "sudo nmap -r 172.18.1.5"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.886Z", "cmd_type": "bash-command", "cmd": "sudo nmap -S 172.18.1.5"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.886Z", "cmd_type": "bash-command", "cmd": "sudo nmap -sV 172.18.1.5"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.886Z", "cmd_type": "bash-command", "cmd": "sudo nmap -v -S 172.18.1.5"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:55:48.886Z", "cmd_type": "bash-command", "cmd": "sudo nmap -v 172.18.1.5"}
-{"sandbox_id": "31", "timestamp_str": "2021-04-22T14:56:20.253Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}

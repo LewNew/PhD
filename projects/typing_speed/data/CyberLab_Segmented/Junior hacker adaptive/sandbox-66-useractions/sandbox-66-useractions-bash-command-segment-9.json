@@ -1,3 +1,0 @@
-{"sandbox_id": "66", "timestamp_str": "2021-05-26T12:17:53.123Z", "cmd_type": "bash-command", "cmd": "fcrakzip"}
-{"sandbox_id": "66", "timestamp_str": "2021-05-26T12:18:01.611Z", "cmd_type": "bash-command", "cmd": "fcrackzip"}
-{"sandbox_id": "66", "timestamp_str": "2021-05-26T12:19:05.669Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

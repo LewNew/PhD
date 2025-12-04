@@ -1,4 +1,0 @@
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:14:58.802Z", "cmd_type": "bash-command", "cmd": "cd .invoices2019"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:15:19.096Z", "cmd_type": "bash-command", "cmd": "unzip .invoices2019"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:16:04.167Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -D -p wamerican .invoices2019.zip"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:16:32.180Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p wamerican .invoices2019.zip"}

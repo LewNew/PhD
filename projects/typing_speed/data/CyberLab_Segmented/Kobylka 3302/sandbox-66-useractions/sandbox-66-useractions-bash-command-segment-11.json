@@ -1,3 +1,0 @@
-{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:12:22.145209+02:00", "cmd_type": "bash-command", "cmd": "2.195.254"}
-{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:12:22.174284+02:00", "cmd_type": "bash-command", "cmd": "cat /etc/services"}
-{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:12:22.208606+02:00", "cmd_type": "bash-command", "cmd": "less /etc/services"}

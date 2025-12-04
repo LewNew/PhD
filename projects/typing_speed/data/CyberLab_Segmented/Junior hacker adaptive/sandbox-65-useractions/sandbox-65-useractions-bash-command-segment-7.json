@@ -1,8 +1,0 @@
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:19:53.523Z", "cmd_type": "bash-command", "cmd": "mv .invoices2019.zip invoices2019.zip"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:19:54.669Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:20:00.280Z", "cmd_type": "bash-command", "cmd": "unzip invoices2019.zip"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:20:49.285Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b invoices2019.zip"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:21:36.013Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:21:39.832Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:21:40.629Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:21:43.489Z", "cmd_type": "bash-command", "cmd": "more wordlist.txt"}

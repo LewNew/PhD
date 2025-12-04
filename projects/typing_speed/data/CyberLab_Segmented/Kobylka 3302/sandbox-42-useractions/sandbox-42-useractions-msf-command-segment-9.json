@@ -1,7 +1,0 @@
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:38:12.227047+02:00", "cmd_type": "msf-command", "cmd": "hosts -a 10.1.17.4"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:38:17.260645+02:00", "cmd_type": "msf-command", "cmd": "back"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:39:53.276951+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"tree\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:40:32.877780+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"pwd\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:40:43.046671+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"dir\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:41:03.489879+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"cd /\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T10:41:32.592465+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"find -name ssh\""}

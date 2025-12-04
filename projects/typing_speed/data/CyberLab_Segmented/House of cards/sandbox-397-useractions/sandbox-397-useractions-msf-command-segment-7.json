@@ -1,9 +1,0 @@
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:46.279510Z", "cmd_type": "msf-command", "cmd": "search display"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:24:50.029854Z", "cmd_type": "msf-command", "cmd": "search display linux"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:25:30.745256Z", "cmd_type": "msf-command", "cmd": "use linux"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:25:54.388233Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/desktop_privilege_escalation "}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:25:58.978245Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:26:20.475153Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:26:43.779663Z", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:26:47.256510Z", "cmd_type": "msf-command", "cmd": "set session 5"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:26:51.342432Z", "cmd_type": "msf-command", "cmd": "run"}

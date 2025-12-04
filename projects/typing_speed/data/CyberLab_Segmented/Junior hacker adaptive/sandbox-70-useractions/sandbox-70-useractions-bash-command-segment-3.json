@@ -1,4 +1,0 @@
-{"sandbox_id": "70", "timestamp_str": "2020-12-04T09:15:49.487Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
-{"sandbox_id": "70", "timestamp_str": "2020-12-04T09:15:49.488Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "70", "timestamp_str": "2020-12-04T09:15:49.488Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
-{"sandbox_id": "70", "timestamp_str": "2020-12-04T09:15:49.488Z", "cmd_type": "bash-command", "cmd": "nmapnnnnnnnn"}

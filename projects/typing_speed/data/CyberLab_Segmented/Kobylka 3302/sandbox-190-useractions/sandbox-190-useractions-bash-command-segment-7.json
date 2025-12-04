@@ -1,5 +1,0 @@
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T11:32:45.0+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 key.txt "}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T11:32:50.0+02:00", "cmd_type": "bash-command", "cmd": "ls -l key.txt "}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T11:36:44.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt root@database"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T11:37:02.0+02:00", "cmd_type": "bash-command", "cmd": "vim key.txt"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T11:37:17.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i key.txt root@database"}

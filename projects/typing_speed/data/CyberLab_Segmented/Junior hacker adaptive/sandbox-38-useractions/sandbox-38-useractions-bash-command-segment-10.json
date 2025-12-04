@@ -1,6 +1,0 @@
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:14:56.069Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:14:59.004Z", "cmd_type": "bash-command", "cmd": "vim wordlist.txt"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:15:11.075Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt -v -u  .invoices2019.zip"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:15:40.283Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -v -u ./wordlist.txt  .invoices2019.zip"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:16:11.578Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -D -u -p ./wordlist.txt secret.zip"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T10:16:19.404Z", "cmd_type": "bash-command", "cmd": "fcrackzip -v -D -u -p ./wordlist.txt .invoices2019.zip"}

@@ -1,3 +1,0 @@
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:04:11.292Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:04:51.918Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
-{"sandbox_id": "65", "timestamp_str": "2021-05-26T12:05:12.620Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

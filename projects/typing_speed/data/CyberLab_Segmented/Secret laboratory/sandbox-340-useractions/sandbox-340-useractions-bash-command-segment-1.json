@@ -1,5 +1,0 @@
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:18:23.449882+02:00", "cmd_type": "bash-command", "cmd": "nmap ..."}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:19:01.070501+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -A ..."}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:20:33.933808+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -A 10#010.1.26.9"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:23:01.548395+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -A ...~"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:23:39.790070+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.9"}

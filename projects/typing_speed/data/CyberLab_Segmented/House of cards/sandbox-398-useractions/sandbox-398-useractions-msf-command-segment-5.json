@@ -1,4 +1,0 @@
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:07:55.867288Z", "cmd_type": "msf-command", "cmd": "use exploit/multi/local/xorg_x11_suid_server "}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:07:59.205670Z", "cmd_type": "msf-command", "cmd": "show targets"}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:08:11.847156Z", "cmd_type": "msf-command", "cmd": "set TARGET 1"}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:08:15.293982Z", "cmd_type": "msf-command", "cmd": "show options"}

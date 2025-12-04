@@ -1,3 +1,0 @@
-{"sandbox_id": "78", "timestamp_str": "2021-05-28T08:59:40.593Z", "cmd_type": "bash-command", "cmd": "ssh username@10.1.26.9 2049"}
-{"sandbox_id": "78", "timestamp_str": "2021-05-28T09:01:32.668Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9 2049"}
-{"sandbox_id": "78", "timestamp_str": "2021-05-28T09:02:33.588Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

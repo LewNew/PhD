@@ -1,2 +1,0 @@
-{"sandbox_id": "149", "timestamp_str": "2019-09-19T11:38:42.046174Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5 "}
-{"sandbox_id": "149", "timestamp_str": "2019-09-19T11:39:39.658408Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}

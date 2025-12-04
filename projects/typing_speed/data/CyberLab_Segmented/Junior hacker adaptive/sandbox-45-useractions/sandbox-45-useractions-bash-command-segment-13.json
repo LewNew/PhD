@@ -1,6 +1,0 @@
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:26:00.318Z", "cmd_type": "bash-command", "cmd": ":*l=man fcrackzip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:26:04.300Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:26:35.711Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b copy.zip -l 4-10 -u"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:26:43.623Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b copy.zip -l 4 -u"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:26:54.622Z", "cmd_type": "bash-command", "cmd": "ls -a"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:27:27.147Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b copy.zip -u"}

@@ -1,8 +1,0 @@
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:38:22.0+02:00", "cmd_type": "bash-command", "cmd": "route -n"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:38:46.0+02:00", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:41:57.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:42:27.0+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:43:59.0+02:00", "cmd_type": "bash-command", "cmd": "telnet 172.18.1.5"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:44:26.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.14"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:46:26.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -sV"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:48:56.0+02:00", "cmd_type": "bash-command", "cmd": "metasploit"}

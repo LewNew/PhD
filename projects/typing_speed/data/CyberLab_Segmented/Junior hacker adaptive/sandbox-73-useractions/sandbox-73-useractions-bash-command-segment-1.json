@@ -1,9 +1,0 @@
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T08:46:35.951Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:00:27.408Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:00:27.408Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:00:27.409Z", "cmd_type": "bash-command", "cmd": "ifconfig"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:00:27.409Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:01:45.543Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:15:20.335Z", "cmd_type": "bash-command", "cmd": "history"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:15:20.336Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "73", "timestamp_str": "2020-12-04T09:43:27.831Z", "cmd_type": "bash-command", "cmd": "exit"}

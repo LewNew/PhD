@@ -1,4 +1,0 @@
-{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:15:36.155Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:15:36.155Z", "cmd_type": "bash-command", "cmd": "nfslogin -h"}
-{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:15:36.156Z", "cmd_type": "bash-command", "cmd": "history"}
-{"sandbox_id": "68", "timestamp_str": "2020-12-04T09:15:36.156Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

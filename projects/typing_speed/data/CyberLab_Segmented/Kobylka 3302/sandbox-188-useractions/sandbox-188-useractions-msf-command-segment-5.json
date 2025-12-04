@@ -1,8 +1,0 @@
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:47:10.0+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:47:14.0+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:47:29.0+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:47:36.0+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:48:22.0+02:00", "cmd_type": "msf-command", "cmd": "sessions -i 2"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:48:30.0+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:48:48.0+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 1"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:48:53.0+02:00", "cmd_type": "msf-command", "cmd": "sessions"}

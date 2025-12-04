@@ -1,1 +1,0 @@
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T12:32:14+01:00", "cmd_type": "bash-command", "cmd": "ssh attacker 10.1.26.9"}

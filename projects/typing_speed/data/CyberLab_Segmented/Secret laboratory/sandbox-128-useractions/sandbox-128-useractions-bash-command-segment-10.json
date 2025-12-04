@@ -1,4 +1,0 @@
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T08:02:35.973Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T08:02:49.848Z", "cmd_type": "bash-command", "cmd": "nc localhost $$$$"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T08:03:15.499Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T08:03:32.916Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}

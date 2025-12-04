@@ -1,4 +1,0 @@
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:45:11.902Z", "cmd_type": "bash-command", "cmd": "nc -l -p 9999 > invoices.zip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:45:39.937Z", "cmd_type": "bash-command", "cmd": "nc -l -p 9999 > invoices.zip &"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:45:46.976Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:46:10.893Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

@@ -1,4 +1,0 @@
-{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:45:06.946Z", "cmd_type": "bash-command", "cmd": "shell"}
-{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:45:42.240Z", "cmd_type": "bash-command", "cmd": "nano /home/chong/READ-ME.txt\\n"}
-{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:50:27.588Z", "cmd_type": "bash-command", "cmd": "nano /home/chong/READ-ME.txt\\n"}
-{"sandbox_id": "131", "timestamp_str": "2021-07-08T16:53:05.221Z", "cmd_type": "bash-command", "cmd": "history"}

@@ -1,5 +1,0 @@
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:26:57.413Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.0"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:27:11.246Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.0 -b"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:30:20.746Z", "cmd_type": "bash-command", "cmd": "ifconfig -all"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:30:26.216Z", "cmd_type": "bash-command", "cmd": "ifconfig --help"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:31:14.615Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

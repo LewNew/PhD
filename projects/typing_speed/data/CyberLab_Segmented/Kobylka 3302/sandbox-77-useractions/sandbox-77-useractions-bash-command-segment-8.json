@@ -1,1 +1,0 @@
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T13:03:40.276248+02:00", "cmd_type": "bash-command", "cmd": "ssh -R 6666:127.0.0.1:22 serveo.net"}

@@ -1,4 +1,0 @@
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:44:16.001640Z", "cmd_type": "msf-command", "cmd": "back"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:45:29.397084Z", "cmd_type": "msf-command", "cmd": "exit"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:46:39.149326Z", "cmd_type": "msf-command", "cmd": "exit"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:47:07.019673Z", "cmd_type": "msf-command", "cmd": "back"}

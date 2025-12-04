@@ -1,7 +1,0 @@
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:04:02.359761Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:04:05.066777Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5 22"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:08:23.711000Z", "cmd_type": "bash-command", "cmd": "su kokot"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:15:18.026984Z", "cmd_type": "bash-command", "cmd": "cat /etc/shadow"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:15:28.132318Z", "cmd_type": "bash-command", "cmd": "cat /etc/passwd"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:18:21.026726Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T16:18:27.750025Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}

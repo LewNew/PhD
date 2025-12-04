@@ -1,3 +1,0 @@
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:41:24.865Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:42:39.914Z", "cmd_type": "bash-command", "cmd": "ls -a"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T08:43:44.970Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}

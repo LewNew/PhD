@@ -1,4 +1,0 @@
-{"sandbox_id": "113", "timestamp_str": "2019-09-19T11:06:34.072039Z", "cmd_type": "bash-command", "cmd": "set RHOST 172.18.1.5"}
-{"sandbox_id": "113", "timestamp_str": "2019-09-19T11:07:15.381681Z", "cmd_type": "bash-command", "cmd": "set RPORT 23"}
-{"sandbox_id": "113", "timestamp_str": "2019-09-19T11:07:16.959732Z", "cmd_type": "bash-command", "cmd": "run"}
-{"sandbox_id": "113", "timestamp_str": "2019-09-19T11:07:31.712527Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

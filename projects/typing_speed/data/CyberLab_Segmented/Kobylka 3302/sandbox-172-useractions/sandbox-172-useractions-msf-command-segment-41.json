@@ -1,3 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T14:08:42.960906+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T14:09:36.072022+02:00", "cmd_type": "msf-command", "cmd": "cd home"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T14:09:38.772268+02:00", "cmd_type": "msf-command", "cmd": "cd /home"}

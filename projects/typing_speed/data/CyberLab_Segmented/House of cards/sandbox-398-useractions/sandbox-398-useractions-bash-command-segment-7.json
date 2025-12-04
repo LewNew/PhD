@@ -1,5 +1,0 @@
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:25:38.577002Z", "cmd_type": "bash-command", "cmd": "curl www.exploit-db.com/exploits/45697"}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:26:23.222713Z", "cmd_type": "bash-command", "cmd": "sudo nano /etc/hosts"}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:26:30.617655Z", "cmd_type": "bash-command", "cmd": "top"}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:26:44.773926Z", "cmd_type": "bash-command", "cmd": "nano /etc/resolv.conf "}
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T16:27:31.163822Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

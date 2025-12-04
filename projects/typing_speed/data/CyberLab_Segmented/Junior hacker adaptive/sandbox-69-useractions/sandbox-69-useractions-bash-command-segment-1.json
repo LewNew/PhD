@@ -1,3 +1,0 @@
-{"sandbox_id": "69", "timestamp_str": "2020-12-04T08:44:39.224Z", "cmd_type": "bash-command", "cmd": "pwd"}
-{"sandbox_id": "69", "timestamp_str": "2020-12-04T08:44:40.912Z", "cmd_type": "bash-command", "cmd": "ll"}
-{"sandbox_id": "69", "timestamp_str": "2020-12-04T08:44:42.966Z", "cmd_type": "bash-command", "cmd": "ls -la"}

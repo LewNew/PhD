@@ -1,1 +1,0 @@
-{"sandbox_id": "149", "timestamp_str": "2019-09-19T11:14:17.052061Z", "cmd_type": "bash-command", "cmd": "nmap -script ssh-hassh -p22 172.18.1.5"}

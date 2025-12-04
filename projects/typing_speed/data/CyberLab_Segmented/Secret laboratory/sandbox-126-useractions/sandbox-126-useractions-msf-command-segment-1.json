@@ -1,6 +1,0 @@
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:52:44.227Z", "cmd_type": "msf-command", "cmd": "help find"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:53:50.625Z", "cmd_type": "msf-command", "cmd": "help use"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:56:37.118Z", "cmd_type": "msf-command", "cmd": "use exploit"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:56:59.589Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T06:58:07.684Z", "cmd_type": "msf-command", "cmd": "show targets"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:00:37.476Z", "cmd_type": "msf-command", "cmd": "exit"}

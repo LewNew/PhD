@@ -1,4 +1,0 @@
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:37:21.799794+02:00", "cmd_type": "bash-command", "cmd": "cp key ./.ssh/id_rsa"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:37:26.226279+02:00", "cmd_type": "bash-command", "cmd": "cd"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:37:28.059135+02:00", "cmd_type": "bash-command", "cmd": "cd .ssh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:37:29.890017+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa"}

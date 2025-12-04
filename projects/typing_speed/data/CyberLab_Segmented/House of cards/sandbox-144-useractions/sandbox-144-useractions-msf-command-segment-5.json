@@ -1,2 +1,0 @@
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:05:34.873179Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T11:05:57.105657Z", "cmd_type": "msf-command", "cmd": "search libssh"}

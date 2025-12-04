@@ -1,9 +1,0 @@
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:52:27.997Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip ."}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:52:33.660Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:57:48.073Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:58:42.981Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D wordlist.txt .invoices2019.zip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:58:51.051Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:59:08.697Z", "cmd_type": "bash-command", "cmd": "less wordlist.txt"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:59:18.065Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T09:59:36.836Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D .invoices2019.zip"}
-{"sandbox_id": "44", "timestamp_str": "2020-12-02T10:00:50.009Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt .invoices2019.zip"}

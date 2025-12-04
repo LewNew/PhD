@@ -1,5 +1,0 @@
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:38:25.496Z", "cmd_type": "bash-command", "cmd": "su login"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:38:32.777Z", "cmd_type": "bash-command", "cmd": "su root"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:38:45.832Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:38:48.006Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T08:38:49.877Z", "cmd_type": "bash-command", "cmd": "ls"}

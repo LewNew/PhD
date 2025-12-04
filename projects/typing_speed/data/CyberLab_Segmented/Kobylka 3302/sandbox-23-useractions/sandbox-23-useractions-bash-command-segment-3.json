@@ -1,4 +1,0 @@
-{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:47:34.744Z", "cmd_type": "bash-command", "cmd": "msfcli exploit/unix"}
-{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:47:34.745Z", "cmd_type": "bash-command", "cmd": "msfconsole -q"}
-{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:47:34.745Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "23", "timestamp_str": "2021-04-22T14:49:21.557Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

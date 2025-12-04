@@ -1,2 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:06:26.624201+02:00", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:06:34.574288+02:00", "cmd_type": "msf-command", "cmd": "options"}

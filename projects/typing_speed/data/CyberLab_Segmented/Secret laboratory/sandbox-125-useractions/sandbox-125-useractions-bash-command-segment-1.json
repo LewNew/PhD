@@ -1,2 +1,0 @@
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:12:02.437Z", "cmd_type": "bash-command", "cmd": "nmap -p 10000 -sV"}
-{"sandbox_id": "125", "timestamp_str": "2021-06-30T06:13:42.790Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9 -p 10000 -sV"}

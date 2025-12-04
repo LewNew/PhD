@@ -1,3 +1,0 @@
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T11:52:04+01:00", "cmd_type": "bash-command", "cmd": "ifconfig"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T11:52:52+01:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.4"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T11:52:58+01:00", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}

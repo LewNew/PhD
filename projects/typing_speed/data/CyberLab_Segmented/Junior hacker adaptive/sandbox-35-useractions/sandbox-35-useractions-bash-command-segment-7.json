@@ -1,6 +1,0 @@
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:36:32.684Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:37:42.912Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:37:45.981Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:37:46.909Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:38:29.130Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt .invoices2019.zip"}
-{"sandbox_id": "35", "timestamp_str": "2020-12-02T09:38:43.335Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p wordlist.txt -u .invoices2019.zip"}

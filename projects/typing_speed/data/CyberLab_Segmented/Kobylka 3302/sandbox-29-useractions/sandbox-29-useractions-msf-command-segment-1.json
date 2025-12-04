@@ -1,4 +1,0 @@
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T14:49:08.700Z", "cmd_type": "msf-command", "cmd": "show"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T14:50:00.937Z", "cmd_type": "msf-command", "cmd": "show exploits"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T14:51:43.377Z", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T14:51:49.865Z", "cmd_type": "msf-command", "cmd": "help"}

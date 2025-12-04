@@ -1,3 +1,0 @@
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:16:59.483Z", "cmd_type": "bash-command", "cmd": "cd invoices2019/"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:17:03.927Z", "cmd_type": "bash-command", "cmd": "ls TAX157962"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T09:17:10.880Z", "cmd_type": "bash-command", "cmd": "cat TAX15796249.txt"}

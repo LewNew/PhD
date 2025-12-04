@@ -1,8 +1,0 @@
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:41:55.252860Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_version "}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:42:12.711929Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.1"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:42:20.256670Z", "cmd_type": "msf-command", "cmd": "set rport 22"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:42:24.606527Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:43:41.853153Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:43:46.153314Z", "cmd_type": "msf-command", "cmd": "set rport 22"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:43:48.784938Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "144", "timestamp_str": "2019-09-19T10:44:02.430741Z", "cmd_type": "msf-command", "cmd": "exit"}

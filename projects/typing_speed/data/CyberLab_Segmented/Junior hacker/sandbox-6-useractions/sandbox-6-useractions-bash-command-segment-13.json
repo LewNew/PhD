@@ -1,2 +1,0 @@
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:25:53+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:25:55+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip --help"}

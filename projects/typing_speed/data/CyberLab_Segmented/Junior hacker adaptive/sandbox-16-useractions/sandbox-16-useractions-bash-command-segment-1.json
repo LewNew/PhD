@@ -1,6 +1,0 @@
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:35:03.886Z", "cmd_type": "bash-command", "cmd": "unzip ssh-access.zip -d ~/.ssh/"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:36:25.878Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:36:33.957Z", "cmd_type": "bash-command", "cmd": "cd C:"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:36:41.788Z", "cmd_type": "bash-command", "cmd": "cd .."}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:36:44.673Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:37:04.608Z", "cmd_type": "bash-command", "cmd": "cd home"}

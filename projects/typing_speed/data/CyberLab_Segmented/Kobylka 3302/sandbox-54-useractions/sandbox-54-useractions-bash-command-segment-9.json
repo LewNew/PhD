@@ -1,2 +1,0 @@
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:07:30.288295+02:00", "cmd_type": "bash-command", "cmd": "apt update"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T10:07:42.638077+02:00", "cmd_type": "bash-command", "cmd": "apt install metasploit-framework"}

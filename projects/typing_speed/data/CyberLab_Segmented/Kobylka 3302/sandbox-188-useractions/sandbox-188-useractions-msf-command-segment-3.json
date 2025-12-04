@@ -1,7 +1,0 @@
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:15:10.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 172.18.1.5"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:15:57.0+02:00", "cmd_type": "msf-command", "cmd": "set LPORT 10000"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:16:17.0+02:00", "cmd_type": "msf-command", "cmd": "set SHELL /bin/bash"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:18:01.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:18:17.0+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:19:14.0+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:19:23.0+02:00", "cmd_type": "msf-command", "cmd": "check"}

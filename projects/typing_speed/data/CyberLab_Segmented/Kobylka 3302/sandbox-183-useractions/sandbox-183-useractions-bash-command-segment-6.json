@@ -1,9 +1,0 @@
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:09:54.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -p 22 root@database"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:10:50.0+02:00", "cmd_type": "bash-command", "cmd": "cp /root/Desktop/sshkey_to_mailserverUnencryptef /etc/ssh/sshkey"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:10:55.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -p 22 root@database"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:11:10.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -h"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:11:51.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i /root/Desktop/sshkey_to_mailserverUnencryptef -p 22 root@database"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:12:14.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i /root/Desktop/sshkey_to_mailserver -p 22 root@database"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:13:01.0+02:00", "cmd_type": "bash-command", "cmd": "chmod /root/Desktop/sshkey_to_mailserver 600"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:13:09.0+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 /root/Desktop/sshkey_to_mailserver"}
-{"sandbox_id": "183", "timestamp_str": "2019-12-12T11:13:25.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i /root/Desktop/sshkey_to_mailserver -p 22 root@database"}

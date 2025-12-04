@@ -1,5 +1,0 @@
-{"sandbox_id": "29", "timestamp_str": "2021-05-25T09:24:07.860Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices.zip ~"}
-{"sandbox_id": "29", "timestamp_str": "2021-05-25T09:25:08.632Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:~/personal/.invoices2019.zip ~"}
-{"sandbox_id": "29", "timestamp_str": "2021-05-25T09:31:06.428Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "29", "timestamp_str": "2021-05-25T09:32:38.152Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force .invoices2019.zip"}
-{"sandbox_id": "29", "timestamp_str": "2021-05-25T09:33:55.472Z", "cmd_type": "bash-command", "cmd": "fcrackzip --brute-force --use-unzip .invoices2019.zip"}

@@ -1,5 +1,0 @@
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:46:13.527357+02:00", "cmd_type": "bash-command", "cmd": "chmod"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:46:19.526658+02:00", "cmd_type": "bash-command", "cmd": "chmod +x 47293.sh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:46:22.049266+02:00", "cmd_type": "bash-command", "cmd": "./47293.sh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:46:28.791373+02:00", "cmd_type": "bash-command", "cmd": "vi 47293.sh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:46:45.265111+02:00", "cmd_type": "bash-command", "cmd": "cd Downloads/"}

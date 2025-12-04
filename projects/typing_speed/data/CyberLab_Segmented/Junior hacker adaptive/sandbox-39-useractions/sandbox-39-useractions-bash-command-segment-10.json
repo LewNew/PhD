@@ -1,1 +1,0 @@
-{"sandbox_id": "39", "timestamp_str": "2021-05-25T09:00:12.052Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/personal/.invoices2019.zip /user-access"}

@@ -1,5 +1,0 @@
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:07:04.0+02:00", "cmd_type": "bash-command", "cmd": "ssh -i id_rsa eva@10.1.17.4"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:07:13.0+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:07:21.0+02:00", "cmd_type": "bash-command", "cmd": "python ssh2john.py "}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:07:34.0+02:00", "cmd_type": "bash-command", "cmd": "python -m SimpleHTTPClient"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T11:07:57.0+02:00", "cmd_type": "bash-command", "cmd": "cat ssh2john.py "}

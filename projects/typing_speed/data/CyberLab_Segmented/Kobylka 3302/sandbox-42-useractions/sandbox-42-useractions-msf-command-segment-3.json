@@ -1,2 +1,0 @@
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:58:34.076068+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:59:02.762559+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 1"}

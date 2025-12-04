@@ -1,5 +1,0 @@
-{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:00:11+01:00", "cmd_type": "bash-command", "cmd": "ssh --help"}
-{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:00:30+01:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.26.9"}
-{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:01:05+01:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.26.9 admin/123456"}
-{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:01:18+01:00", "cmd_type": "bash-command", "cmd": "ssh --help"}
-{"sandbox_id": "10", "timestamp_str": "2021-02-11T12:02:20+01:00", "cmd_type": "bash-command", "cmd": "ssh 10.1.26.9"}

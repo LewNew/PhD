@@ -1,9 +1,0 @@
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:23:24.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 100.100.100.4"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:24:10.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 172.18.1.1"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:24:37.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn 10.1.0.1"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:27:18.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -v -sn --version-all 10.1.0.1"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:28:20.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sL"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:29:06.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sL 172.18.1.1"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:29:20.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sL -n"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:31:00.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 10.1.0.1"}
-{"sandbox_id": "190", "timestamp_str": "2019-12-12T10:33:13.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}

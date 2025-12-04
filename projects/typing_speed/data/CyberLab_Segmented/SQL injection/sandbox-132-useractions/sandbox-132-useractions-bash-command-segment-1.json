@@ -1,7 +1,0 @@
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:16:08.765Z", "cmd_type": "bash-command", "cmd": "nmap server"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:21:23.908Z", "cmd_type": "bash-command", "cmd": "man"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:21:35.914Z", "cmd_type": "bash-command", "cmd": "man nmap"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:23:29.043Z", "cmd_type": "bash-command", "cmd": "nmap -sC=http-sql-injection server"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:24:13.487Z", "cmd_type": "bash-command", "cmd": "nmap --script=http-sql-injection server"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:24:39.206Z", "cmd_type": "bash-command", "cmd": "nmap -sC http-sql-injection server"}
-{"sandbox_id": "132", "timestamp_str": "2021-01-14T09:24:55.580Z", "cmd_type": "bash-command", "cmd": "nmap --script=http-sql-injection server"}

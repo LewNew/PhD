@@ -1,9 +1,0 @@
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:12:02.374809Z", "cmd_type": "bash-command", "cmd": "metasploit"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:12:49.154323Z", "cmd_type": "bash-command", "cmd": "man msfconsole"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:15:44.041825Z", "cmd_type": "bash-command", "cmd": "msfconsole"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:26:25.366453Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.5.1 "}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:29:28.681204Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.5.1:22"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:29:34.907685Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.5.1"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:33:15.394524Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:34:32.324942Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "152", "timestamp_str": "2019-09-19T11:34:55.805781Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

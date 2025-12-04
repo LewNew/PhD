@@ -1,4 +1,0 @@
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:17:57+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:18:16+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip invoices2019.zip"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:18:23+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip invoices2019.zip --help"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:18:28+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v invoices2019.zip"}

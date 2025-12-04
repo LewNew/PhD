@@ -1,4 +1,0 @@
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:40:08.941Z", "cmd_type": "bash-command", "cmd": "nmap"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:42:07.032Z", "cmd_type": "bash-command", "cmd": "zenmap"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:45:27.808Z", "cmd_type": "bash-command", "cmd": "nmap -T4 -A -v 10.1.26.0/24"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:47:08.861Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}

@@ -1,3 +1,0 @@
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:08:56.0+02:00", "cmd_type": "bash-command", "cmd": "search webmin"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:09:19.0+02:00", "cmd_type": "bash-command", "cmd": "clear"}
-{"sandbox_id": "188", "timestamp_str": "2019-12-12T11:09:35.0+02:00", "cmd_type": "bash-command", "cmd": "mfsconsole"}

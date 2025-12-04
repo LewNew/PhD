@@ -1,7 +1,0 @@
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:54:29.580Z", "cmd_type": "bash-command", "cmd": "cd .bash_history"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:54:35.925Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:55:47.649Z", "cmd_type": "bash-command", "cmd": "cd ~/.bash_history"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:57:16.737Z", "cmd_type": "bash-command", "cmd": "less /.bash_history"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:57:23.979Z", "cmd_type": "bash-command", "cmd": "less .bash_history"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:57:59.852Z", "cmd_type": "bash-command", "cmd": "less ~/.bash_history"}
-{"sandbox_id": "128", "timestamp_str": "2021-06-30T06:59:05.651Z", "cmd_type": "bash-command", "cmd": "cd /home/chong/.ssh"}

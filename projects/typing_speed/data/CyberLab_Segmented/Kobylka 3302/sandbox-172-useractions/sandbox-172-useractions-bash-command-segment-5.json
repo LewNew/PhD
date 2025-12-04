@@ -1,4 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T19:16:59.610724+02:00", "cmd_type": "bash-command", "cmd": "docker-compose up -d"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T19:17:59.374839+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T19:18:49.879717+02:00", "cmd_type": "bash-command", "cmd": "mfconsole"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T19:18:52.794946+02:00", "cmd_type": "bash-command", "cmd": "mfs"}

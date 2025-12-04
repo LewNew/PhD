@@ -1,2 +1,0 @@
-{"sandbox_id": "62", "timestamp_str": "2021-05-26T12:32:22.924Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u -p /root/hacking/wordlist.txt /home/admin/personal/.invoices2019.zip"}
-{"sandbox_id": "62", "timestamp_str": "2021-05-26T12:32:44.874Z", "cmd_type": "bash-command", "cmd": "fcrackzip -D -u -p /root/hacking/wordlist.txt .invoices2019.zip"}

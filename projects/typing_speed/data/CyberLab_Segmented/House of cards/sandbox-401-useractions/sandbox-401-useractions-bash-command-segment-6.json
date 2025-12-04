@@ -1,7 +1,0 @@
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:02:56.167518Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:03:04.522106Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:07:49.138765Z", "cmd_type": "bash-command", "cmd": "find /usr/share/metasploit-framework/ -name xorg*"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:07:58.800928Z", "cmd_type": "bash-command", "cmd": "nano /usr/share/metasploit-framework/modules/exploits/multi/local/xorg_x11_suid_server.rb"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:10:03.620210Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:13:06.629842Z", "cmd_type": "bash-command", "cmd": "nano /usr/share/metasploit-framework/modules/exploits/multi/local/xorg_x11_suid_server.rb"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T17:17:15.753954Z", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}

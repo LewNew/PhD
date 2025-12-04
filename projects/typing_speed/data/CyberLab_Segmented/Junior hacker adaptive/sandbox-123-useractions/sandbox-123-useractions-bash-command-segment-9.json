@@ -1,4 +1,0 @@
-{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:49:35.542Z", "cmd_type": "bash-command", "cmd": "fcrackzip -u -D -p /root/hacking/wordlist.txt .invoices2019.zip"}
-{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:49:48.431Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:49:54.134Z", "cmd_type": "bash-command", "cmd": "ls -a"}
-{"sandbox_id": "123", "timestamp_str": "2020-12-11T09:50:41.678Z", "cmd_type": "bash-command", "cmd": "unzip .invoices2019.zip"}

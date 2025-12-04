@@ -1,9 +1,0 @@
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:03:00.714Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/personal/.invoices2019.zip ./hacking"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:03:21.197Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip ./hacking"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:03:29.815Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip ./hacking"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:03:59.239Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip /root"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:05:09.241Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip /root"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:05:33.815Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:06:55.264Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:06:59.992Z", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/root/personal/.invoices2019.zip ./"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T09:08:19.100Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

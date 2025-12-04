@@ -1,7 +1,0 @@
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:48:49+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip.exe-help"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:48:55+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip.exe -help"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:49:02+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip.exe --help"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:49:04+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:49:08+01:00", "cmd_type": "bash-command", "cmd": "--help"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:49:13+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip --help"}
-{"sandbox_id": "15", "timestamp_str": "2021-02-11T20:50:44+01:00", "cmd_type": "bash-command", "cmd": "sudo apt-get install fcrackzip"}

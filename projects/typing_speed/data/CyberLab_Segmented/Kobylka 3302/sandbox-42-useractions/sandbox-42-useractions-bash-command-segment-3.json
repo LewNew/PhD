@@ -1,6 +1,0 @@
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:42:13.825602+02:00", "cmd_type": "bash-command", "cmd": "msf"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:44:39.428488+02:00", "cmd_type": "bash-command", "cmd": "apt-get install armitage"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:44:57.708021+02:00", "cmd_type": "bash-command", "cmd": "apt-get update"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:45:05.790736+02:00", "cmd_type": "bash-command", "cmd": "exit"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:45:11.136981+02:00", "cmd_type": "bash-command", "cmd": "armitage"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T09:48:18.037182+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

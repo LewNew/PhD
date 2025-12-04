@@ -1,4 +1,0 @@
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:04:59+01:00", "cmd_type": "bash-command", "cmd": "cd .."}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:05:19+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:Croatia /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:05:25+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:05:36+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:Croatia 2019 /root/Downloads"}

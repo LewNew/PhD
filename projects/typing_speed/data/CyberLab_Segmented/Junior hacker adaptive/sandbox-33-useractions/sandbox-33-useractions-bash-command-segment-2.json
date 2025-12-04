@@ -1,5 +1,0 @@
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:26:12.357Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:26:31.260Z", "cmd_type": "bash-command", "cmd": "cd /"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:26:32.039Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:26:37.530Z", "cmd_type": "bash-command", "cmd": "cd ~"}
-{"sandbox_id": "33", "timestamp_str": "2021-05-25T08:26:38.380Z", "cmd_type": "bash-command", "cmd": "ls"}

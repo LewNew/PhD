@@ -1,8 +1,0 @@
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:41:20.219Z", "cmd_type": "bash-command", "cmd": "cat research-1.data"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:41:23.229Z", "cmd_type": "bash-command", "cmd": "cat research-2.data"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:41:26.351Z", "cmd_type": "bash-command", "cmd": "cat research-3.data"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:41:29.781Z", "cmd_type": "bash-command", "cmd": "cat research-4.data"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:41:48.792Z", "cmd_type": "bash-command", "cmd": "cat research-19.data"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:42:16.261Z", "cmd_type": "bash-command", "cmd": "nc localhost 4444"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:43:17.417Z", "cmd_type": "bash-command", "cmd": "ssh chong@10.1.17.4 -i Y29yb25h"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:43:18.600Z", "cmd_type": "bash-command", "cmd": "cd .."}

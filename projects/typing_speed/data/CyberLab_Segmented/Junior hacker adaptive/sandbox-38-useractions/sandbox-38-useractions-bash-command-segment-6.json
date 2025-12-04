@@ -1,5 +1,0 @@
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:48:34.085Z", "cmd_type": "bash-command", "cmd": "find . -inam *.zip"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:48:37.256Z", "cmd_type": "bash-command", "cmd": "find . -iname *.zip"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:48:44.060Z", "cmd_type": "bash-command", "cmd": "find . -iname *.ZIP"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:48:45.468Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "38", "timestamp_str": "2020-12-02T09:48:52.517Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

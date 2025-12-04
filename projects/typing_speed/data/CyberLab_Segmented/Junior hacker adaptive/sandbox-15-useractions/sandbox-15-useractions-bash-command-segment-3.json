@@ -1,7 +1,0 @@
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T08:52:34.998Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0\\24"}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T08:56:55.147Z", "cmd_type": "bash-command", "cmd": "nmap --help"}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T08:57:51.702Z", "cmd_type": "bash-command", "cmd": "cd .."}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T08:57:54.701Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0\\24"}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T08:59:45.892Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T09:02:27.294Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.9"}
-{"sandbox_id": "15", "timestamp_str": "2021-05-25T09:05:32.026Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

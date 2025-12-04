@@ -1,2 +1,0 @@
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:02:21.465966Z", "cmd_type": "bash-command", "cmd": "nmap -A -vv 172.18.1.5CM"}
-{"sandbox_id": "397", "timestamp_str": "2019-08-14T16:02:26.883680Z", "cmd_type": "bash-command", "cmd": "msfconsole "}

@@ -1,7 +1,0 @@
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:44:25.721Z", "cmd_type": "bash-command", "cmd": "ssh"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:44:47.459Z", "cmd_type": "bash-command", "cmd": "ssh server"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:46:51.309Z", "cmd_type": "bash-command", "cmd": "ssh server"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:47:04.363Z", "cmd_type": "bash-command", "cmd": "ssh server harden"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:47:51.786Z", "cmd_type": "bash-command", "cmd": "harden@student"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:48:05.716Z", "cmd_type": "bash-command", "cmd": "ssh harden@student"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:48:16.778Z", "cmd_type": "bash-command", "cmd": "ssh harden@server"}

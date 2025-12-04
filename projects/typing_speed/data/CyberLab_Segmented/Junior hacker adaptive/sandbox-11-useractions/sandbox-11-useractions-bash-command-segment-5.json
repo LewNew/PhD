@@ -1,7 +1,0 @@
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:45:30.788Z", "cmd_type": "bash-command", "cmd": "man fcackzip"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:45:37.529Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:46:35.802Z", "cmd_type": "bash-command", "cmd": "man fcackzip"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:46:42.333Z", "cmd_type": "bash-command", "cmd": "man fcackzip"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:46:54.323Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:47:07.576Z", "cmd_type": "bash-command", "cmd": "fcrackzip -h"}
-{"sandbox_id": "11", "timestamp_str": "2021-05-25T09:49:06.632Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b  -u .invoices2019.zip"}

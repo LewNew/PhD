@@ -1,4 +1,0 @@
-{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:49:01.859Z", "cmd_type": "bash-command", "cmd": "su root"}
-{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:49:10.160Z", "cmd_type": "bash-command", "cmd": "cd ~"}
-{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:49:20.266Z", "cmd_type": "bash-command", "cmd": "man scop"}
-{"sandbox_id": "64", "timestamp_str": "2021-05-26T11:49:22.481Z", "cmd_type": "bash-command", "cmd": "man scp"}

@@ -1,2 +1,0 @@
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:50:06.915278Z", "cmd_type": "bash-command", "cmd": "openssl passwd ahoj"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T16:50:18.598073Z", "cmd_type": "bash-command", "cmd": "openssl passwd -1 -salt xyz ahoj"}

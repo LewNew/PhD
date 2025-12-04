@@ -1,4 +1,0 @@
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:41:23.053051+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:41:33.749655+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/wordlists"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:41:56.812095+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa.hash --wordlist=/usr/share/wordlists"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T12:42:16.555892+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa.hash --wordlist=/usr/share/wordlists/rockyou.txt"}

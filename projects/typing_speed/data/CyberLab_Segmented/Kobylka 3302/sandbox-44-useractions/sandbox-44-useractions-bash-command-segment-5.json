@@ -1,2 +1,0 @@
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:58:12.769920+02:00", "cmd_type": "bash-command", "cmd": "python -c 'import subprocess; p=subprocess.call([\"/bin/sh\",\"-i\"]);'"}
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:58:27.770296+02:00", "cmd_type": "bash-command", "cmd": "nc -nvlp 225"}

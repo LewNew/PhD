@@ -1,9 +1,0 @@
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:20:02.151471+02:00", "cmd_type": "bash-command", "cmd": "wget https://github.com/praetorian-code/hob0rules/blob/master/wordlists/rockyou.txt.gz"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:20:20.051231+02:00", "cmd_type": "bash-command", "cmd": "cat rockyou.txt.gz"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:21:19.371034+02:00", "cmd_type": "bash-command", "cmd": "locate rockyou"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:21:47.740475+02:00", "cmd_type": "bash-command", "cmd": "john ssh.john -wordlist /usr/share/wordlists/rockyou.txt"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:22:01.186535+02:00", "cmd_type": "bash-command", "cmd": "john ssh.john -wordlist /usr/share/wordlists/rockyou.txt"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:22:15.869787+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/wordlists/rockyou.txt"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:22:22.638736+02:00", "cmd_type": "bash-command", "cmd": "ll /usr/share/wordlists/rockyou.txt"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:22:28.592265+02:00", "cmd_type": "bash-command", "cmd": "ls -l /usr/share/wordlists/rockyou.txt"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:22:38.528628+02:00", "cmd_type": "bash-command", "cmd": "john ssh.john"}

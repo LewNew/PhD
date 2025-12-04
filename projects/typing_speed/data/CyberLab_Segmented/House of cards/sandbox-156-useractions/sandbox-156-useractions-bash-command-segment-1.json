@@ -1,8 +1,0 @@
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:29:29.224350Z", "cmd_type": "bash-command", "cmd": "man nmap"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:31:00.168220Z", "cmd_type": "bash-command", "cmd": "man nmap"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:33:04.919829Z", "cmd_type": "bash-command", "cmd": "ping 172.18.1.5"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:33:43.695938Z", "cmd_type": "bash-command", "cmd": "nmap -v -sn 172.18.1.5"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:34:18.077173Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:36:17.577712Z", "cmd_type": "bash-command", "cmd": "ssh root@172.18.1.5"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T10:42:51.398534Z", "cmd_type": "bash-command", "cmd": "msfconsole "}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T11:06:41.812821Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

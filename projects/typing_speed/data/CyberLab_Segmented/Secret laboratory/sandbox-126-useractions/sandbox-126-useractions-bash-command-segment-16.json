@@ -1,9 +1,0 @@
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:12:49.230Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:12:49.230Z", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py) ."}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.647Z", "cmd_type": "bash-command", "cmd": "./ssh2john.py Y29yb25h"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.648Z", "cmd_type": "bash-command", "cmd": "clear"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.648Z", "cmd_type": "bash-command", "cmd": "cat sshkey.parsed"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.648Z", "cmd_type": "bash-command", "cmd": "./ssh2john.py Y29yb25h > sshkey.parsed"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.648Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:05.648Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:13:12.498Z", "cmd_type": "bash-command", "cmd": "sudo john --wordlist=/usr/share/wordlists/fasttrack.txt sshkey.parsed"}

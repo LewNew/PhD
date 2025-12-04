@@ -1,5 +1,0 @@
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:18:46.526Z", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:18:49.647Z", "cmd_type": "msf-command", "cmd": "sessions -h"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:21:21.058Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:21:25.282Z", "cmd_type": "msf-command", "cmd": "clear"}
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T07:22:38.796Z", "cmd_type": "msf-command", "cmd": "show options"}

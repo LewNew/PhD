@@ -1,9 +1,0 @@
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:36:47.577Z", "cmd_type": "bash-command", "cmd": "/root"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:44:47.542Z", "cmd_type": "bash-command", "cmd": "--help"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:44:50.485Z", "cmd_type": "bash-command", "cmd": "-help"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:45:39.087Z", "cmd_type": "bash-command", "cmd": "nmap--help"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:45:58.029Z", "cmd_type": "bash-command", "cmd": "nmap-help"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:47:49.124Z", "cmd_type": "bash-command", "cmd": "man nmap"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:50:26.391Z", "cmd_type": "bash-command", "cmd": "nmap -v 10.1.26.0/24"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:58:13.062Z", "cmd_type": "bash-command", "cmd": "admin@10.1.26.9"}
-{"sandbox_id": "79", "timestamp_str": "2021-05-28T08:58:43.804Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

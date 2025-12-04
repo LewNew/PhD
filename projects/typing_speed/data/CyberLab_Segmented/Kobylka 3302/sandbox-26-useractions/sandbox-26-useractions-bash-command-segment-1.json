@@ -1,6 +1,0 @@
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:15:30.332Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:19:03.980Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:22:05.157Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:30:06.871Z", "cmd_type": "bash-command", "cmd": "metasploit"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:30:10.830Z", "cmd_type": "bash-command", "cmd": "Metasploit"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:30:19.910Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

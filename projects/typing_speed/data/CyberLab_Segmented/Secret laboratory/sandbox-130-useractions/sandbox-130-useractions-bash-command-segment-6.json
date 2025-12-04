@@ -1,9 +1,0 @@
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:09:46.014Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:09:59.416Z", "cmd_type": "bash-command", "cmd": "ls Downloads"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:12:21.447Z", "cmd_type": "bash-command", "cmd": "wget https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/ssh2john.py"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:12:52.181Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:13:05.937Z", "cmd_type": "bash-command", "cmd": "python"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:14:08.028Z", "cmd_type": "bash-command", "cmd": "touch sshtocrack"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:14:16.139Z", "cmd_type": "bash-command", "cmd": "vim sshtocrack"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:16:25.365Z", "cmd_type": "bash-command", "cmd": "python ssh2john.py sshtocrack > tocrack"}
-{"sandbox_id": "130", "timestamp_str": "2021-07-08T17:17:58.962Z", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/fasttrack.txt tocrack"}

@@ -1,8 +1,0 @@
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:39:03+01:00", "cmd_type": "bash-command", "cmd": "nmap -sS 10.1.26.4/9"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:40:52+01:00", "cmd_type": "bash-command", "cmd": "nmap - PS"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:41:00+01:00", "cmd_type": "bash-command", "cmd": "nmap -PS"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:41:58+01:00", "cmd_type": "bash-command", "cmd": "nmap -sL"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:42:21+01:00", "cmd_type": "bash-command", "cmd": "nmap -sL 10.1.26.4"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:43:04+01:00", "cmd_type": "bash-command", "cmd": "nmap -A"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:43:19+01:00", "cmd_type": "bash-command", "cmd": "nmap -A 10.1.26.4"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-11T16:44:38+01:00", "cmd_type": "bash-command", "cmd": "nmap -A 10.1.26.9"}

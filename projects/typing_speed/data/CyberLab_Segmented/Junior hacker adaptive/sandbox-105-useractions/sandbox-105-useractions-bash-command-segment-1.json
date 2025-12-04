@@ -1,6 +1,0 @@
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:27:23.981Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:27:44.527Z", "cmd_type": "bash-command", "cmd": "pwd"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:27:49.850Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:27:52.131Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:29:53.046Z", "cmd_type": "bash-command", "cmd": "wordlist.txt"}
-{"sandbox_id": "105", "timestamp_str": "2021-01-14T09:30:29.808Z", "cmd_type": "bash-command", "cmd": "vim wordlist.txt"}

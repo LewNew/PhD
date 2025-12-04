@@ -1,4 +1,0 @@
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T11:42:16.133Z", "cmd_type": "bash-command", "cmd": "cd /root"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T11:42:17.716Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T11:42:22.852Z", "cmd_type": "bash-command", "cmd": "cd Downloads/"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T11:42:24.375Z", "cmd_type": "bash-command", "cmd": "ls"}

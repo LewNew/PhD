@@ -1,2 +1,0 @@
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T12:54:46+01:00", "cmd_type": "bash-command", "cmd": "scp --help"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T12:55:07+01:00", "cmd_type": "bash-command", "cmd": "scp help"}

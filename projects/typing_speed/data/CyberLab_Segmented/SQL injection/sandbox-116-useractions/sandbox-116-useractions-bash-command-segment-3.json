@@ -1,2 +1,0 @@
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:03:47.782Z", "cmd_type": "bash-command", "cmd": "sqlmap -h"}
-{"sandbox_id": "116", "timestamp_str": "2021-01-14T10:04:46.615Z", "cmd_type": "bash-command", "cmd": "sqlmap -u  server/login.php --forms -a"}

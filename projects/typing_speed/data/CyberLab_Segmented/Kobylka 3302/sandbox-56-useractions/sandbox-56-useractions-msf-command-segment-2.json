@@ -1,2 +1,0 @@
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:36:16.258919+02:00", "cmd_type": "msf-command", "cmd": "use /usr/share/exploitdb/exploits/linux/remote/47230.rb"}
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T09:37:33.364553+02:00", "cmd_type": "msf-command", "cmd": "search 1.920"}

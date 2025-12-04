@@ -1,9 +1,0 @@
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:10:30+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:'Croatia 2019' /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:10:42+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:11:40+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:Romeo-and-Juliet.pdf /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:11:46+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:12:00+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:Treasuree-Island.pdf /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:12:08+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:Treasure-Island.pdf /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:12:31+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:13:18+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/Croatia 2019/dubrovnik.jpg /root/Downloads"}
-{"sandbox_id": "6", "timestamp_str": "2021-02-11T12:13:27+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/'Croatia 2019'/dubrovnik.jpg /root/Downloads"}

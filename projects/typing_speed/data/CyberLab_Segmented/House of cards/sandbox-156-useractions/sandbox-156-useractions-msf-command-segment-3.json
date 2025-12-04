@@ -1,2 +1,0 @@
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T11:01:37.595282Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
-{"sandbox_id": "156", "timestamp_str": "2019-09-19T11:01:41.055480Z", "cmd_type": "msf-command", "cmd": "run"}

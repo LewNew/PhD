@@ -1,3 +1,0 @@
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:04:13.706Z", "cmd_type": "msf-command", "cmd": "use exploit/linux/http/webmin_backdoor"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:05:27.764Z", "cmd_type": "msf-command", "cmd": "show"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:06:32.182Z", "cmd_type": "msf-command", "cmd": "show exploits"}

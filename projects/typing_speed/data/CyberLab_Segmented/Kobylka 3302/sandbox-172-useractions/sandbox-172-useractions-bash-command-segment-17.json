@@ -1,9 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:44:17.956496+02:00", "cmd_type": "bash-command", "cmd": "clear"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:44:59.063909+02:00", "cmd_type": "bash-command", "cmd": "locate ssh2john.py"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:45:25.280569+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:45:41.312493+02:00", "cmd_type": "bash-command", "cmd": "cp $(locate ssh2john.py) ."}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:46:01.314328+02:00", "cmd_type": "bash-command", "cmd": "cp /uuuuusr/share/john/ssh2john.py ."}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:46:09.012410+02:00", "cmd_type": "bash-command", "cmd": "cp /usr/share/john/ssh2john.py ."}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:46:10.681457+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:46:17.491684+02:00", "cmd_type": "bash-command", "cmd": "touch id_rsa"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:46:26.596395+02:00", "cmd_type": "bash-command", "cmd": "vi id_rsa"}

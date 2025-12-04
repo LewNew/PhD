@@ -1,6 +1,0 @@
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:17:04.824Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:18:30.400Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:22:45.377Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:24:38.753Z", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:24:45.581Z", "cmd_type": "msf-command", "cmd": "help"}
-{"sandbox_id": "29", "timestamp_str": "2021-04-22T15:27:45.707Z", "cmd_type": "msf-command", "cmd": "show options"}

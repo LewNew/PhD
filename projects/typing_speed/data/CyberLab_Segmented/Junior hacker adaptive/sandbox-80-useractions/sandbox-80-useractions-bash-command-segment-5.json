@@ -1,6 +1,0 @@
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:28:13.818Z", "cmd_type": "bash-command", "cmd": "ls -la"}
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:29:18.277Z", "cmd_type": "bash-command", "cmd": "ls -la"}
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:29:26.788Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:29:33.645Z", "cmd_type": "bash-command", "cmd": "ls -la"}
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:30:57.592Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "80", "timestamp_str": "2021-05-28T09:31:09.848Z", "cmd_type": "bash-command", "cmd": "ls -la"}

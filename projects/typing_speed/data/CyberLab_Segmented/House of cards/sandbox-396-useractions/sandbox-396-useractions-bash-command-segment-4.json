@@ -1,4 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:55:22.224268Z", "cmd_type": "bash-command", "cmd": "nmap --script nmal-vulners,vulscan --script-args vulscandb=scriptvuldb.csv -sV -p22 172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:55:34.428050Z", "cmd_type": "bash-command", "cmd": "nmap --script nman-vulners,vulscan --script-args vulscandb=scriptvuldb.csv -sV -p22 172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:55:44.855646Z", "cmd_type": "bash-command", "cmd": "nmap --script nman-vulners,vulnscan --script-args vulscandb=scriptvuldb.csv -sV -p22 172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:55:56.483765Z", "cmd_type": "bash-command", "cmd": "nmap --script nman-vulners --script-args vulscandb=scriptvuldb.csv -sV -p22 172.18.1.5"}

@@ -1,7 +1,0 @@
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:57:35.241017+02:00", "cmd_type": "bash-command", "cmd": "ls -a"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:57:58.445284+02:00", "cmd_type": "bash-command", "cmd": "cd .msf4"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:58:00.262888+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:58:04.110022+02:00", "cmd_type": "bash-command", "cmd": "cd modules"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:58:05.636634+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:58:08.868037+02:00", "cmd_type": "bash-command", "cmd": "ls -a"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:58:36.173441+02:00", "cmd_type": "bash-command", "cmd": "cd ~"}

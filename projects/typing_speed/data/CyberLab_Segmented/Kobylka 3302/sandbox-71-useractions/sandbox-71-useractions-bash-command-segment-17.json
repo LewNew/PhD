@@ -1,6 +1,0 @@
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:04:05.840665+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:04:23.682358+02:00", "cmd_type": "bash-command", "cmd": "ssh 172.18.1.5:39680"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:04:32.531244+02:00", "cmd_type": "bash-command", "cmd": "ssh localhost:4444"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:04:44.395461+02:00", "cmd_type": "bash-command", "cmd": "ssh 127.0.0.1:4444"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:04:53.853590+02:00", "cmd_type": "bash-command", "cmd": "ssh 127.0.0.1 -p 4444"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:05:08.600518+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

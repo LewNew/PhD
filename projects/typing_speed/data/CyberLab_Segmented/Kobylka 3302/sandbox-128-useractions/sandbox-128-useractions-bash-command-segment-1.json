@@ -1,8 +1,0 @@
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:20:12.098331+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 80 172.18.1.5"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:20:39.407920+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 20000 172.18.1.5"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:24:25.830504+02:00", "cmd_type": "bash-command", "cmd": "for i in {1..65535}; do nmap -p ${i} 172.18.1.5 >> out.txt; done"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:30:15.561125+02:00", "cmd_type": "bash-command", "cmd": "for i in {65535..1}; do nmap -p ${i} 172.18.1.5 >> out.txt; done"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:35:30.999179+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 172.18.1.5"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:37:35.317756+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:38:53.766961+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "128", "timestamp_str": "2020-05-06T16:44:17.127404+02:00", "cmd_type": "bash-command", "cmd": "nmap -p 10000 172.18.1.5"}

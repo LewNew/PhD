@@ -1,7 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:56:42.161331+02:00", "cmd_type": "bash-command", "cmd": "cat id_rsa.hash"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:57:06.403414+02:00", "cmd_type": "bash-command", "cmd": "john id_rsa.hash --wordlist=rockyou.txt"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:58:08.753710+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:58:21.991676+02:00", "cmd_type": "bash-command", "cmd": "rm i* rock* hash crack ssh2*"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:58:23.756782+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:58:27.030928+02:00", "cmd_type": "bash-command", "cmd": "clear"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T13:58:33.082971+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

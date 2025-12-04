@@ -1,7 +1,0 @@
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:53:43.601Z", "cmd_type": "bash-command", "cmd": "cd"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:53:44.425Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:53:46.627Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:53:47.101Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:53:48.893Z", "cmd_type": "bash-command", "cmd": "cat wordlist.txt"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:54:10.169Z", "cmd_type": "bash-command", "cmd": "su root"}
-{"sandbox_id": "43", "timestamp_str": "2020-12-02T08:54:27.758Z", "cmd_type": "bash-command", "cmd": "ls -al"}

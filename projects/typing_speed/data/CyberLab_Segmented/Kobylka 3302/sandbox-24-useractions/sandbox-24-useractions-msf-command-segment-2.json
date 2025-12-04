@@ -1,4 +1,0 @@
-{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:43:53.006Z", "cmd_type": "msf-command", "cmd": "search"}
-{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:44:01.875Z", "cmd_type": "msf-command", "cmd": "search exploit/run"}
-{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:44:09.168Z", "cmd_type": "msf-command", "cmd": "search exploit/unix"}
-{"sandbox_id": "24", "timestamp_str": "2021-04-22T14:44:20.186Z", "cmd_type": "msf-command", "cmd": "search exploit/unix qeb"}

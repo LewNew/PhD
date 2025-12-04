@@ -1,6 +1,0 @@
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:25:06.116245Z", "cmd_type": "bash-command", "cmd": "ssh 127.18.1.5"}
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:25:18.588245Z", "cmd_type": "bash-command", "cmd": "ssh alice@127.18.1.5"}
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:28:10.231275Z", "cmd_type": "bash-command", "cmd": "history"}
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:28:23.045200Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:29:01.707954Z", "cmd_type": "bash-command", "cmd": "mfsconsole"}
-{"sandbox_id": "95", "timestamp_str": "2019-09-20T16:31:51.254157Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

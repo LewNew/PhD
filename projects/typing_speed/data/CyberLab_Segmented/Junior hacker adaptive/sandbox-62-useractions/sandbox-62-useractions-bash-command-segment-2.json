@@ -1,3 +1,0 @@
-{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:41:49.859Z", "cmd_type": "bash-command", "cmd": "cd /root"}
-{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:42:31.190Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "62", "timestamp_str": "2021-05-26T11:42:36.361Z", "cmd_type": "bash-command", "cmd": "ls -la"}

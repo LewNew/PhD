@@ -1,5 +1,0 @@
-{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:30:08.016489+02:00", "cmd_type": "msf-command", "cmd": "sessions 3"}
-{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:30:09.421067+02:00", "cmd_type": "msf-command", "cmd": "sessions"}
-{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:30:12.627535+02:00", "cmd_type": "msf-command", "cmd": "sessions -u ~"}
-{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:30:30.266820+02:00", "cmd_type": "msf-command", "cmd": "sessions -u 3"}
-{"sandbox_id": "92", "timestamp_str": "2020-07-15T11:30:54.263032+02:00", "cmd_type": "msf-command", "cmd": "sessions 3"}

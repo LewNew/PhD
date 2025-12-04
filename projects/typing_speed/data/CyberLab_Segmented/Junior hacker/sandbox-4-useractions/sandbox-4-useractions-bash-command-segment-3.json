@@ -1,2 +1,0 @@
-{"sandbox_id": "4", "timestamp_str": "2021-02-09T12:25:43+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -b -u /root/Desktop/invoices2019.zip"}
-{"sandbox_id": "4", "timestamp_str": "2021-02-09T12:26:12+01:00", "cmd_type": "bash-command", "cmd": "history"}

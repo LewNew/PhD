@@ -1,7 +1,0 @@
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:19:02.700Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -b -l 1"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:19:14.639Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -b -l 2"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:19:20.596Z", "cmd_type": "bash-command", "cmd": "man fcrackzip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:19:59.627Z", "cmd_type": "bash-command", "cmd": "fcrackzip .invoices2019.zip -b"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:20:18.692Z", "cmd_type": "bash-command", "cmd": "fcrackzip -l 1 -b copy.zip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:20:25.537Z", "cmd_type": "bash-command", "cmd": "fcrackzip -l 6 -b copy.zip"}
-{"sandbox_id": "45", "timestamp_str": "2021-05-25T09:20:39.818Z", "cmd_type": "bash-command", "cmd": "fcrackzip -b copy.zip -l 4"}

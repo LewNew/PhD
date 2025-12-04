@@ -1,7 +1,0 @@
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:44:04.0+02:00", "cmd_type": "bash-command", "cmd": ".nmap 172.18.1.5"}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:44:15.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:46:08.0+02:00", "cmd_type": "bash-command", "cmd": "wpscan 172.18.1.5"}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:50:07.0+02:00", "cmd_type": "bash-command", "cmd": "nmap -sV -p 10000 web "}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:50:17.0+02:00", "cmd_type": "bash-command", "cmd": "nmap --help"}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:54:06.0+02:00", "cmd_type": "bash-command", "cmd": "ping web"}
-{"sandbox_id": "205", "timestamp_str": "2019-12-12T11:54:42.0+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

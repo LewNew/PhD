@@ -1,2 +1,0 @@
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:52:23.0+02:00", "cmd_type": "msf-command", "cmd": "load 2019-15107"}
-{"sandbox_id": "192", "timestamp_str": "2019-12-12T10:53:32.0+02:00", "cmd_type": "msf-command", "cmd": "search 2019-15107"}

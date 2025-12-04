@@ -1,8 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:18:35.783641Z", "cmd_type": "msf-command", "cmd": "search ssh"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:18:42.636692Z", "cmd_type": "msf-command", "cmd": "search scanner/ssh"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:18:57.824460Z", "cmd_type": "msf-command", "cmd": "use 10"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:19:02.221267Z", "cmd_type": "msf-command", "cmd": "show options"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:19:18.181148Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:19:23.959886Z", "cmd_type": "msf-command", "cmd": "set USERNAME alice"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:19:34.439577Z", "cmd_type": "msf-command", "cmd": "set PASSWORD starwars"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T16:19:56.742685Z", "cmd_type": "msf-command", "cmd": "run"}

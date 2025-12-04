@@ -1,7 +1,0 @@
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:13:31+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip --help"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:15:29+01:00", "cmd_type": "bash-command", "cmd": "nmap -p- 10.1.26.4"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:18:06+01:00", "cmd_type": "bash-command", "cmd": "nmap -p- 10.1.26.9"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:21:47+01:00", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:26:22+01:00", "cmd_type": "bash-command", "cmd": "scp admin@10.1.26.9:/home/admin/invoices2019.zip invoices2019.zip"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:28:52+01:00", "cmd_type": "bash-command", "cmd": "ls -l /usr/share/wordlists"}
-{"sandbox_id": "2", "timestamp_str": "2021-02-09T16:32:38+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -D -p /usr/share/wordlists/fasttrack.txt -u /root/invoices2019.zip -v"}

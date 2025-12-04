@@ -1,4 +1,0 @@
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:45:34.193994+02:00", "cmd_type": "bash-command", "cmd": "msf"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:45:36.926204+02:00", "cmd_type": "bash-command", "cmd": "metaflac"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:45:44.231511+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T09:46:36.727992+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

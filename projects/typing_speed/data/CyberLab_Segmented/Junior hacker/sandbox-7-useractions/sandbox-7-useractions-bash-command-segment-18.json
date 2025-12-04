@@ -1,2 +1,0 @@
-{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:20:32+01:00", "cmd_type": "bash-command", "cmd": "fcrackzip -v -u -D -p /home/root/rockyou.txt /home/root/Downloads/invoices2019.zip"}
-{"sandbox_id": "7", "timestamp_str": "2021-02-11T12:20:43+01:00", "cmd_type": "bash-command", "cmd": "ls"}

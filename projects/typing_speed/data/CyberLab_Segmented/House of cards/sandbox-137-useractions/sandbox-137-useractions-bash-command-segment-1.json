@@ -1,7 +1,0 @@
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:31:51.195656Z", "cmd_type": "bash-command", "cmd": ".nmap -v 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:31:56.593173Z", "cmd_type": "bash-command", "cmd": "nmap -v 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:36:00.891435Z", "cmd_type": "bash-command", "cmd": "nmap -vv 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:40:28.698440Z", "cmd_type": "bash-command", "cmd": "nikto -h 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:45:33.542923Z", "cmd_type": "bash-command", "cmd": "nmap -vS 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:45:47.626999Z", "cmd_type": "bash-command", "cmd": "nmap -sV 172.18.1.5"}
-{"sandbox_id": "137", "timestamp_str": "2019-09-19T10:49:22.577472Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

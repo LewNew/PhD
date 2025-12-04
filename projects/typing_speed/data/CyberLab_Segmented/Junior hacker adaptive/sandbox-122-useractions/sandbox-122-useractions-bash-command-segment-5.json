@@ -1,5 +1,0 @@
-{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:19:51.287Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:19:54.756Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:19:56.348Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:20:05.114Z", "cmd_type": "bash-command", "cmd": "cd .."}
-{"sandbox_id": "122", "timestamp_str": "2020-12-11T09:20:09.151Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

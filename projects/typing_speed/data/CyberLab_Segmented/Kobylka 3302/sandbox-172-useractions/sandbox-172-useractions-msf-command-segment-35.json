@@ -1,2 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:53:49.582123+02:00", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-07T12:53:52.063987+02:00", "cmd_type": "msf-command", "cmd": "exit -y"}

@@ -1,2 +1,0 @@
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:44:57.216771+02:00", "cmd_type": "bash-command", "cmd": "nikto -Help"}
-{"sandbox_id": "54", "timestamp_str": "2020-07-15T09:45:37.682871+02:00", "cmd_type": "bash-command", "cmd": "exit"}

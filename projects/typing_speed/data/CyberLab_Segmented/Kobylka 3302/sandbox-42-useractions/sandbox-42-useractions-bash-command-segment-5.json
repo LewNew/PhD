@@ -1,3 +1,0 @@
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:03:10.326858+02:00", "cmd_type": "bash-command", "cmd": "ssh -i /etc/ssh/ssh_comp 10.1.17.4"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:04:55.549795+02:00", "cmd_type": "bash-command", "cmd": "chmod 600 /etc/ssh/ssh_comp"}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:05:01.873927+02:00", "cmd_type": "bash-command", "cmd": "ssh -i /etc/ssh/ssh_comp 10.1.17.4"}

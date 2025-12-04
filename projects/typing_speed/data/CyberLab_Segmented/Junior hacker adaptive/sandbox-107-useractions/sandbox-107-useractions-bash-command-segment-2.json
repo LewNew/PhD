@@ -1,5 +1,0 @@
-{"sandbox_id": "107", "timestamp_str": "2021-01-14T09:35:49.941Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0/24"}
-{"sandbox_id": "107", "timestamp_str": "2021-01-14T09:38:35.746Z", "cmd_type": "bash-command", "cmd": "cd ../"}
-{"sandbox_id": "107", "timestamp_str": "2021-01-14T09:40:05.658Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.9"}
-{"sandbox_id": "107", "timestamp_str": "2021-01-14T09:40:18.157Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}
-{"sandbox_id": "107", "timestamp_str": "2021-01-14T09:40:50.046Z", "cmd_type": "bash-command", "cmd": "ssh --help"}

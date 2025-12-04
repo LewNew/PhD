@@ -1,1 +1,0 @@
-{"sandbox_id": "126", "timestamp_str": "2021-06-30T08:08:35.223Z", "cmd_type": "bash-command", "cmd": "sudo john --wordlist=/usr/share/wordlists/fasttrack.txt Y29yb25h"}

@@ -1,3 +1,0 @@
-{"sandbox_id": "117", "timestamp_str": "2021-01-14T10:43:34.153Z", "cmd_type": "bash-command", "cmd": "sqlmap -u \"server/login.php\""}
-{"sandbox_id": "117", "timestamp_str": "2021-01-14T10:52:13.819Z", "cmd_type": "bash-command", "cmd": "sudo -s"}
-{"sandbox_id": "117", "timestamp_str": "2021-01-14T10:52:57.013Z", "cmd_type": "bash-command", "cmd": "ssh harden@server"}

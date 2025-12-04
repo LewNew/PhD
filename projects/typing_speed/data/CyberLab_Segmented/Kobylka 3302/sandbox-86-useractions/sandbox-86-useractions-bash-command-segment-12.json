@@ -1,4 +1,0 @@
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:25:15.622331+02:00", "cmd_type": "bash-command", "cmd": "locate rocky"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:25:25.389063+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/wordlists/"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:25:31.473551+02:00", "cmd_type": "bash-command", "cmd": "cd me"}
-{"sandbox_id": "86", "timestamp_str": "2020-07-15T10:25:35.149245+02:00", "cmd_type": "bash-command", "cmd": "ls /usr/share/wordlists/metasploit"}

@@ -1,7 +1,0 @@
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:06:17.677799Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:06:52.165073Z", "cmd_type": "msf-command", "cmd": "help"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:07:03.077473Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 172.18.1.5"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:07:05.906864Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:07:15.316526Z", "cmd_type": "msf-command", "cmd": "set RPORT 23"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:07:17.825321Z", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "151", "timestamp_str": "2019-09-19T11:07:26.335958Z", "cmd_type": "msf-command", "cmd": "run"}

@@ -1,3 +1,0 @@
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:49:13.802Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:49:17.935Z", "cmd_type": "msf-command", "cmd": "check"}
-{"sandbox_id": "26", "timestamp_str": "2021-04-22T14:49:22.265Z", "cmd_type": "msf-command", "cmd": "show options"}

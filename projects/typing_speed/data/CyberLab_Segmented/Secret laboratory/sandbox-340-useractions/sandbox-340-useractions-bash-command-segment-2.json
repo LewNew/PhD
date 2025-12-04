@@ -1,9 +1,0 @@
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:30:38.934394+02:00", "cmd_type": "bash-command", "cmd": "nikto -h 10.1.26.9"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:30:59.624891+02:00", "cmd_type": "bash-command", "cmd": "nikto -h 10.1.26.9 -p #033[2~#033[2~"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:31:28.640840+02:00", "cmd_type": "bash-command", "cmd": "nikto -h ... -p 10000"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:31:56.076329+02:00", "cmd_type": "bash-command", "cmd": "nikto -h ... -p 10000"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:32:32.657463+02:00", "cmd_type": "bash-command", "cmd": "nikto -h 10.1.26.9 -p 10000"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:36:51.930521+02:00", "cmd_type": "bash-command", "cmd": "man metasploit"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:38:17.819400+02:00", "cmd_type": "bash-command", "cmd": "msf"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:38:52.697335+02:00", "cmd_type": "bash-command", "cmd": "~msfconsole"}
-{"sandbox_id": "340", "timestamp_str": "2020-05-14T10:39:10.593371+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}

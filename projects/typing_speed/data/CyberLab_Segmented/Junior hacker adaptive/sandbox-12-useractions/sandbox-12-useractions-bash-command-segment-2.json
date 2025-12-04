@@ -1,6 +1,0 @@
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:44:42.999Z", "cmd_type": "bash-command", "cmd": "ping 10.1.26.0"}
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:44:56.992Z", "cmd_type": "bash-command", "cmd": "ping -b 10.1.26.0"}
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:46:24.320Z", "cmd_type": "bash-command", "cmd": "nmap 10.1.26.0"}
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:47:50.156Z", "cmd_type": "bash-command", "cmd": "nmap -Pn 10.1.26.0"}
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:49:26.469Z", "cmd_type": "bash-command", "cmd": "nmap -Pn --open 10.1.26.0"}
-{"sandbox_id": "12", "timestamp_str": "2021-05-25T08:49:43.981Z", "cmd_type": "bash-command", "cmd": "nmap -Pn --open 10.1.26.0/24"}

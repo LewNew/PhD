@@ -1,4 +1,0 @@
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:40:51.379116+02:00", "cmd_type": "bash-command", "cmd": "cd .ssh"}
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:40:52.195019+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:40:54.570672+02:00", "cmd_type": "bash-command", "cmd": "ls -la"}
-{"sandbox_id": "44", "timestamp_str": "2020-07-15T09:41:30.628477+02:00", "cmd_type": "bash-command", "cmd": "ssh-keygen -t rsa"}

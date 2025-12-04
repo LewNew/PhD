@@ -1,5 +1,0 @@
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:06:55.032920+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"cd /usr/bin/ssh\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:07:04.067718+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"ls\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:07:46.744989+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"less sshd_config\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:09:01.960416+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"ls\""}
-{"sandbox_id": "42", "timestamp_str": "2020-07-15T11:09:22.400937+02:00", "cmd_type": "msf-command", "cmd": "sessions 3 -c \"less ssh_host_ecdsa_key\""}

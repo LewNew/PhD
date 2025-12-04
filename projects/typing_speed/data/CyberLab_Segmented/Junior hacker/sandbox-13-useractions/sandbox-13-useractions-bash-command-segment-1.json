@@ -1,7 +1,0 @@
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:37:29+01:00", "cmd_type": "bash-command", "cmd": "--help nmap"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:37:36+01:00", "cmd_type": "bash-command", "cmd": "nmap --help"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:40:11+01:00", "cmd_type": "bash-command", "cmd": "nmap -v -A 10.1.26.4"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:43:40+01:00", "cmd_type": "bash-command", "cmd": "sudo nmap 10.1.26.4"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:43:59+01:00", "cmd_type": "bash-command", "cmd": "sudo nmap 10.1.26.5"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:44:15+01:00", "cmd_type": "bash-command", "cmd": "10.1.26.9"}
-{"sandbox_id": "13", "timestamp_str": "2021-02-11T18:44:25+01:00", "cmd_type": "bash-command", "cmd": "sudo nmap 10.1.26.9"}

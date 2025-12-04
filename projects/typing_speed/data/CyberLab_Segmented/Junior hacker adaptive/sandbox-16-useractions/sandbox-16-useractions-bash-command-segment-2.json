@@ -1,6 +1,0 @@
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:43:09.019Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:43:13.355Z", "cmd_type": "bash-command", "cmd": "cd home"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:43:52.859Z", "cmd_type": "bash-command", "cmd": "cd ~\\"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:43:56.518Z", "cmd_type": "bash-command", "cmd": "cd hacking"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:43:59.826Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "16", "timestamp_str": "2021-05-25T08:45:08.152Z", "cmd_type": "bash-command", "cmd": "nano wordlist.txt"}

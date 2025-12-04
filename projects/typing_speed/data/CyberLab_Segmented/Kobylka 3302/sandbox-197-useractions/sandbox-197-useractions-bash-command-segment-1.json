@@ -1,7 +1,0 @@
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:39:30.0+02:00", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:41:21.0+02:00", "cmd_type": "bash-command", "cmd": "sqlmap http://172.18.1.5:10000/"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:41:39.0+02:00", "cmd_type": "bash-command", "cmd": "sqlmap --wizard"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:44:00.0+02:00", "cmd_type": "bash-command", "cmd": "nikto 172.18.1.5:10000"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:44:15.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -host+172.18.1.5:10000"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:44:19.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -host 172.18.1.5:10000"}
-{"sandbox_id": "197", "timestamp_str": "2019-12-12T11:46:09.0+02:00", "cmd_type": "bash-command", "cmd": "nikto -host 172.18.1.5:10000 -Cgidirs /session_login.cgi"}

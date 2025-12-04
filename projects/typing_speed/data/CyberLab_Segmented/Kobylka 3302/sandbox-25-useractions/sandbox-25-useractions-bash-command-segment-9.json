@@ -1,5 +1,0 @@
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:26:21.349Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:26:28.274Z", "cmd_type": "bash-command", "cmd": "cd /root/"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:26:33.474Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:26:46.861Z", "cmd_type": "bash-command", "cmd": "cat flag.txt"}
-{"sandbox_id": "25", "timestamp_str": "2021-04-22T15:27:11.467Z", "cmd_type": "bash-command", "cmd": "nano ssh2john.py"}

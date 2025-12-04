@@ -1,9 +1,0 @@
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:45:56.823141Z", "cmd_type": "bash-command", "cmd": "systemctl start postgresql"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:47:41.167646Z", "cmd_type": "bash-command", "cmd": "service postgresql start"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:47:50.882792Z", "cmd_type": "bash-command", "cmd": "service metasploit start"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:49:01.828768Z", "cmd_type": "bash-command", "cmd": "golismero.py scan 100.100.100.4"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:49:18.401401Z", "cmd_type": "bash-command", "cmd": "golismero.py scan 100.100.100.4:22"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:49:25.742747Z", "cmd_type": "bash-command", "cmd": "golismero scan 100.100.100.4:22"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:49:32.582953Z", "cmd_type": "bash-command", "cmd": "golismero scan 100.100.100.4"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:51:01.721956Z", "cmd_type": "bash-command", "cmd": "lynis audit system remote 100.100.100.4"}
-{"sandbox_id": "93", "timestamp_str": "2019-12-08T14:51:51.116724Z", "cmd_type": "bash-command", "cmd": "nikto -H"}

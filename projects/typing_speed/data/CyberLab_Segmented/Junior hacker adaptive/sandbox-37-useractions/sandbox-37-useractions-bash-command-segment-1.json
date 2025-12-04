@@ -1,6 +1,0 @@
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T08:56:17.411Z", "cmd_type": "bash-command", "cmd": "echo Alice"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T08:58:05.775Z", "cmd_type": "bash-command", "cmd": "ls /root"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T08:59:06.178Z", "cmd_type": "bash-command", "cmd": "ls -L /root"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:00:12.981Z", "cmd_type": "bash-command", "cmd": "find dirname -not empty -ls"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:00:20.901Z", "cmd_type": "bash-command", "cmd": "find dirname -not -empty -ls"}
-{"sandbox_id": "37", "timestamp_str": "2020-12-02T09:00:56.125Z", "cmd_type": "bash-command", "cmd": "find -not -empty -ls"}

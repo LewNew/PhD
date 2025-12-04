@@ -1,3 +1,0 @@
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:50:06.0+02:00", "cmd_type": "msf-command", "cmd": "run"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:50:58.0+02:00", "cmd_type": "msf-command", "cmd": "options"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:51:10.0+02:00", "cmd_type": "msf-command", "cmd": "set RHOST 172.18.1.5"}

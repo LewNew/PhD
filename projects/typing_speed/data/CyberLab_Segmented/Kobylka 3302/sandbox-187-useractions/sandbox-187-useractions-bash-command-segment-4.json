@@ -1,6 +1,0 @@
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:24:24.0+02:00", "cmd_type": "bash-command", "cmd": "vi xpl.sh"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:24:59.0+02:00", "cmd_type": "bash-command", "cmd": "searchsploit webmin"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:25:19.0+02:00", "cmd_type": "bash-command", "cmd": "exploits/multiple/remote/1997.php"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:25:28.0+02:00", "cmd_type": "bash-command", "cmd": "msfconsole "}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:25:36.0+02:00", "cmd_type": "bash-command", "cmd": "msfvenom exploits/multiple/remote/1997.php"}
-{"sandbox_id": "187", "timestamp_str": "2019-12-12T10:25:51.0+02:00", "cmd_type": "bash-command", "cmd": "msfconsole "}

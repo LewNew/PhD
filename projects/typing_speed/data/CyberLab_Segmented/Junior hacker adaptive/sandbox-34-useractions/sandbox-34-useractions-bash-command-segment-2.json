@@ -1,4 +1,0 @@
-{"sandbox_id": "34", "timestamp_str": "2020-12-02T08:53:51.388Z", "cmd_type": "bash-command", "cmd": "cd /root/"}
-{"sandbox_id": "34", "timestamp_str": "2020-12-02T08:53:53.621Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "34", "timestamp_str": "2020-12-02T08:54:29.151Z", "cmd_type": "bash-command", "cmd": "cd hacking/"}
-{"sandbox_id": "34", "timestamp_str": "2020-12-02T08:54:29.850Z", "cmd_type": "bash-command", "cmd": "ls"}

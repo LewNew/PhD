@@ -1,6 +1,0 @@
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:13.914Z", "cmd_type": "bash-command", "cmd": "cd Desktop/"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:15.037Z", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:17.199Z", "cmd_type": "bash-command", "cmd": "ls -al"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:29.097Z", "cmd_type": "bash-command", "cmd": "find"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:42.696Z", "cmd_type": "bash-command", "cmd": "find .invoices2019.zip"}
-{"sandbox_id": "67", "timestamp_str": "2021-05-26T12:13:54.630Z", "cmd_type": "bash-command", "cmd": "where .invoices2019.zip"}

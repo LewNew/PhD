@@ -1,3 +1,0 @@
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:12:37.991714Z", "cmd_type": "bash-command", "cmd": "searchsploit linux 3.16 -exclude \\"}
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:13:05.813512Z", "cmd_type": "bash-command", "cmd": "searchsploit linux 3.16 -exclude=\\"}
-{"sandbox_id": "130", "timestamp_str": "2019-09-19T11:13:25.038389Z", "cmd_type": "bash-command", "cmd": "searchsploit linux 3.16 --exclude=\\"}

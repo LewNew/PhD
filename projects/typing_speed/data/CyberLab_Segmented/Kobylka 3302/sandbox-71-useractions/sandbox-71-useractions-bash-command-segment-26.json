@@ -1,2 +1,0 @@
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:36:25.933024+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt key@"}
-{"sandbox_id": "71", "timestamp_str": "2020-07-15T10:36:28.015265+02:00", "cmd_type": "bash-command", "cmd": "john --wordlist=/usr/share/wordlists/rockyou.txt key2"}

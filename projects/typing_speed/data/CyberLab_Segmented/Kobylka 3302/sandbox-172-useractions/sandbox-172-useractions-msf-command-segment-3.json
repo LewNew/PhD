@@ -1,2 +1,0 @@
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:09:20.391400+02:00", "cmd_type": "msf-command", "cmd": "set rhosts 172.18.1.5"}
-{"sandbox_id": "172", "timestamp_str": "2020-05-06T20:09:58.372571+02:00", "cmd_type": "msf-command", "cmd": "set ssl true"}

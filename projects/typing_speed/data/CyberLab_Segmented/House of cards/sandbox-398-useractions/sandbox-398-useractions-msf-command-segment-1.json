@@ -1,1 +1,0 @@
-{"sandbox_id": "398", "timestamp_str": "2019-08-14T15:55:57.312606Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/ssh/ssh_version "}

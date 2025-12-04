@@ -1,2 +1,0 @@
-{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:33:29.517Z", "cmd_type": "msf-command", "cmd": "use auxiliary/scanner/portscan/tcp"}
-{"sandbox_id": "22", "timestamp_str": "2021-04-22T14:33:50.315Z", "cmd_type": "msf-command", "cmd": "show options"}

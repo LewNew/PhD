@@ -1,5 +1,0 @@
-{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:56:07.011Z", "cmd_type": "bash-command", "cmd": "ssh admin@password"}
-{"sandbox_id": "32", "timestamp_str": "2021-05-25T08:58:56.539Z", "cmd_type": "bash-command", "cmd": "ssh admin@123456"}
-{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:00:24.919Z", "cmd_type": "bash-command", "cmd": "ssh admin@admin"}
-{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:00:44.515Z", "cmd_type": "bash-command", "cmd": "ssh admin@123456"}
-{"sandbox_id": "32", "timestamp_str": "2021-05-25T09:02:52.571Z", "cmd_type": "bash-command", "cmd": "ssh admin@10.1.26.9"}

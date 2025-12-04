@@ -1,3 +1,0 @@
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:46:27.404601Z", "cmd_type": "bash-command", "cmd": "service postgresql start"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:46:31.391699Z", "cmd_type": "bash-command", "cmd": "msfdb init"}
-{"sandbox_id": "396", "timestamp_str": "2019-08-14T15:46:34.560332Z", "cmd_type": "bash-command", "cmd": "msfconsole"}

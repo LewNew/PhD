@@ -1,2 +1,0 @@
-{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:48:04.145948+02:00", "cmd_type": "bash-command", "cmd": "netstat -sV"}
-{"sandbox_id": "43", "timestamp_str": "2020-07-15T09:51:46.243042+02:00", "cmd_type": "bash-command", "cmd": "man netstat"}

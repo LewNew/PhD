@@ -1,3 +1,9 @@
+# Project-specific ignores
+projects/fi_fs/data/raw/
+projects/fi_fs/data/processed/
+projects/fi_fs/data/resources/
+projects/fi_fs/data/scripts/
+
 # PyCharm / Jetbrains
 .idea/
 *.iml

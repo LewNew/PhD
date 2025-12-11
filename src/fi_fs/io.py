@@ -41,6 +41,32 @@ def _parse_safety_normalise(program: str) -> str:
     return s
 
 
+def parse_safe_minimal(program: str) -> str:
+    """
+    Minimal bashlex-safe normalisation:
+    - remove control characters
+    - normalise CRLF/CR to LF
+    - fix '&;' -> '&'
+    - balance odd single and double quotes
+
+    IMPORTANT: does NOT touch shell connectors (';', '||', '|', '&&')
+    or whitespace around them. This is intentionally weaker than
+    _parse_safety_normalise, to avoid breaking complex scripts.
+    """
+    s = program or ""
+    # Strip control chars, normalise CR/LF combos
+    s = _CTRL_RX.sub(" ", s).replace("\r\n", "\n").replace("\r", "\n")
+    # Fix a common junk sequence
+    s = s.replace("&;", "&")
+    # Quote balancing (only if odd count)
+    if s.count("'") % 2 == 1:
+        s += "'"
+    if s.count('"') % 2 == 1:
+        s += '"'
+    return s
+
+
+
 def load_aggregated_csv(
     path: str,
     *,

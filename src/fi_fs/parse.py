@@ -6,6 +6,7 @@ import bashlex
 import sys
 import pandas as pd
 from typing import Dict, List, Tuple, Any, Optional
+from .io import parse_safe_minimal
 
 Triplet = Tuple[str, List[str], str]  # (op, args, conn)
 CONNECTOR_TOKENS = {";", "&&", "||", "|"}
@@ -60,6 +61,7 @@ def parse_all_sessions(
     agg_df: pd.DataFrame,
     *,
     progress: bool = True,
+    strict: bool = True,
 ) -> Tuple[Dict[str, List[Any]], pd.DataFrame, List[Tuple[str, str, str]]]:
     """
     Parse every session's newline-joined commands via bashlex.
@@ -68,17 +70,20 @@ def parse_all_sessions(
     ----------
     agg_df : DataFrame with columns {'session','commands_joined',...}
     progress : show tqdm if available
+    strict : if True, raise AssertionError on any parse failure.
+             if False, return parse_df + failures list and only keep
+             parsed sessions in parsed_parts_by_session.
 
     Returns
     -------
     parsed_parts_by_session : dict[session -> bashlex parts]
-    parse_df : DataFrame summarising parse success
-    failures : list of (session, commands_joined, error)
+        Only sessions that parsed successfully.
+    parse_df : DataFrame summarising parse success/failure.
+    failures : list of (session, commands_joined, error) for failures.
     """
     try:
         # Force plain tqdm (no ipywidgets) + disable monitor thread
         from tqdm import tqdm  # NOTE: not tqdm.auto, not tqdm.notebook
-        # Must be set before any bars are created
         try:
             import tqdm as _tqdm_mod
             _tqdm_mod.tqdm.monitor_interval = 0
@@ -87,7 +92,6 @@ def parse_all_sessions(
     except Exception:
         def tqdm(x, **_):
             return x
-
 
     parsed_parts_by_session: Dict[str, List[Any]] = {}
     rows = []
@@ -98,15 +102,20 @@ def parse_all_sessions(
         it = tqdm(it, total=len(agg_df), desc="Parsing sessions (bashlex)")
 
     for row in it:
-        # Expect fields in df: session, n_rows, commands_joined
+        # Expect fields: session, ..., commands_joined
         session = getattr(row, "session")
-        joined = getattr(row, "commands_joined")
+        joined_raw = getattr(row, "commands_joined")
+
+        # Apply minimal parse-safety normalisation here so callers
+        # don't have to remember to do it in notebooks.
+        joined = parse_safe_minimal(joined_raw)
+
         ok, parts, err = try_parse(joined)
         rows.append({
             "session": session,
             "parsed": ok,
-            "len_parts": (len(parts) if ok else 0),
-            "error": ("" if ok else err),
+            "len_parts": (len(parts) if ok and parts is not None else 0),
+            "error": ("" if ok else (err or "")),
         })
         if ok and parts is not None:
             parsed_parts_by_session[session] = parts
@@ -114,11 +123,13 @@ def parse_all_sessions(
             failures.append((session, joined, err or ""))
 
     parse_df = pd.DataFrame(rows)
-    # Hard fail if anything didn't parse - upstream preclean SHOULD guarantee 100%
-    if not parse_df["parsed"].all():
-        n_fail = int((~parse_df["parsed"]).sum())
+
+    if strict and failures:
+        n_fail = len(failures)
         raise AssertionError(f"Parse failures: {n_fail}")
+
     return parsed_parts_by_session, parse_df, failures
+
 
 
 # ------------------------------------------
@@ -325,26 +336,52 @@ def connector_mismatch_report(
 # Convenience one-shot pipeline
 # -------------------------------
 def parse_dataframe_to_triplets(
-    agg_df: pd.DataFrame, *, progress: bool = True, with_diagnostics: bool = True
+    agg_df: pd.DataFrame,
+    *,
+    progress: bool = True,
+    with_diagnostics: bool = True,
+    strict: bool = True,
 ) -> Tuple[Dict[str, List[Triplet]], Dict[str, List[Any]], Optional[pd.DataFrame], Optional[List[Any]]]:
     """
     High-level convenience function that runs:
-      1) bashlex parsing over all sessions
+      1) bashlex parsing over all sessions (with minimal normalisation)
       2) AST → (op,args,conn) triplets
       3) optional connector mismatch diagnostics
+
+    Parameters
+    ----------
+    agg_df : DataFrame with columns {'session','n_rows','commands_joined',...}
+    progress : show tqdm if available
+    with_diagnostics : if True, compute connector mismatch report
+    strict : if True, raise on any parse failure (backwards-compatible).
+             if False, skip unparsable sessions and proceed.
 
     Returns
     -------
     seqs : dict[session -> List[Triplet]]
+        Only for successfully parsed sessions.
     parsed_parts : dict[session -> List[bashlex AST roots]]
-    parse_df : DataFrame with parse summary (or None if not requested)
-    problems : list of mismatch tuples (or None)
+    parse_df : DataFrame summarising parse success/failure.
+    problems : list of connector mismatch tuples, or None.
     """
-    parsed_parts, parse_df, failures = parse_all_sessions(agg_df, progress=progress)
-    if failures:
-        # Shouldn't happen if upstream cleaner guaranteed 100% parses
-        raise AssertionError(f"Unexpected parse failures: {len(failures)}")
+    parsed_parts, parse_df, failures = parse_all_sessions(
+        agg_df,
+        progress=progress,
+        strict=strict,
+    )
 
+    if strict and failures:
+        # Backwards-compatible behaviour: hard fail if anything didn't parse.
+        raise AssertionError(f"Parse failures: {len(failures)}")
+
+    # Build triplet sequences only for parsed sessions
     seqs = build_sequences_from_parsed(parsed_parts)
-    problems = connector_mismatch_report(agg_df, parsed_parts, seqs) if with_diagnostics else None
+
+    problems = None
+    if with_diagnostics:
+        # Restrict diagnostics to the successfully parsed subset
+        agg_ok = agg_df[agg_df["session"].isin(parsed_parts.keys())].copy()
+        problems = connector_mismatch_report(agg_ok, parsed_parts, seqs)
+
     return seqs, parsed_parts, parse_df, problems
+

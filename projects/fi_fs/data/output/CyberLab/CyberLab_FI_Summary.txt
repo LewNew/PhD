@@ -1,0 +1,19 @@
+FI Pipeline Summary: CyberLab
+==========================================
+Input File:          CyberLab.csv
+Total Raw Sessions:  300610
+Successfully Parsed: 300229 (99.87%)
+Parse Failures:      381
+
+Functional Identicality (FI) Results
+------------------------------------
+Unique Archetypes (FI Classes): 1014
+Singleton Classes:             618 (60.95% of archetypes)
+Non-singleton Classes:         396
+
+Deduplication Factor:          296.08x
+Average Sessions per Archetype: 296.08
+
+Normalisation Metadata:
+-----------------------
+Alias Changes applied: 175683

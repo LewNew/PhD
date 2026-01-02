@@ -1,0 +1,19 @@
+FI Pipeline Summary: Microsoft-IoT
+==========================================
+Input File:          Microsoft-IoT.csv
+Total Raw Sessions:  125280
+Successfully Parsed: 123211 (98.35%)
+Parse Failures:      2069
+
+Functional Identicality (FI) Results
+------------------------------------
+Unique Archetypes (FI Classes): 91935
+Singleton Classes:             82201 (89.41% of archetypes)
+Non-singleton Classes:         9734
+
+Deduplication Factor:          1.34x
+Average Sessions per Archetype: 1.34
+
+Normalisation Metadata:
+-----------------------
+Alias Changes applied: 12270910

@@ -1,0 +1,19 @@
+FI Pipeline Summary: Cowrie
+==========================================
+Input File:          Cowrie.csv
+Total Raw Sessions:  98513
+Successfully Parsed: 98425 (99.91%)
+Parse Failures:      88
+
+Functional Identicality (FI) Results
+------------------------------------
+Unique Archetypes (FI Classes): 607
+Singleton Classes:             241 (39.70% of archetypes)
+Non-singleton Classes:         366
+
+Deduplication Factor:          162.15x
+Average Sessions per Archetype: 162.15
+
+Normalisation Metadata:
+-----------------------
+Alias Changes applied: 488

@@ -1,0 +1,19 @@
+FI Pipeline Summary: Kaggle-Cowrie
+==========================================
+Input File:          Kaggle-Cowrie.csv
+Total Raw Sessions:  7731
+Successfully Parsed: 7731 (100.00%)
+Parse Failures:      0
+
+Functional Identicality (FI) Results
+------------------------------------
+Unique Archetypes (FI Classes): 125
+Singleton Classes:             77 (61.60% of archetypes)
+Non-singleton Classes:         48
+
+Deduplication Factor:          61.85x
+Average Sessions per Archetype: 61.85
+
+Normalisation Metadata:
+-----------------------
+Alias Changes applied: 20

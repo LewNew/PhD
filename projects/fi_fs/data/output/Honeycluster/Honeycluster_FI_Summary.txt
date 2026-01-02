@@ -1,0 +1,19 @@
+FI Pipeline Summary: Honeycluster
+==========================================
+Input File:          Honeycluster.csv
+Total Raw Sessions:  160567
+Successfully Parsed: 136775 (85.18%)
+Parse Failures:      23792
+
+Functional Identicality (FI) Results
+------------------------------------
+Unique Archetypes (FI Classes): 969
+Singleton Classes:             754 (77.81% of archetypes)
+Non-singleton Classes:         215
+
+Deduplication Factor:          141.15x
+Average Sessions per Archetype: 141.15
+
+Normalisation Metadata:
+-----------------------
+Alias Changes applied: 19480

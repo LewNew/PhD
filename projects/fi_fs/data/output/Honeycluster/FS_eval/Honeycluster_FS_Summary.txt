@@ -1,0 +1,53 @@
+FS Pipeline Summary: Honeycluster
+==========================================
+Input File:               Honeycluster.csv
+Input Path:               projects/fi_fs/data/processed/Honeycluster/Honeycluster.csv
+
+FI Bootstrap Context (for FS)
+-----------------------------
+Total Raw Sessions:        160567
+Successfully Parsed:       136775 (85.18%)
+Parse Failures:            23792
+
+Unique Archetypes (FI):    969
+FI Singleton Archetypes:   754
+FI Non-singletons:         215
+Deduplication Factor:      141.15x
+Avg Sessions / Archetype:  141.15
+
+Normalisation Metadata
+----------------------
+Alias Changes applied:     19480
+
+Functional Similarity (FS)
+---------------------------
+FS Comparator:             structural Levenshtein (op+conn)
+FS Matrix Size (N x N):    969 x 969
+
+FS (off-diagonal) stats:
+  mean=0.197, median=0.150, min=0.002, max=1.000
+
+FS Matrix Saved:           projects/fi_fs/data/output/Honeycluster/FS_eval/NumPy_Arrays/Honeycluster_FS_Lev_opconn_N969.npy
+
+FS Clustering
+-------------
+Method:                    Agglomerative (threshold tau)
+tau:                       0.75
+
+Families discovered:       355
+Singleton families:        216
+Non-singleton families:    139
+
+Largest family size:       76
+Median family size:        1.00
+
+Top families by prevalence (volume-weighted):
+  - Family 47: total_sessions=117960, archetypes=25, mean_FS=0.905 (±0.065)
+  - Family 18: total_sessions=5150, archetypes=27, mean_FS=0.845 (±0.086)
+  - Family 223: total_sessions=3932, archetypes=3, mean_FS=1.000 (±0.000)
+  - Family 5: total_sessions=2364, archetypes=20, mean_FS=0.805 (±0.089)
+  - Family 39: total_sessions=1505, archetypes=4, mean_FS=0.888 (±0.052)
+
+Outputs
+-------
+FS Families Report (MD):   projects/fi_fs/data/output/Honeycluster/FS_eval/Honeycluster_FS_families_report.md

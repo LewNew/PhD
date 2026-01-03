@@ -1,0 +1,53 @@
+FS Pipeline Summary: Cowrie
+==========================================
+Input File:               Cowrie.csv
+Input Path:               projects/fi_fs/data/processed/Cowrie/Cowrie.csv
+
+FI Bootstrap Context (for FS)
+-----------------------------
+Total Raw Sessions:        98513
+Successfully Parsed:       98425 (99.91%)
+Parse Failures:            88
+
+Unique Archetypes (FI):    607
+FI Singleton Archetypes:   241
+FI Non-singletons:         366
+Deduplication Factor:      162.15x
+Avg Sessions / Archetype:  162.15
+
+Normalisation Metadata
+----------------------
+Alias Changes applied:     488
+
+Functional Similarity (FS)
+---------------------------
+FS Comparator:             structural Levenshtein (op+conn)
+FS Matrix Size (N x N):    607 x 607
+
+FS (off-diagonal) stats:
+  mean=0.185, median=0.139, min=0.002, max=1.000
+
+FS Matrix Saved:           projects/fi_fs/data/output/Cowrie/FS_eval/NumPy_Arrays/Cowrie_FS_Lev_opconn_N607.npy
+
+FS Clustering
+-------------
+Method:                    Agglomerative (threshold tau)
+tau:                       0.75
+
+Families discovered:       298
+Singleton families:        204
+Non-singleton families:    94
+
+Largest family size:       49
+Median family size:        1.00
+
+Top families by prevalence (volume-weighted):
+  - Family 104: total_sessions=21889, archetypes=2, mean_FS=0.857 (±0.000)
+  - Family 109: total_sessions=17318, archetypes=7, mean_FS=1.000 (±0.000)
+  - Family 2: total_sessions=11668, archetypes=13, mean_FS=0.800 (±0.083)
+  - Family 26: total_sessions=7565, archetypes=3, mean_FS=0.867 (±0.094)
+  - Family 69: total_sessions=7547, archetypes=22, mean_FS=1.000 (±0.000)
+
+Outputs
+-------
+FS Families Report (MD):   projects/fi_fs/data/output/Cowrie/FS_eval/Cowrie_FS_families_report.md

@@ -1,0 +1,53 @@
+FS Pipeline Summary: CyberLab
+==========================================
+Input File:               CyberLab.csv
+Input Path:               projects/fi_fs/data/processed/CyberLab/CyberLab.csv
+
+FI Bootstrap Context (for FS)
+-----------------------------
+Total Raw Sessions:        300610
+Successfully Parsed:       300229 (99.87%)
+Parse Failures:            381
+
+Unique Archetypes (FI):    1014
+FI Singleton Archetypes:   618
+FI Non-singletons:         396
+Deduplication Factor:      296.08x
+Avg Sessions / Archetype:  296.08
+
+Normalisation Metadata
+----------------------
+Alias Changes applied:     175683
+
+Functional Similarity (FS)
+---------------------------
+FS Comparator:             structural Levenshtein (op+conn)
+FS Matrix Size (N x N):    1014 x 1014
+
+FS (off-diagonal) stats:
+  mean=0.188, median=0.148, min=0.000, max=1.000
+
+FS Matrix Saved:           projects/fi_fs/data/output/CyberLab/FS_eval/NumPy_Arrays/CyberLab_FS_Lev_opconn_N1014.npy
+
+FS Clustering
+-------------
+Method:                    Agglomerative (threshold tau)
+tau:                       0.75
+
+Families discovered:       486
+Singleton families:        377
+Non-singleton families:    109
+
+Largest family size:       99
+Median family size:        1.00
+
+Top families by prevalence (volume-weighted):
+  - Family 2: total_sessions=149634, archetypes=99, mean_FS=0.901 (±0.094)
+  - Family 21: total_sessions=90131, archetypes=13, mean_FS=0.840 (±0.075)
+  - Family 37: total_sessions=18686, archetypes=4, mean_FS=0.879 (±0.058)
+  - Family 53: total_sessions=5643, archetypes=15, mean_FS=0.861 (±0.067)
+  - Family 69: total_sessions=3413, archetypes=8, mean_FS=1.000 (±0.000)
+
+Outputs
+-------
+FS Families Report (MD):   projects/fi_fs/data/output/CyberLab/FS_eval/CyberLab_FS_families_report.md

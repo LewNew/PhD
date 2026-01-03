@@ -1,0 +1,53 @@
+FS Pipeline Summary: Kaggle-Cowrie
+==========================================
+Input File:               Kaggle-Cowrie.csv
+Input Path:               projects/fi_fs/data/processed/Kaggle-Cowrie/Kaggle-Cowrie.csv
+
+FI Bootstrap Context (for FS)
+-----------------------------
+Total Raw Sessions:        7731
+Successfully Parsed:       7731 (100.00%)
+Parse Failures:            0
+
+Unique Archetypes (FI):    125
+FI Singleton Archetypes:   77
+FI Non-singletons:         48
+Deduplication Factor:      61.85x
+Avg Sessions / Archetype:  61.85
+
+Normalisation Metadata
+----------------------
+Alias Changes applied:     20
+
+Functional Similarity (FS)
+---------------------------
+FS Comparator:             structural Levenshtein (op+conn)
+FS Matrix Size (N x N):    125 x 125
+
+FS (off-diagonal) stats:
+  mean=0.489, median=0.622, min=0.017, max=1.000
+
+FS Matrix Saved:           projects/fi_fs/data/output/Kaggle-Cowrie/FS_eval/NumPy_Arrays/Kaggle-Cowrie_FS_Lev_opconn_N125.npy
+
+FS Clustering
+-------------
+Method:                    Agglomerative (threshold tau)
+tau:                       0.75
+
+Families discovered:       35
+Singleton families:        28
+Non-singleton families:    7
+
+Largest family size:       74
+Median family size:        1.00
+
+Top families by prevalence (volume-weighted):
+  - Family 0: total_sessions=6652, archetypes=74, mean_FS=0.821 (±0.067)
+  - Family 4: total_sessions=613, archetypes=3, mean_FS=1.000 (±0.000)
+  - Family 32: total_sessions=191, archetypes=1, mean_FS=1.000 (±0.000)
+  - Family 9: total_sessions=41, archetypes=2, mean_FS=1.000 (±0.000)
+  - Family 18: total_sessions=37, archetypes=1, mean_FS=1.000 (±0.000)
+
+Outputs
+-------
+FS Families Report (MD):   projects/fi_fs/data/output/Kaggle-Cowrie/FS_eval/Kaggle-Cowrie_FS_families_report.md

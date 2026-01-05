@@ -68,6 +68,7 @@ from .utils import (
     bright_palette_indices,
     build_fi_colour_map,
     colour_text,
+    write_fs_families_report,
 )
 
 __all__ = [
@@ -100,5 +101,5 @@ __all__ = [
     "summarise_families", "build_family_members_df", "wlcs_backbone", "parse_structured_tokens", "sankey_from_family_enhanced",
 
     # Utils
-    "bright_palette_indices", "build_fi_colour_map", "colour_text",
+    "bright_palette_indices", "build_fi_colour_map", "colour_text", "write_fs_families_report",
 ]

@@ -8,6 +8,7 @@ from typing import Dict, List, Sequence, Tuple, Iterable, Any
 
 import numpy as np
 import pandas as pd
+import plotly.graph_objects as go
 
 from .fs_cluster import (
     group_indices_from_labels,
@@ -316,8 +317,6 @@ def build_family_members_df(
 # Enhanced Sankey diagram generator (WLCS backbone)
 # ---------------------------------------------------------------------------
 
-import plotly.graph_objects as go
-
 def lcs_map(a: List[Pair], b: List[Pair]) -> List[Tuple[int, int]]:
     """Index pairs of an LCS alignment between seq a and backbone b."""
     n, m = len(a), len(b)
@@ -340,18 +339,50 @@ def lcs_map(a: List[Pair], b: List[Pair]) -> List[Tuple[int, int]]:
             j += 1
     return pairs
 
-def tok_label(t: Pair) -> str:
-    return f"{t[0]} {t[1]}"
+# ---------------------------------------------------------------------------
+# Label formatting (short labels for nodes + richer hover text)
+# ---------------------------------------------------------------------------
 
-def summarise_insert(tokens: List[Pair], mode: str = "first") -> str | None:
+_CONN_ABBR = {
+    "SEQ": ";",
+    "AND": "&&",
+    "OR": "||",
+    "PIPE": "|",
+    "BG": "&",
+    "NONE": "",
+    "EOS": "EOS",
+}
+
+def _conn_short(conn: str) -> str:
+    c = str(conn)
+    return _CONN_ABBR.get(c, c)
+
+def tok_label_short(t: Pair) -> str:
+    op, conn = t
+    c = _conn_short(conn)
+    return f"{op} {c}".strip()
+
+def tok_label_long(t: Pair) -> str:
+    op, conn = t
+    return f"({op}, {conn})"
+
+def summarise_insert(tokens: List[Pair], mode: str = "first") -> str:
+    """Summarise an insertion (a list of (op,conn) pairs) as a short label."""
     if not tokens:
-        return None
+        return ""
     if mode == "first":
-        return tok_label(tokens[0])
-    # Basic multi-token form if extended later
-    return " · ".join(tok_label(t) for t in tokens[:6]) + (
-        "" if len(tokens) <= 6 else "…"
-    )
+        return tok_label_short(tokens[0])
+    bits = [tok_label_short(x) for x in tokens[:4]]
+    return " → ".join(bits) + (" …" if len(tokens) > 4 else "")
+
+def _collapse_runs(seq: Sequence[Pair]) -> List[Pair]:
+    if not seq:
+        return []
+    out = [seq[0]]
+    for t in seq[1:]:
+        if t != out[-1]:
+            out.append(t)
+    return out
 
 def sankey_from_family_enhanced(
     family_seqs: List[List[Pair]],
@@ -359,60 +390,40 @@ def sankey_from_family_enhanced(
     title: str = "Family — Sankey (WLCS backbone)",
     min_variant_support: float = 0.10,
     topN_variants_per_gap: int = 3,
+    bucket_other_variants: bool = True,
     variant_label_mode: str = "first",
     normalise_widths: bool = False,
+    show_link_counts: bool = True,
     caption: Dict[str, Any] | None = None,
     collapse_runs: bool = True,
+
+    show_caption: bool = True,
+    caption_backbone_max_tokens: int = 14,
+    caption_wrap_width: int = 85,
+
+    # Styling / layout knobs (matches your notebook version)
+    node_pad: int = 18,
+    node_thickness: int = 6,
+    fig_width: int | None = None,
+    fig_height: int | None = None,
+    height_per_node: int = 12,
 ):
-    ...
-    if backbone is None:
-        backbone = wlcs_backbone(family_seqs)
+    """
+    Compact Sankey:
+      - WLCS backbone over (op,conn)
+      - variants per gap via LCS alignment to backbone
+      - top-N variants shown per gap; remainder bucketed as "Other variants"
+      - short node labels, richer hover text
+      - grey ribbons; bold labels on white background
+      - adaptive layout sizing (overrideable)
+    """
+    if not family_seqs:
+        raise ValueError("family_seqs is empty")
 
-    m = len(backbone)
-    n_sessions = len(family_seqs)
+    # 1) Preprocess sequences for visuals (optional)
+    seqs_proc = [_collapse_runs(s) for s in family_seqs] if collapse_runs else [list(s) for s in family_seqs]
 
-    # Counters as before
-    main_counts = np.zeros(m + 1, dtype=int)
-    variant_detail: Dict[int, Counter[str]] = defaultdict(Counter)
-
-    # --- same counting loop as before ---
-    for s in family_seqs:
-        pairs = lcs_map(s, backbone)
-        matched_i = [-1] + [i for (i, _) in pairs] + [len(s)]
-        matched_j = [-1] + [j for (_, j) in pairs] + [m]
-
-        for t in range(len(matched_j) - 1):
-            prev_j = matched_j[t]
-            next_j = matched_j[t + 1]
-            prev_i = matched_i[t]
-            next_i = matched_i[t + 1]
-
-            inserted = s[prev_i + 1 : next_i]
-            gap_idx = prev_j + 1  # 0..m
-
-            if inserted:
-                lbl = summarise_insert(inserted, mode=variant_label_mode)
-                if lbl:
-                    variant_detail[gap_idx][lbl] += 1
-            else:
-                main_counts[gap_idx] += 1
-
-    def _collapse_runs(seq: Sequence[Pair]) -> List[Pair]:
-        if not seq:
-            return []
-        out = [seq[0]]
-        for t in seq[1:]:
-            if t != out[-1]:
-                out.append(t)
-        return out
-
-    # Optionally collapse consecutive duplicates for the visual
-    if collapse_runs:
-        seqs_proc = [_collapse_runs(s) for s in family_seqs]
-    else:
-        seqs_proc = [list(s) for s in family_seqs]
-
-    # Backbone: compute from processed seqs if not given
+    # 2) Backbone
     if backbone is None:
         backbone = wlcs_backbone(seqs_proc)
     elif collapse_runs:
@@ -421,7 +432,7 @@ def sankey_from_family_enhanced(
     m = len(backbone)
     n_sessions = len(seqs_proc)
 
-    # Counters as before, but use seqs_proc for alignment
+    # 3) Count bare backbone vs insertions per gap
     main_counts = np.zeros(m + 1, dtype=int)
     variant_detail: Dict[int, Counter[str]] = defaultdict(Counter)
 
@@ -432,10 +443,8 @@ def sankey_from_family_enhanced(
 
         for t in range(len(matched_j) - 1):
             prev_j = matched_j[t]
-            next_j = matched_j[t + 1]
             prev_i = matched_i[t]
             next_i = matched_i[t + 1]
-
             inserted = s[prev_i + 1 : next_i]
             gap_idx = prev_j + 1  # 0..m
 
@@ -446,203 +455,195 @@ def sankey_from_family_enhanced(
             else:
                 main_counts[gap_idx] += 1
 
-    # --------------------------
-    # Build nodes (unchanged)
-    # --------------------------
+    # 4) Build nodes with styled labels + hover text
     labels: List[str] = []
+    plain_labels: List[str] = []
+    hovers: List[str] = []
     node_index: Dict[str, int] = {}
 
-    def add_node(name: str) -> int:
-        if name not in node_index:
-            node_index[name] = len(labels)
-            labels.append(name)
-        return node_index[name]
+    def add_node(lbl: str, hover: str) -> int:
+        styled_lbl = (
+            f"<span style='background-color: rgba(255,255,255,0.85); "
+            f"color: black; padding: 1px 4px; border-radius: 4px; "
+            f"font-weight: 700;'>{lbl}</span>"
+        )
+        k = f"{lbl}||{hover}"
+        if k not in node_index:
+            node_index[k] = len(labels)
+            labels.append(styled_lbl)
+            plain_labels.append(lbl)  # <-- NEW
+            hovers.append(hover)
+        return node_index[k]
 
-    START = add_node("START")
-    END   = add_node("END")
-    B = [add_node(tok_label(t)) for t in backbone]
+    START = add_node("START", "START")
+    END = add_node("END", "END")
+    B = [add_node(tok_label_short(t), tok_label_long(t)) for t in backbone]
 
-    # Variant nodes per gap, but also keep their counts
-    gap_variant_nodes: Dict[int, List[int]] = {}
-    variant_counts_for_node: Dict[int, int] = {}
-
+    # Variant nodes per gap (keep counts)
+    gap_variant_nodes: Dict[int, List[Tuple[int, int]]] = {}
     for k in range(m + 1):
         cnts = variant_detail.get(k, Counter())
-        total_var = sum(cnts.values())
-        if total_var == 0:
+        if not cnts:
             gap_variant_nodes[k] = []
             continue
 
-        items = [
-            (lbl, c, c / max(1, n_sessions))
-            for lbl, c in cnts.most_common()
-        ]
-        items = [
-            it for it in items
-            if it[2] >= min_variant_support
-        ][:topN_variants_per_gap]
+        items = [(lbl, c, c / max(1, n_sessions)) for lbl, c in cnts.most_common()]
+        items_keep = [it for it in items if it[2] >= min_variant_support]
+        top = items_keep[:topN_variants_per_gap]
+        remainder = sum(c for _, c, _ in items_keep[topN_variants_per_gap:])
 
-        nodes_for_gap: List[int] = []
-        for lbl, c, sup in items:
-            node_id = add_node(f"{lbl} (var {c}/{n_sessions})")
-            nodes_for_gap.append(node_id)
-            variant_counts_for_node[node_id] = c
-        gap_variant_nodes[k] = nodes_for_gap
+        nodes: List[Tuple[int, int]] = []
+        for lbl, c, _sup in top:
+            nid = add_node(lbl, f"Variant insertion @ gap {k}: {lbl} | support={c}/{n_sessions}")
+            nodes.append((nid, c))
 
-    # --------------------------
-    # Decide main flow per gap
-    # --------------------------
-    # For each gap k:
-    #   - main_counts[k] is "bare backbone" count
-    #   - variant_counts_for_node[vn] gives counts for visible variants
-    # Rule:
-    #   if max_var > main_counts[k]:
-    #       main flow = variant(s) with that max_var
-    #   else:
-    #       main flow = bare backbone (no insertion)
-    gap_main_mode: Dict[int, str] = {}          # "bare" | "variant" | "none"
-    gap_main_variants: Dict[int, List[int]] = {}  # node ids if mode == "variant"
+        if bucket_other_variants and remainder > 0:
+            nid = add_node("Other variants", f"Other insertions @ gap {k} | support={remainder}/{n_sessions}")
+            nodes.append((nid, remainder))
 
+        gap_variant_nodes[k] = nodes
+
+    # Decide “main” path per gap for shading (bare vs dominant variant)
+    gap_main_mode: Dict[int, str] = {}
+    gap_main_variant_ids: Dict[int, set[int]] = {}
     for k in range(m + 1):
         bare = int(main_counts[k])
-        # visible variants for this gap
-        v_nodes = gap_variant_nodes.get(k, [])
-        if not v_nodes and bare == 0:
+        vars_k = gap_variant_nodes.get(k, [])
+        if not vars_k and bare == 0:
             gap_main_mode[k] = "none"
-            gap_main_variants[k] = []
+            gap_main_variant_ids[k] = set()
             continue
 
-        v_counts = [variant_counts_for_node[vn] for vn in v_nodes] if v_nodes else []
-        max_var = max(v_counts) if v_counts else 0
-
+        max_var = max([c for _, c in vars_k], default=0)
         if max_var > bare:
-            # main = variant(s) with max count
             gap_main_mode[k] = "variant"
-            mains = [
-                vn for vn in v_nodes
-                if variant_counts_for_node[vn] == max_var
-            ]
-            gap_main_variants[k] = mains
+            gap_main_variant_ids[k] = {nid for nid, c in vars_k if c == max_var}
         else:
-            # ties and bare > max_var both favour the backbone path
             gap_main_mode[k] = "bare"
-            gap_main_variants[k] = []
+            gap_main_variant_ids[k] = set()
 
-    # --------------------------
-    # Build links with colouring
-    # --------------------------
+    # 5) Links (grey ribbons)
     sources: List[int] = []
     targets: List[int] = []
     values: List[float] = []
     colors: List[str] = []
-    link_labels: List[str] = []
+    link_hovers: List[str] = []
 
-    main_col = "rgba(31,119,180,0.85)"
-    var_col  = "rgba(128,128,128,0.55)"
+    main_col = "rgba(120, 120, 120, 0.30)"
+    var_col = "rgba(160, 160, 160, 0.18)"
 
-    def add_link(s_idx: int, t_idx: int, val: float,
-                 col: str, lab: str | None = None):
+    def _fmt_link_hover(s: int, t: int, val: int) -> str:
+        if show_link_counts:
+            return f"{plain_labels[s]} → {plain_labels[t]}; ({val}/{n_sessions})"
+        return f"{plain_labels[s]} → {plain_labels[t]};"
+
+    def add_link(s: int, t: int, val: int, col: str):
         if val <= 0:
             return
-        sources.append(s_idx)
-        targets.append(t_idx)
+        sources.append(s)
+        targets.append(t)
         values.append(val / max(1, n_sessions) if normalise_widths else val)
         colors.append(col)
-        link_labels.append(lab or "")
+        link_hovers.append(_fmt_link_hover(s, t, val))
 
     if m == 0:
-        add_link(START, END, n_sessions, main_col, f"{n_sessions}/{n_sessions}")
+        add_link(START, END, n_sessions, main_col)
     else:
-        # ----- gap 0: START -> first backbone / variants -----
+        # gap 0: START -> B0 (and variants in that gap)
         k = 0
-        mode = gap_main_mode.get(k, "none")
+        mode = gap_main_mode[k]
 
-        # variants in gap 0
-        for vn in gap_variant_nodes.get(k, []):
-            c = variant_counts_for_node[vn]
-            col = main_col if (mode == "variant" and vn in gap_main_variants[k]) else var_col
-            add_link(START, vn, c, col, f"{c}/{n_sessions}")
-            add_link(vn, B[0], c, col, "")
+        for nid, c in gap_variant_nodes.get(k, []):
+            col = main_col if (mode == "variant" and nid in gap_main_variant_ids[k]) else var_col
+            add_link(START, nid, c, col)
+            add_link(nid, B[0], c, col)
 
-        # bare backbone hop START -> B[0]
         if main_counts[k] > 0:
             col = main_col if mode == "bare" else var_col
             c = int(main_counts[k])
-            add_link(START, B[0], c, col, f"{c}/{n_sessions}")
+            add_link(START, B[0], c, col)
 
-        # ----- internal gaps: B[k] -> B[k+1] -----
-        for k in range(m - 1):
-            gap = k + 1
-            mode = gap_main_mode.get(gap, "none")
+        # internal gaps
+        for i in range(m - 1):
+            gap = i + 1
+            mode = gap_main_mode[gap]
 
-            # variants between B[k] and B[k+1]
-            for vn in gap_variant_nodes.get(gap, []):
-                c = variant_counts_for_node[vn]
-                col = main_col if (mode == "variant" and vn in gap_main_variants[gap]) else var_col
-                add_link(B[k], vn, c, col, f"{c}/{n_sessions}")
-                add_link(vn, B[k + 1], c, col, "")
+            for nid, c in gap_variant_nodes.get(gap, []):
+                col = main_col if (mode == "variant" and nid in gap_main_variant_ids[gap]) else var_col
+                add_link(B[i], nid, c, col)
+                add_link(nid, B[i + 1], c, col)
 
-            # bare backbone hop
             if main_counts[gap] > 0:
                 col = main_col if mode == "bare" else var_col
                 c = int(main_counts[gap])
-                add_link(B[k], B[k + 1], c, col, f"{c}/{n_sessions}")
+                add_link(B[i], B[i + 1], c, col)
 
-        # ----- tail gap m: last backbone -> END -----
+        # tail gap m: B_last -> END
         gap = m
-        mode = gap_main_mode.get(gap, "none")
+        mode = gap_main_mode[gap]
 
-        for vn in gap_variant_nodes.get(gap, []):
-            c = variant_counts_for_node[vn]
-            col = main_col if (mode == "variant" and vn in gap_main_variants[gap]) else var_col
-            add_link(B[-1], vn, c, col, f"{c}/{n_sessions}")
-            add_link(vn, END, c, col, "")
+        for nid, c in gap_variant_nodes.get(gap, []):
+            col = main_col if (mode == "variant" and nid in gap_main_variant_ids[gap]) else var_col
+            add_link(B[-1], nid, c, col)
+            add_link(nid, END, c, col)
 
         if main_counts[gap] > 0:
             col = main_col if mode == "bare" else var_col
             c = int(main_counts[gap])
-            add_link(B[-1], END, c, col, f"{c}/{n_sessions}")
+            add_link(B[-1], END, c, col)
+
+    # 6) Adaptive sizing (overrideable)
+    n_nodes = len(labels)
+    if fig_width is None:
+        width = int(np.clip(700 + 85 * max(1, m), 900, 1700))
+    else:
+        width = int(fig_width)
+
+    if fig_height is None:
+        height = int(np.clip(420 + height_per_node * max(1, n_nodes), 320, 1200))
+    else:
+        height = int(fig_height)
+
+    node_color = "rgba(0, 121, 107, 1.0)"  # teal nodes (your style)
 
     fig = go.Figure(
         data=[
             go.Sankey(
-                arrangement="fixed",
+                arrangement="snap",
                 node=dict(
                     label=labels,
-                    pad=18,
-                    thickness=18,
-                    color="rgba(200,200,200,0.25)",
+                    pad=node_pad,
+                    thickness=node_thickness,
+                    color=node_color,
+                    hovertemplate="%{customdata}<extra></extra>",
+                    customdata=hovers,
                 ),
                 link=dict(
                     source=sources,
                     target=targets,
                     value=values,
                     color=colors,
-                    label=link_labels,
+                    hovertemplate="%{customdata}<extra></extra>",
+                    customdata=link_hovers,
                 ),
             )
         ]
     )
 
-    # Bottom caption
+    # Caption (optional)
     caption_lines: List[str] = []
-    if caption:
+    if show_caption and caption:
         def fmt_ops(ops, k: int = 6) -> str:
             return ", ".join(f"{op}×{cnt}" for op, cnt in ops[:k])
 
-        if backbone:
-            backbone_raw = "  →  ".join(tok_label(t) for t in backbone)
-            # wrap at ~90 characters
-            backbone_wrapped = "\n".join(
-                textwrap.wrap(
-                    backbone_raw,
-                    width=90,
-                    break_long_words=False,
-                    break_on_hyphens=False,
-                )
-            )
-        else:
-            backbone_wrapped = "(empty)"
+        # Trim backbone so it never runs off the page
+        bb_tokens = [tok_label_short(t) for t in backbone] if backbone else []
+        if len(bb_tokens) > caption_backbone_max_tokens:
+            bb_tokens = bb_tokens[:caption_backbone_max_tokens] + ["…"]
+        bb = " → ".join(bb_tokens) if bb_tokens else "(empty)"
+        bb_wrapped = "<br>".join(
+            textwrap.wrap(bb, width=caption_wrap_width, break_long_words=False, break_on_hyphens=False)
+        )
 
         caption_lines.append(
             f"Family {caption.get('family_id', '?')}  |  "
@@ -652,24 +653,23 @@ def sankey_from_family_enhanced(
         if caption.get("medoid_fi_hash"):
             caption_lines.append(
                 f"Medoid: fi_hash={caption['medoid_fi_hash']}  "
-                f"(session {caption.get('medoid_session', '?')}, "
-                f"n_rows={caption.get('medoid_n_rows', '?')})"
+                f"(session {caption.get('medoid_session', '?')}, n_rows={caption.get('medoid_n_rows', '?')})"
             )
         if caption.get("top_ops"):
             caption_lines.append(f"Top ops: {fmt_ops(caption['top_ops'])}")
-        caption_lines.append(f"Backbone: {backbone_wrapped}")
+        caption_lines.append(f"Backbone: {bb_wrapped}")
 
     if caption_lines:
-        fig.update_layout(margin=dict(l=40, r=40, t=60, b=140))
+        fig.update_layout(margin=dict(l=40, r=40, t=60, b=190))
         fig.add_annotation(
             xref="paper",
             yref="paper",
             x=0.0,
-            y=-0.18,
+            y=-0.28,  # push caption further down so it doesn’t overlap nodes
             showarrow=False,
             align="left",
-            font=dict(family="monospace", size=12),
-            text="<br>".join(line.replace("\n", "<br>") for line in caption_lines),
+            font=dict(family="monospace", size=11),
+            text="<br>".join(caption_lines),
         )
     else:
         fig.update_layout(margin=dict(l=40, r=40, t=60, b=60))
@@ -678,13 +678,68 @@ def sankey_from_family_enhanced(
         title=title,
         font_family="monospace",
         font_size=12,
-        width=1400,
-        height=600,
+        width=width,
+        height=height,
     )
 
     debug = {
+        "backbone": backbone,
         "main_counts": main_counts,
         "variant_detail": {k: dict(v) for k, v in variant_detail.items()},
-        "labels": labels,
+        "n_nodes": n_nodes,
+        "width": width,
+        "height": height,
+        "node_pad": node_pad,
+        "node_thickness": node_thickness,
     }
     return fig, backbone, debug
+
+def sankey_for_family_id(
+    family_id: int,
+    family_members_df: pd.DataFrame,
+    summ_df: pd.DataFrame,
+    archetypes: pd.DataFrame,
+    *,
+    title: str | None = None,
+    show_caption: bool = True,
+    **sankey_kwargs: Any,
+):
+    """
+    Convenience helper: build caption + sequences and call sankey_from_family_enhanced.
+    Expects family_members_df from build_family_members_df(), and summ_df from summarise_families().
+    """
+    import json as _json
+
+    rows = family_members_df.loc[family_members_df["family_id"] == family_id, "struct_tokens"]
+    if rows.empty:
+        avail = sorted(family_members_df["family_id"].unique().tolist())
+        raise ValueError(f"No members for family {family_id}. Available family_ids (first 20): {avail[:20]}")
+
+    family_seqs = [parse_structured_tokens(_json.loads(s)) for s in rows]
+
+    meta_row = summ_df.loc[summ_df["family_id"] == family_id].iloc[0]
+    medoid_idx = int(meta_row["medoid_idx"])
+    med = archetypes.iloc[medoid_idx]
+
+    caption = {
+        "family_id": family_id,
+        "n_sessions": len(family_seqs),
+        "mean_FS": meta_row["mean_FS"],
+        "sd_FS": meta_row["sd_FS"],
+        "medoid_fi_hash": med.get("fi_hash", ""),
+        "medoid_session": med.get("session", ""),
+        "medoid_n_rows": int(med.get("n_rows", 0)),
+        "top_ops": meta_row.get("top_ops", []),
+    }
+
+    if title is None:
+        title = f"Family {family_id} - Sankey (compact)"
+
+    fig, backbone, stats = sankey_from_family_enhanced(
+        family_seqs,
+        title=title,
+        caption=caption,
+        show_caption=show_caption,
+        **sankey_kwargs,
+    )
+    return fig, backbone, stats

@@ -71,6 +71,12 @@ from .utils import (
     write_fs_families_report,
 )
 
+# ---- DFG ----
+from .dfg import (
+    build_family_arche_pairs,
+    dfg_to_dot_layered
+)
+
 __all__ = [
     # FI
     "fi_cert", "fi_hash", "serialise_canonical",
@@ -102,4 +108,7 @@ __all__ = [
 
     # Utils
     "bright_palette_indices", "build_fi_colour_map", "colour_text", "write_fs_families_report",
+
+    # DFG
+    "build_family_arche_pairs", "dfg_to_dot_layered",
 ]

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 import random
+import numpy as np
+import pandas as pd
 from pathlib import Path
 from typing import Any, Dict, Iterable, Mapping, Optional, Sequence, Union
 
@@ -163,3 +165,239 @@ def write_fs_families_report(
     report_path.write_text("\n".join(lines), encoding="utf-8")
 
     return report_path
+
+
+
+def write_fs_summary(
+    *,
+    root: Union[str, Path],
+    dataset: Union[str, Path],
+    fi_df: pd.DataFrame,
+    FS_lev: np.ndarray,
+    summ_df: pd.DataFrame,
+    family_groups: Mapping[int, Sequence[int]],
+    archetypes: pd.DataFrame,
+    # Optional context
+    input_path: Optional[Union[str, Path]] = None,
+    stats: Optional[Mapping[str, Any]] = None,
+    agg: Optional[pd.DataFrame] = None,
+    alias_changes: Optional[Sequence[Any]] = None,
+    tau: Optional[Any] = None,
+    fs_path: Optional[Union[str, Path]] = None,
+    # Output control
+    out_dir: Optional[Union[str, Path]] = None,
+) -> Path:
+    """
+    Write an FS pipeline summary text file for a dataset.
+
+    Returns:
+        Path to the written summary file.
+    """
+    root = Path(root)
+    dataset_path = Path(dataset)
+    dataset_name = dataset_path.stem
+
+    if input_path is None:
+        input_path = (
+            root
+            / "projects"
+            / "fi_fs"
+            / "data"
+            / "processed"
+            / dataset_name
+            / f"{dataset_name}.csv"
+        )
+    input_path = Path(input_path)
+    input_file_str = input_path.name
+    input_path_str = (
+        str(input_path.relative_to(root)) if input_path.exists() else str(input_path)
+    )
+
+    # Output folder default
+    if out_dir is None:
+        out_dir = (
+            root
+            / "projects"
+            / "fi_fs"
+            / "data"
+            / "output"
+            / dataset_name
+            / "FS_eval"
+        )
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    summary_path = out_dir / f"{dataset_name}_FS_Summary.txt"
+
+    # Raw counts
+    n_raw: Optional[int] = None
+    if stats is not None and isinstance(stats, Mapping) and "n_sessions" in stats:
+        try:
+            n_raw = int(stats["n_sessions"])
+        except Exception:
+            n_raw = None
+    elif agg is not None:
+        try:
+            n_raw = int(len(agg))
+        except Exception:
+            n_raw = None
+
+    n_parsed = int(len(fi_df))
+    n_failed = int(max(0, n_raw - n_parsed)) if n_raw is not None else None
+    parse_success_rate = (n_parsed / n_raw) * 100 if (n_raw is not None and n_raw > 0) else None
+    parsed_str = (
+        f"{n_parsed} ({parse_success_rate:.2f}%)"
+        if parse_success_rate is not None
+        else f"{n_parsed}"
+    )
+
+    # FI archetype stats
+    n_fi_classes = int(fi_df["fi_hash"].nunique())
+    fi_counts = fi_df["fi_hash"].value_counts()
+    n_fi_singletons = int((fi_counts == 1).sum())
+    n_fi_non_singletons = int((fi_counts >= 2).sum())
+
+    dedup_factor = (n_parsed / n_fi_classes) if n_fi_classes > 0 else float("nan")
+    avg_sessions_per_arch = (n_parsed / n_fi_classes) if n_fi_classes > 0 else float("nan")
+    dedup_factor_str = f"{dedup_factor:.2f}x" if np.isfinite(dedup_factor) else "N/A"
+    avg_sessions_str = f"{avg_sessions_per_arch:.2f}" if np.isfinite(avg_sessions_per_arch) else "N/A"
+
+    # Alias changes
+    n_alias_changes: Optional[int]
+    try:
+        n_alias_changes = 0 if alias_changes is None else int(len(alias_changes))
+    except Exception:
+        n_alias_changes = None
+    alias_changes_str = str(n_alias_changes) if n_alias_changes is not None else "N/A"
+
+    # FS stats (off-diagonal)
+    N = int(FS_lev.shape[0])
+    tri = FS_lev[np.triu_indices_from(FS_lev, 1)] if N >= 2 else np.array([])
+    fs_stats_str = (
+        f"  mean={float(tri.mean()):.3f}, median={float(np.median(tri)):.3f}, "
+        f"min={float(tri.min()):.3f}, max={float(tri.max()):.3f}"
+    ) if tri.size else "  N/A (matrix too small)"
+
+    # FS saved path
+    fs_saved_path: Optional[Path] = None
+    if fs_path is not None:
+        try:
+            fs_saved_path = Path(fs_path)
+        except Exception:
+            fs_saved_path = None
+
+    if fs_saved_path is None:
+        candidate = (
+            root
+            / "projects"
+            / "fi_fs"
+            / "data"
+            / "output"
+            / dataset_name
+            / "FS_eval"
+            / "NumPy_Arrays"
+            / f"{dataset_name}_FS_Lev_opconn_N{N}.npy"
+        )
+        fs_saved_path = candidate if candidate.exists() else None
+
+    fs_saved_str = (
+        str(fs_saved_path.relative_to(root))
+        if fs_saved_path and fs_saved_path.exists()
+        else (str(fs_saved_path) if fs_saved_path else "N/A")
+    )
+
+    tau_str = str(tau) if tau is not None else "N/A"
+
+    # Family stats
+    n_families = int(len(summ_df))
+    fam_sizes = summ_df["size"].astype(int) if n_families else pd.Series([], dtype=int)
+    n_fam_singletons = int((fam_sizes == 1).sum()) if n_families else 0
+    n_fam_non_singletons = int((fam_sizes >= 2).sum()) if n_families else 0
+    largest_family = int(fam_sizes.max()) if n_families else 0
+    median_family = float(fam_sizes.median()) if n_families else float("nan")
+    median_family_str = f"{median_family:.2f}" if np.isfinite(median_family) else "N/A"
+
+    fi_volumes = fi_df["fi_hash"].astype(str).value_counts().to_dict()
+
+    def family_total_sessions(fid: int) -> int:
+        idxs = family_groups[int(fid)]
+        fam_hashes = archetypes.loc[list(idxs), "fi_hash"].astype(str).tolist()
+        return int(sum(fi_volumes.get(h, 0) for h in fam_hashes))
+
+    summ2 = summ_df.copy()
+    if n_families:
+        summ2["total_sessions"] = summ2["family_id"].map(family_total_sessions)
+
+        top5 = (
+            summ2.sort_values(["total_sessions", "size", "mean_FS"], ascending=[False, False, False])
+                 .head(5)
+                 .loc[:, ["family_id", "total_sessions", "size", "mean_FS", "sd_FS"]]
+        )
+    else:
+        top5 = pd.DataFrame(columns=["family_id", "total_sessions", "size", "mean_FS", "sd_FS"])
+
+    top5_lines = []
+    for _, r in top5.iterrows():
+        top5_lines.append(
+            f"  - Family {int(r['family_id'])}: total_sessions={int(r['total_sessions'])}, "
+            f"archetypes={int(r['size'])}, mean_FS={float(r['mean_FS']):.3f} (±{float(r['sd_FS']):.3f})"
+        )
+    top5_block = "\n".join(top5_lines) if top5_lines else "  (none)"
+
+    report_path = out_dir / f"{dataset_name}_FS_families_report.md"
+    report_path_str = str(report_path.relative_to(root)) if report_path.exists() else str(report_path.relative_to(root))
+
+    # Markdown content. Edit as needed
+    summary_content = f"""FS Pipeline Summary: {dataset_name}
+==========================================
+Input File:               {input_file_str}
+Input Path:               {input_path_str}
+
+FI Bootstrap Context (for FS)
+-----------------------------
+Total Raw Sessions:        {n_raw if n_raw is not None else "N/A"}
+Successfully Parsed:       {parsed_str}
+Parse Failures:            {n_failed if n_failed is not None else "N/A"}
+
+Unique Archetypes (FI):    {n_fi_classes}
+FI Singleton Archetypes:   {n_fi_singletons}
+FI Non-singletons:         {n_fi_non_singletons}
+Deduplication Factor:      {dedup_factor_str}
+Avg Sessions / Archetype:  {avg_sessions_str}
+
+Normalisation Metadata
+----------------------
+Alias Changes applied:     {alias_changes_str}
+
+Functional Similarity (FS)
+---------------------------
+FS Comparator:             structural Levenshtein (op+conn)
+FS Matrix Size (N x N):    {N} x {N}
+
+FS (off-diagonal) stats:
+{fs_stats_str}
+
+FS Matrix Saved:           {fs_saved_str}
+
+FS Clustering
+-------------
+Method:                    Agglomerative (threshold tau)
+tau:                       {tau_str}
+
+Families discovered:       {n_families}
+Singleton families:        {n_fam_singletons}
+Non-singleton families:    {n_fam_non_singletons}
+
+Largest family size:       {largest_family}
+Median family size:        {median_family_str}
+
+Top families by prevalence (volume-weighted):
+{top5_block}
+
+Outputs
+-------
+FS Families Report (MD):   {report_path_str}
+"""
+
+    summary_path.write_text(summary_content, encoding="utf-8")
+    return summary_path

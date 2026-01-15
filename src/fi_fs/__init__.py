@@ -61,6 +61,7 @@ from .fs_families import (
     wlcs_backbone,
     parse_structured_tokens,
     sankey_from_family_enhanced,
+    sankey_for_family_id,
 )
 
 # ---- Utils ----
@@ -107,7 +108,7 @@ __all__ = [
     "agglomerative_from_fs", "evaluate_fs_clustering", "group_indices_from_labels", "medoid_indices",
 
     # FS families
-    "summarise_families", "build_family_members_df", "wlcs_backbone", "parse_structured_tokens", "sankey_from_family_enhanced",
+    "summarise_families", "build_family_members_df", "wlcs_backbone", "parse_structured_tokens", "sankey_from_family_enhanced", "sankey_for_family_id",
 
     # Utils
     "bright_palette_indices", "build_fi_colour_map", "colour_text", "write_fs_families_report", "write_fs_summary", "inspect_family_commands",

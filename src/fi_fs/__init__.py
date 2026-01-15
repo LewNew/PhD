@@ -70,6 +70,7 @@ from .utils import (
     colour_text,
     write_fs_families_report,
     write_fs_summary,
+    inspect_family_commands,
 )
 
 # ---- DFG ----
@@ -109,7 +110,7 @@ __all__ = [
     "summarise_families", "build_family_members_df", "wlcs_backbone", "parse_structured_tokens", "sankey_from_family_enhanced",
 
     # Utils
-    "bright_palette_indices", "build_fi_colour_map", "colour_text", "write_fs_families_report", "write_fs_summary",
+    "bright_palette_indices", "build_fi_colour_map", "colour_text", "write_fs_families_report", "write_fs_summary", "inspect_family_commands",
 
     # DFG
     "build_family_arche_pairs", "dfg_to_dot_layered", "write_family_dfgs",

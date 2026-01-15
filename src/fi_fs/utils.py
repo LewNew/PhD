@@ -5,7 +5,7 @@ import random
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from typing import Any, Dict, Iterable, Mapping, Optional, Sequence, Union
+from typing import Any, Dict, Iterable, Mapping, Optional, Sequence, Union, Tuple, List
 
 
 def bright_palette_indices():
@@ -49,6 +49,149 @@ def colour_text(text: str, fi_hash: str, fi_to_colour: Dict[str, int]) -> str:
     if code is None:
         return text
     return f"\033[38;5;{code}m{text}\033[0m"
+
+def inspect_family_commands(
+    *,
+    fam_id: int,
+    archetypes: pd.DataFrame,
+    fi_df: pd.DataFrame,
+    family_col: str = "family_agg",
+    print_mode: str = "ONE", # or ALL
+    rep_strategy: str = "first",
+    commands_cols: Sequence[str] = ("commands_clean", "commands_joined", "commands"),
+    seed: int = 1,
+    pretty_newline_token: str = " ; ",  # replaced with ";\n" when no newlines exist
+    return_frames: bool = False,        # if True, return (subset, to_print)
+) -> Optional[Tuple[pd.DataFrame, pd.DataFrame]]:
+    """
+    Inspect commands for all original sessions in a given FS family.
+
+    Args:
+        fam_id: Family ID to inspect.
+        archetypes: DataFrame containing at least [family_col, fi_hash].
+        fi_df: FI dataframe containing at least [session, n_rows, fi_hash, <commands col>].
+        family_col: Column on archetypes identifying the family assignment.
+        print_mode: "ONE" (one representative per fi_hash) or "ALL" (all sessions).
+        rep_strategy: When print_mode="ONE", choose representative per fi_hash:
+            - "first"/"max_n_rows": use the current sort: max n_rows, then min session
+            - "min_session"/"earliest": choose smallest session id per fi_hash
+        commands_cols: Candidate command columns to search for in fi_df.
+        seed: Colour map seed for stable colouring.
+        pretty_newline_token: Token to replace with line breaks for display when commands are single-line.
+        return_frames: If True, returns (subset, to_print) dataframes for further analysis.
+
+    Returns:
+        None unless return_frames=True, then (subset, to_print).
+    """
+    # FI classes (fi_hash) in this family
+    if family_col not in archetypes.columns:
+        raise KeyError(
+            f"Expected '{family_col}' column on archetypes. "
+            "Run the clustering cell before this one."
+        )
+    if "fi_hash" not in archetypes.columns:
+        raise KeyError("Expected 'fi_hash' column on archetypes.")
+
+    fam_fi_hashes: List[str] = (
+        archetypes.loc[archetypes[family_col] == int(fam_id), "fi_hash"]
+        .astype(str)
+        .unique()
+        .tolist()
+    )
+    if not fam_fi_hashes:
+        raise ValueError(f"No FI classes found for family {fam_id} in '{family_col}'.")
+
+    # Expand back to all original sessions via fi_df
+    if "fi_hash" not in fi_df.columns:
+        raise KeyError("Expected 'fi_hash' column on fi_df.")
+    if "session" not in fi_df.columns:
+        raise KeyError("Expected 'session' column on fi_df.")
+    if "n_rows" not in fi_df.columns:
+        raise KeyError("Expected 'n_rows' column on fi_df.")
+
+    subset = fi_df[fi_df["fi_hash"].astype(str).isin(fam_fi_hashes)].copy()
+
+    cmd_col = next((c for c in commands_cols if c in subset.columns), None)
+    if cmd_col is None:
+        raise KeyError(
+            "No commands column found in fi_df. "
+            f"Looked for: {', '.join(commands_cols)}"
+        )
+
+    subset = (
+        subset.assign(session=lambda df: df["session"].astype(str))
+        .loc[:, ["session", "n_rows", "fi_hash", cmd_col]]
+        .rename(columns={cmd_col: "commands_clean"})
+        .sort_values(["fi_hash", "n_rows", "session"], ascending=[True, False, True])
+        .reset_index(drop=True)
+    )
+
+    # Keep counts/legend based on ALL original sessions
+    n_sessions = int(len(subset))
+    unique_fi = subset["fi_hash"].astype(str).unique().tolist()
+    fi_counts = subset["fi_hash"].value_counts().sort_index()
+
+    print(f"Family {fam_id}: {n_sessions} original sessions")
+    print(f"Distinct FI classes in this family: {len(unique_fi)}")
+
+    fi_to_colour = build_fi_colour_map(unique_fi, seed=seed)
+
+    print("\nFI-class legend (colour-coded):")
+    for fh in sorted(unique_fi):
+        label = f"{fh} (sessions={int(fi_counts[fh])})"
+        print("  ", colour_text(label, fh, fi_to_colour))
+
+    # Decide what to print
+    # ONE helps when there are many sessions per fi_hash. Blows up output otherwise
+    # ALL helps for detailed per-session analysis
+    mode = str(print_mode).strip().upper()
+    if mode not in {"ONE", "ALL"}:
+        raise ValueError("print_mode must be 'ONE' or 'ALL'")
+
+    rep = str(rep_strategy).strip().lower()
+
+    if mode == "ALL":
+        to_print = subset.copy()
+    else:
+        if rep in {"first", "max_n_rows"}:
+            # current sort: max n_rows, then min session -> "first" representative
+            to_print = subset.drop_duplicates(subset=["fi_hash"], keep="first").copy()
+        elif rep in {"min_session", "earliest"}:
+            to_print = (
+                subset.sort_values(["fi_hash", "session"], ascending=[True, True])
+                .drop_duplicates(subset=["fi_hash"], keep="first")
+                .copy()
+            )
+        else:
+            raise ValueError("rep_strategy must be: 'first'/'max_n_rows' or 'min_session'/'earliest'")
+
+        to_print = to_print.reset_index(drop=True)
+
+    print(f"\nPrinting mode: {mode} | sessions printed: {len(to_print)}")
+
+    # Detailed per-session printout
+    print("\n=== Per-session commands_clean (grouped by fi_hash) ===")
+    current_fi: Optional[str] = None
+
+    for _, row in to_print.iterrows():
+        fh = str(row["fi_hash"])
+
+        if fh != current_fi:
+            current_fi = fh
+            suffix = " (showing 1)" if mode == "ONE" else ""
+            header = f"\n### FI class {fh} — {int(fi_counts[fh])} sessions{suffix}"
+            print(colour_text(header, fh, fi_to_colour))
+
+        hdr = f"--- session {row['session']} | n_rows={int(row['n_rows'])} | fi_hash={fh} ---"
+        print(colour_text(hdr, fh, fi_to_colour))
+
+        cmds = str(row["commands_clean"])
+        pretty = cmds if "\n" in cmds else cmds.replace(pretty_newline_token, ";\n")
+        print(colour_text(pretty, fh, fi_to_colour))
+
+    if return_frames:
+        return subset, to_print
+    return None
 
 def write_fs_families_report(
     *,
